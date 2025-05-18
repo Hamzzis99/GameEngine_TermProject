@@ -4715,3 +4715,828 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.18-15.45.43:603][768]AssetCheck: /Game/GameBP/Level1/L1_Character Validating asset
 [2025.05.18-15.45.43:603][768]AssetCheck: /Game/Blueprints/CameraShakes/CS_HeadBob_Walk Validating asset
 [2025.05.18-15.45.43:603][768]AssetCheck: /Game/Blueprints/CameraShakes/CS_HeadBob_Run Validating asset
+[2025.05.18-15.48.30:078][729]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.18-15.48.30:085][729]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.18-15.48.30:085][729]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.05.18-15.48.30:089][729]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 4.861 ms (total: 101.991 ms)
+[2025.05.18-15.48.30:090][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.18-15.48.30:114][729]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2025.05.18-15.48.30:116][729]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.05.18-15.48.30:136][730]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.05.18-15.48.30:141][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006481s)
+[2025.05.18-15.48.30:141][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.006523s)
+[2025.05.18-15.48.30:158][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.05.18-15.48.30:163][730]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.05.18-15.48.30:164][730]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.18-15.48.30:164][730]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.18-15.48.30:164][730]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.18-15.48.30:164][730]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.18-15.48.30:170][730]LogWorldPartition: Display: WorldPartition initialize took 5.506 ms (total: 706.038 ms)
+[2025.05.18-15.48.30:170][730]LogPlayLevel: PIE: World Init took: (0.007106s)
+[2025.05.18-15.48.30:170][730]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.05.18-15.48.30:171][730]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.18-15.48.30:171][730]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.18-15.48.30:171][730]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.18-15.48.30:171][730]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.18-15.48.30:171][730]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.18-15.48.30:171][730]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.18-15.48.30:171][730]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.18-15.48.30:171][730]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.18-15.48.30:171][730]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.18-15.48.30:171][730]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.18-15.48.30:171][730]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.18-15.48.30:173][730]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.18-15.48.30:251][730]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.05.18-15.48.30:252][730]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.18-15.48.30:252][730]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.18-15.48.30:252][730]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.18-15.48.30:252][730]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.05.18-15.48.30:252][730]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=23
+[2025.05.18-15.48.30:255][730]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.05.18-15.48.30:255][730]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.05.18-15.48.30:255][730]LogInit: FAudioDevice initialized with ID 23.
+[2025.05.18-15.48.30:255][730]LogAudio: Display: Audio Device (ID: 23) registered with world 'Level1'.
+[2025.05.18-15.48.30:255][730]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.05.18-15.48.30:259][730]LogLoad: Game class is 'L1_GameMode_C'
+[2025.05.18-15.48.30:261][730]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.05.19-00.48.30
+[2025.05.18-15.48.30:261][730]LogWorld: Bringing up level for play took: 0.001547
+[2025.05.18-15.48.30:265][730]LogStreaming: Display: FlushAsyncLoading(1834,1833,1832,1831,1830,1829,1828,1827,1826,1825,1824,1823,1822,1821,1820,1819,1818,1817,1816,1815,1814,1813,1812,1811,1810,1809,1808,1807,1806,1805,1804,1803,1802,1801,1800,1799,1798,1796,1797,1795,1787,1788,1789,1790,1791,1792,1793,1794,1786,1785,1784,1783): 52 QueuedPackages, 0 AsyncPackages
+[2025.05.18-15.48.30:399][730]PIE: Server logged in
+[2025.05.18-15.48.30:400][730]PIE: Play in editor total start time 0.315 seconds.
+[2025.05.18-15.48.31:192][801]LogBlueprintUserMessages: [BPC_Movement] 99.0
+[2025.05.18-15.48.31:288][811]LogBlueprintUserMessages: [BPC_Movement] 98.0
+[2025.05.18-15.48.31:391][820]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.18-15.48.31:491][830]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.18-15.48.31:586][840]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.18-15.48.31:694][851]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.18-15.48.31:789][861]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.18-15.48.31:896][872]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.18-15.48.31:991][882]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.18-15.48.32:086][891]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.18-15.48.32:188][900]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.18-15.48.32:297][911]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.18-15.48.32:394][921]LogBlueprintUserMessages: [BPC_Movement] 87.0
+[2025.05.18-15.48.32:490][931]LogBlueprintUserMessages: [BPC_Movement] 86.0
+[2025.05.18-15.48.32:598][942]LogBlueprintUserMessages: [BPC_Movement] 85.0
+[2025.05.18-15.48.32:695][952]LogBlueprintUserMessages: [BPC_Movement] 84.0
+[2025.05.18-15.48.32:793][962]LogBlueprintUserMessages: [BPC_Movement] 83.0
+[2025.05.18-15.48.32:897][971]LogBlueprintUserMessages: [BPC_Movement] 82.0
+[2025.05.18-15.48.32:989][980]LogBlueprintUserMessages: [BPC_Movement] 81.0
+[2025.05.18-15.48.33:089][990]LogBlueprintUserMessages: [BPC_Movement] 80.0
+[2025.05.18-15.48.33:196][  1]LogBlueprintUserMessages: [BPC_Movement] 79.0
+[2025.05.18-15.48.33:292][ 11]LogBlueprintUserMessages: [BPC_Movement] 78.0
+[2025.05.18-15.48.33:390][ 21]LogBlueprintUserMessages: [BPC_Movement] 77.0
+[2025.05.18-15.48.33:495][ 32]LogBlueprintUserMessages: [BPC_Movement] 76.0
+[2025.05.18-15.48.33:595][ 42]LogBlueprintUserMessages: [BPC_Movement] 75.0
+[2025.05.18-15.48.33:688][ 50]LogBlueprintUserMessages: [BPC_Movement] 74.0
+[2025.05.18-15.48.33:793][ 61]LogBlueprintUserMessages: [BPC_Movement] 73.0
+[2025.05.18-15.48.33:888][ 71]LogBlueprintUserMessages: [BPC_Movement] 72.0
+[2025.05.18-15.48.33:994][ 82]LogBlueprintUserMessages: [BPC_Movement] 71.0
+[2025.05.18-15.48.34:089][ 92]LogBlueprintUserMessages: [BPC_Movement] 70.0
+[2025.05.18-15.48.34:197][103]LogBlueprintUserMessages: [BPC_Movement] 69.0
+[2025.05.18-15.48.34:293][113]LogBlueprintUserMessages: [BPC_Movement] 68.0
+[2025.05.18-15.48.34:395][122]LogBlueprintUserMessages: [BPC_Movement] 67.0
+[2025.05.18-15.48.34:496][132]LogBlueprintUserMessages: [BPC_Movement] 66.0
+[2025.05.18-15.48.34:590][142]LogBlueprintUserMessages: [BPC_Movement] 65.0
+[2025.05.18-15.48.34:697][153]LogBlueprintUserMessages: [BPC_Movement] 64.0
+[2025.05.18-15.48.34:793][163]LogBlueprintUserMessages: [BPC_Movement] 63.0
+[2025.05.18-15.48.34:888][173]LogBlueprintUserMessages: [BPC_Movement] 62.0
+[2025.05.18-15.48.34:993][184]LogBlueprintUserMessages: [BPC_Movement] 61.0
+[2025.05.18-15.48.35:100][194]LogBlueprintUserMessages: [BPC_Movement] 60.0
+[2025.05.18-15.48.35:142][196]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_6HLUQS3KKKM37WL43URBG01JT took (less than) 21.14 ms
+[2025.05.18-15.48.35:196][202]LogBlueprintUserMessages: [BPC_Movement] 59.0
+[2025.05.18-15.48.35:292][212]LogBlueprintUserMessages: [BPC_Movement] 58.0
+[2025.05.18-15.48.35:391][221]LogBlueprintUserMessages: [BPC_Movement] 57.0
+[2025.05.18-15.48.35:488][231]LogBlueprintUserMessages: [BPC_Movement] 56.0
+[2025.05.18-15.48.35:590][242]LogBlueprintUserMessages: [BPC_Movement] 55.0
+[2025.05.18-15.48.35:686][252]LogBlueprintUserMessages: [BPC_Movement] 54.0
+[2025.05.18-15.48.35:793][263]LogBlueprintUserMessages: [BPC_Movement] 53.0
+[2025.05.18-15.48.35:895][272]LogBlueprintUserMessages: [BPC_Movement] 52.0
+[2025.05.18-15.48.35:991][281]LogBlueprintUserMessages: [BPC_Movement] 51.0
+[2025.05.18-15.48.36:088][291]LogBlueprintUserMessages: [BPC_Movement] 50.0
+[2025.05.18-15.48.36:195][302]LogBlueprintUserMessages: [BPC_Movement] 49.0
+[2025.05.18-15.48.36:291][312]LogBlueprintUserMessages: [BPC_Movement] 48.0
+[2025.05.18-15.48.36:396][323]LogBlueprintUserMessages: [BPC_Movement] 47.0
+[2025.05.18-15.48.36:493][333]LogBlueprintUserMessages: [BPC_Movement] 46.0
+[2025.05.18-15.48.36:599][344]LogBlueprintUserMessages: [BPC_Movement] 45.0
+[2025.05.18-15.48.36:693][352]LogBlueprintUserMessages: [BPC_Movement] 44.0
+[2025.05.18-15.48.36:789][362]LogBlueprintUserMessages: [BPC_Movement] 43.0
+[2025.05.18-15.48.36:894][373]LogBlueprintUserMessages: [BPC_Movement] 42.0
+[2025.05.18-15.48.36:987][383]LogBlueprintUserMessages: [BPC_Movement] 41.0
+[2025.05.18-15.48.37:091][394]LogBlueprintUserMessages: [BPC_Movement] 40.0
+[2025.05.18-15.48.37:196][405]LogBlueprintUserMessages: [BPC_Movement] 39.0
+[2025.05.18-15.48.37:289][415]LogBlueprintUserMessages: [BPC_Movement] 38.0
+[2025.05.18-15.48.37:395][425]LogBlueprintUserMessages: [BPC_Movement] 37.0
+[2025.05.18-15.48.37:489][434]LogBlueprintUserMessages: [BPC_Movement] 36.0
+[2025.05.18-15.48.38:501][539]LogBlueprintUserMessages: [BPC_Movement] 35.0
+[2025.05.18-15.48.38:606][550]LogBlueprintUserMessages: [BPC_Movement] 34.0
+[2025.05.18-15.48.38:700][560]LogBlueprintUserMessages: [BPC_Movement] 33.0
+[2025.05.18-15.48.38:803][571]LogBlueprintUserMessages: [BPC_Movement] 32.0
+[2025.05.18-15.48.38:907][581]LogBlueprintUserMessages: [BPC_Movement] 31.0
+[2025.05.18-15.48.39:007][590]LogBlueprintUserMessages: [BPC_Movement] 30.0
+[2025.05.18-15.48.39:102][600]LogBlueprintUserMessages: [BPC_Movement] 29.0
+[2025.05.18-15.48.39:205][611]LogBlueprintUserMessages: [BPC_Movement] 28.0
+[2025.05.18-15.48.39:299][621]LogBlueprintUserMessages: [BPC_Movement] 27.0
+[2025.05.18-15.48.39:401][632]LogBlueprintUserMessages: [BPC_Movement] 26.0
+[2025.05.18-15.48.39:505][643]LogBlueprintUserMessages: [BPC_Movement] 25.0
+[2025.05.18-15.48.39:601][653]LogBlueprintUserMessages: [BPC_Movement] 24.0
+[2025.05.18-15.48.39:706][662]LogBlueprintUserMessages: [BPC_Movement] 23.0
+[2025.05.18-15.48.39:800][672]LogBlueprintUserMessages: [BPC_Movement] 22.0
+[2025.05.18-15.48.39:905][683]LogBlueprintUserMessages: [BPC_Movement] 21.0
+[2025.05.18-15.48.40:000][693]LogBlueprintUserMessages: [BPC_Movement] 20.0
+[2025.05.18-15.48.40:109][704]LogBlueprintUserMessages: [BPC_Movement] 19.0
+[2025.05.18-15.48.40:204][714]LogBlueprintUserMessages: [BPC_Movement] 18.0
+[2025.05.18-15.48.40:296][724]LogBlueprintUserMessages: [BPC_Movement] 17.0
+[2025.05.18-15.48.40:406][735]LogBlueprintUserMessages: [BPC_Movement] 16.0
+[2025.05.18-15.48.40:503][744]LogBlueprintUserMessages: [BPC_Movement] 15.0
+[2025.05.18-15.48.40:603][755]LogBlueprintUserMessages: [BPC_Movement] 14.0
+[2025.05.18-15.48.40:697][765]LogBlueprintUserMessages: [BPC_Movement] 13.0
+[2025.05.18-15.48.40:798][776]LogBlueprintUserMessages: [BPC_Movement] 12.0
+[2025.05.18-15.48.40:898][787]LogBlueprintUserMessages: [BPC_Movement] 11.0
+[2025.05.18-15.48.40:999][798]LogBlueprintUserMessages: [BPC_Movement] 10.0
+[2025.05.18-15.48.41:101][809]LogBlueprintUserMessages: [BPC_Movement] 9.0
+[2025.05.18-15.48.41:201][818]LogBlueprintUserMessages: [BPC_Movement] 8.0
+[2025.05.18-15.48.41:306][829]LogBlueprintUserMessages: [BPC_Movement] 7.0
+[2025.05.18-15.48.41:398][839]LogBlueprintUserMessages: [BPC_Movement] 6.0
+[2025.05.18-15.48.41:504][850]LogBlueprintUserMessages: [BPC_Movement] 5.0
+[2025.05.18-15.48.41:599][860]LogBlueprintUserMessages: [BPC_Movement] 4.0
+[2025.05.18-15.48.41:703][871]LogBlueprintUserMessages: [BPC_Movement] 3.0
+[2025.05.18-15.48.41:806][882]LogBlueprintUserMessages: [BPC_Movement] 2.0
+[2025.05.18-15.48.41:906][892]LogBlueprintUserMessages: [BPC_Movement] 1.0
+[2025.05.18-15.48.41:998][900]LogBlueprintUserMessages: [BPC_Movement] 0.0
+[2025.05.18-15.48.58:144][574]LogBlueprintUserMessages: [BPC_Movement] 1.0
+[2025.05.18-15.48.58:173][577]LogBlueprintUserMessages: [BPC_Movement] 2.0
+[2025.05.18-15.48.58:200][580]LogBlueprintUserMessages: [BPC_Movement] 3.0
+[2025.05.18-15.48.58:227][583]LogBlueprintUserMessages: [BPC_Movement] 4.0
+[2025.05.18-15.48.58:265][587]LogBlueprintUserMessages: [BPC_Movement] 5.0
+[2025.05.18-15.48.58:293][590]LogBlueprintUserMessages: [BPC_Movement] 6.0
+[2025.05.18-15.48.58:320][593]LogBlueprintUserMessages: [BPC_Movement] 7.0
+[2025.05.18-15.48.58:349][596]LogBlueprintUserMessages: [BPC_Movement] 8.0
+[2025.05.18-15.48.58:385][600]LogBlueprintUserMessages: [BPC_Movement] 9.0
+[2025.05.18-15.48.58:413][603]LogBlueprintUserMessages: [BPC_Movement] 10.0
+[2025.05.18-15.48.58:443][606]LogBlueprintUserMessages: [BPC_Movement] 11.0
+[2025.05.18-15.48.58:467][608]LogBlueprintUserMessages: [BPC_Movement] 12.0
+[2025.05.18-15.48.58:501][611]LogBlueprintUserMessages: [BPC_Movement] 13.0
+[2025.05.18-15.48.58:538][614]LogBlueprintUserMessages: [BPC_Movement] 14.0
+[2025.05.18-15.48.58:557][616]LogBlueprintUserMessages: [BPC_Movement] 15.0
+[2025.05.18-15.48.58:593][620]LogBlueprintUserMessages: [BPC_Movement] 16.0
+[2025.05.18-15.48.58:620][623]LogBlueprintUserMessages: [BPC_Movement] 17.0
+[2025.05.18-15.48.58:650][626]LogBlueprintUserMessages: [BPC_Movement] 18.0
+[2025.05.18-15.48.58:679][629]LogBlueprintUserMessages: [BPC_Movement] 19.0
+[2025.05.18-15.48.58:715][633]LogBlueprintUserMessages: [BPC_Movement] 20.0
+[2025.05.18-15.48.58:745][636]LogBlueprintUserMessages: [BPC_Movement] 21.0
+[2025.05.18-15.48.58:773][639]LogBlueprintUserMessages: [BPC_Movement] 22.0
+[2025.05.18-15.48.58:802][642]LogBlueprintUserMessages: [BPC_Movement] 23.0
+[2025.05.18-15.48.58:831][645]LogBlueprintUserMessages: [BPC_Movement] 24.0
+[2025.05.18-15.48.58:859][648]LogBlueprintUserMessages: [BPC_Movement] 25.0
+[2025.05.18-15.48.58:887][651]LogBlueprintUserMessages: [BPC_Movement] 26.0
+[2025.05.18-15.48.58:923][655]LogBlueprintUserMessages: [BPC_Movement] 27.0
+[2025.05.18-15.48.58:953][658]LogBlueprintUserMessages: [BPC_Movement] 28.0
+[2025.05.18-15.48.58:982][661]LogBlueprintUserMessages: [BPC_Movement] 29.0
+[2025.05.18-15.48.59:103][674]LogBlueprintUserMessages: [BPC_Movement] 28.0
+[2025.05.18-15.48.59:203][684]LogBlueprintUserMessages: [BPC_Movement] 27.0
+[2025.05.18-15.48.59:307][693]LogBlueprintUserMessages: [BPC_Movement] 26.0
+[2025.05.18-15.48.59:403][702]LogBlueprintUserMessages: [BPC_Movement] 25.0
+[2025.05.18-15.48.59:507][714]LogBlueprintUserMessages: [BPC_Movement] 24.0
+[2025.05.18-15.48.59:602][724]LogBlueprintUserMessages: [BPC_Movement] 23.0
+[2025.05.18-15.48.59:705][735]LogBlueprintUserMessages: [BPC_Movement] 22.0
+[2025.05.18-15.48.59:811][746]LogBlueprintUserMessages: [BPC_Movement] 21.0
+[2025.05.18-15.48.59:905][756]LogBlueprintUserMessages: [BPC_Movement] 20.0
+[2025.05.18-15.49.00:004][765]LogBlueprintUserMessages: [BPC_Movement] 19.0
+[2025.05.18-15.49.02:966][ 70]LogBlueprintUserMessages: [BPC_Movement] 18.0
+[2025.05.18-15.49.03:065][ 79]LogBlueprintUserMessages: [BPC_Movement] 17.0
+[2025.05.18-15.49.03:168][ 90]LogBlueprintUserMessages: [BPC_Movement] 16.0
+[2025.05.18-15.49.03:271][101]LogBlueprintUserMessages: [BPC_Movement] 15.0
+[2025.05.18-15.49.03:363][111]LogBlueprintUserMessages: [BPC_Movement] 14.0
+[2025.05.18-15.49.03:468][122]LogBlueprintUserMessages: [BPC_Movement] 13.0
+[2025.05.18-15.49.03:561][132]LogBlueprintUserMessages: [BPC_Movement] 12.0
+[2025.05.18-15.49.03:663][143]LogBlueprintUserMessages: [BPC_Movement] 11.0
+[2025.05.18-15.49.03:764][152]LogBlueprintUserMessages: [BPC_Movement] 10.0
+[2025.05.18-15.49.03:863][162]LogBlueprintUserMessages: [BPC_Movement] 9.0
+[2025.05.18-15.49.03:966][173]LogBlueprintUserMessages: [BPC_Movement] 8.0
+[2025.05.18-15.49.04:070][184]LogBlueprintUserMessages: [BPC_Movement] 7.0
+[2025.05.18-15.49.04:163][194]LogBlueprintUserMessages: [BPC_Movement] 6.0
+[2025.05.18-15.49.04:266][205]LogBlueprintUserMessages: [BPC_Movement] 5.0
+[2025.05.18-15.49.04:372][216]LogBlueprintUserMessages: [BPC_Movement] 4.0
+[2025.05.18-15.49.04:465][225]LogBlueprintUserMessages: [BPC_Movement] 3.0
+[2025.05.18-15.49.04:565][234]LogBlueprintUserMessages: [BPC_Movement] 2.0
+[2025.05.18-15.49.04:670][245]LogBlueprintUserMessages: [BPC_Movement] 1.0
+[2025.05.18-15.49.04:766][255]LogBlueprintUserMessages: [BPC_Movement] 0.0
+[2025.05.18-15.49.05:115][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-15.49.05:115][288]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.05.18-15.49.05:125][288]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.05.18-15.49.05:126][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-15.49.05:126][288]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.05.18-15.49.05:130][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.18-15.49.05:137][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-15.49.05:159][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-15.49.05:159][288]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.05.18-15.49.05:159][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2025.05.18-15.49.05:162][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2025.05.18-15.49.05:172][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.05.18-15.49.05:210][289]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.05.18-15.49.05:303][297]Cmd: SELECT NONE
+[2025.05.18-15.49.19:075][478]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5909.520508
+[2025.05.18-15.49.20:075][481]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.18-15.49.20:075][481]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5910.187988, Update Interval: 313.383575
+[2025.05.18-15.50.11:691][ 15]Cmd: SELECT NONE
+[2025.05.18-15.50.33:590][973]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.18-15.50.33:590][973]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.05.18-15.50.33:595][973]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 5.011 ms (total: 107.003 ms)
+[2025.05.18-15.50.33:595][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.18-15.50.33:595][973]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2025.05.18-15.50.33:597][973]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.05.18-15.50.33:646][974]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.05.18-15.50.33:653][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006904s)
+[2025.05.18-15.50.33:653][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.006949s)
+[2025.05.18-15.50.33:671][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.18-15.50.33:677][974]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.05.18-15.50.33:679][974]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.18-15.50.33:679][974]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.18-15.50.33:679][974]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.18-15.50.33:679][974]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.18-15.50.33:684][974]LogWorldPartition: Display: WorldPartition initialize took 5.453 ms (total: 711.492 ms)
+[2025.05.18-15.50.33:684][974]LogPlayLevel: PIE: World Init took: (0.007019s)
+[2025.05.18-15.50.33:685][974]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.05.18-15.50.33:685][974]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.18-15.50.33:685][974]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.18-15.50.33:685][974]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.18-15.50.33:685][974]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.18-15.50.33:685][974]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.18-15.50.33:685][974]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.18-15.50.33:685][974]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.18-15.50.33:685][974]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.18-15.50.33:685][974]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.18-15.50.33:685][974]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.18-15.50.33:685][974]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.18-15.50.33:686][974]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.18-15.50.33:765][974]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.05.18-15.50.33:765][974]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.18-15.50.33:765][974]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.18-15.50.33:765][974]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.18-15.50.33:765][974]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.05.18-15.50.33:765][974]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=24
+[2025.05.18-15.50.33:769][974]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.05.18-15.50.33:769][974]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.05.18-15.50.33:769][974]LogInit: FAudioDevice initialized with ID 24.
+[2025.05.18-15.50.33:769][974]LogAudio: Display: Audio Device (ID: 24) registered with world 'Level1'.
+[2025.05.18-15.50.33:769][974]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.05.18-15.50.33:772][974]LogLoad: Game class is 'L1_GameMode_C'
+[2025.05.18-15.50.33:773][974]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.05.19-00.50.33
+[2025.05.18-15.50.33:773][974]LogWorld: Bringing up level for play took: 0.001486
+[2025.05.18-15.50.33:777][974]LogStreaming: Display: FlushAsyncLoading(1890,1889,1888,1887,1886,1885,1884,1883,1882,1881,1880,1879,1878,1877,1876,1875,1874,1873,1872,1871,1870,1869,1868,1867,1866,1865,1864,1863,1862,1861,1860,1859,1858,1857,1856,1855,1854,1853,1852,1851,1849,1850,1848,1847,1839,1840,1841,1842,1843,1844,1845,1846): 52 QueuedPackages, 0 AsyncPackages
+[2025.05.18-15.50.33:914][974]PIE: Server logged in
+[2025.05.18-15.50.33:916][974]PIE: Play in editor total start time 0.327 seconds.
+[2025.05.18-15.50.35:040][ 83]LogBlueprintUserMessages: [BPC_Movement] 99.0
+[2025.05.18-15.50.35:142][ 94]LogBlueprintUserMessages: [BPC_Movement] 98.0
+[2025.05.18-15.50.35:241][105]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.18-15.50.35:336][114]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.18-15.50.35:440][124]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.18-15.50.35:540][135]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.18-15.50.35:642][146]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.18-15.50.35:742][157]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.18-15.50.35:842][168]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.18-15.50.35:940][179]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.18-15.50.37:091][297]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.18-15.50.37:189][308]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.18-15.50.37:297][319]LogBlueprintUserMessages: [BPC_Movement] 87.0
+[2025.05.18-15.50.37:392][330]LogBlueprintUserMessages: [BPC_Movement] 86.0
+[2025.05.18-15.50.37:496][341]LogBlueprintUserMessages: [BPC_Movement] 85.0
+[2025.05.18-15.50.37:595][351]LogBlueprintUserMessages: [BPC_Movement] 84.0
+[2025.05.18-15.50.37:690][359]LogBlueprintUserMessages: [BPC_Movement] 83.0
+[2025.05.18-15.50.37:798][370]LogBlueprintUserMessages: [BPC_Movement] 82.0
+[2025.05.18-15.50.37:898][380]LogBlueprintUserMessages: [BPC_Movement] 81.0
+[2025.05.18-15.50.37:997][390]LogBlueprintUserMessages: [BPC_Movement] 80.0
+[2025.05.18-15.50.38:097][400]LogBlueprintUserMessages: [BPC_Movement] 79.0
+[2025.05.18-15.50.38:195][410]LogBlueprintUserMessages: [BPC_Movement] 78.0
+[2025.05.18-15.50.38:294][420]LogBlueprintUserMessages: [BPC_Movement] 77.0
+[2025.05.18-15.50.38:397][429]LogBlueprintUserMessages: [BPC_Movement] 76.0
+[2025.05.18-15.50.38:490][438]LogBlueprintUserMessages: [BPC_Movement] 75.0
+[2025.05.18-15.50.38:593][448]LogBlueprintUserMessages: [BPC_Movement] 74.0
+[2025.05.18-15.50.38:692][458]LogBlueprintUserMessages: [BPC_Movement] 73.0
+[2025.05.18-15.50.38:791][468]LogBlueprintUserMessages: [BPC_Movement] 72.0
+[2025.05.18-15.50.38:899][479]LogBlueprintUserMessages: [BPC_Movement] 71.0
+[2025.05.18-15.50.38:989][488]LogBlueprintUserMessages: [BPC_Movement] 70.0
+[2025.05.18-15.50.39:096][499]LogBlueprintUserMessages: [BPC_Movement] 69.0
+[2025.05.18-15.50.39:196][507]LogBlueprintUserMessages: [BPC_Movement] 68.0
+[2025.05.18-15.50.39:297][517]LogBlueprintUserMessages: [BPC_Movement] 67.0
+[2025.05.18-15.50.39:394][527]LogBlueprintUserMessages: [BPC_Movement] 66.0
+[2025.05.18-15.50.39:491][537]LogBlueprintUserMessages: [BPC_Movement] 65.0
+[2025.05.18-15.50.39:590][547]LogBlueprintUserMessages: [BPC_Movement] 64.0
+[2025.05.18-15.50.39:689][557]LogBlueprintUserMessages: [BPC_Movement] 63.0
+[2025.05.18-15.50.39:790][567]LogBlueprintUserMessages: [BPC_Movement] 62.0
+[2025.05.18-15.50.39:890][576]LogBlueprintUserMessages: [BPC_Movement] 61.0
+[2025.05.18-15.50.39:989][585]LogBlueprintUserMessages: [BPC_Movement] 60.0
+[2025.05.18-15.50.40:099][596]LogBlueprintUserMessages: [BPC_Movement] 59.0
+[2025.05.18-15.50.40:190][605]LogBlueprintUserMessages: [BPC_Movement] 58.0
+[2025.05.18-15.50.40:291][615]LogBlueprintUserMessages: [BPC_Movement] 57.0
+[2025.05.18-15.50.40:393][625]LogBlueprintUserMessages: [BPC_Movement] 56.0
+[2025.05.18-15.50.40:493][635]LogBlueprintUserMessages: [BPC_Movement] 55.0
+[2025.05.18-15.50.40:591][645]LogBlueprintUserMessages: [BPC_Movement] 54.0
+[2025.05.18-15.50.40:690][653]LogBlueprintUserMessages: [BPC_Movement] 53.0
+[2025.05.18-15.50.40:797][664]LogBlueprintUserMessages: [BPC_Movement] 52.0
+[2025.05.18-15.50.40:897][675]LogBlueprintUserMessages: [BPC_Movement] 51.0
+[2025.05.18-15.50.40:993][686]LogBlueprintUserMessages: [BPC_Movement] 50.0
+[2025.05.18-15.50.41:090][697]LogBlueprintUserMessages: [BPC_Movement] 49.0
+[2025.05.18-15.50.41:192][708]LogBlueprintUserMessages: [BPC_Movement] 48.0
+[2025.05.18-15.50.41:299][719]LogBlueprintUserMessages: [BPC_Movement] 47.0
+[2025.05.18-15.50.41:397][728]LogBlueprintUserMessages: [BPC_Movement] 46.0
+[2025.05.18-15.50.41:496][737]LogBlueprintUserMessages: [BPC_Movement] 45.0
+[2025.05.18-15.50.41:591][747]LogBlueprintUserMessages: [BPC_Movement] 44.0
+[2025.05.18-15.50.41:699][758]LogBlueprintUserMessages: [BPC_Movement] 43.0
+[2025.05.18-15.50.41:791][767]LogBlueprintUserMessages: [BPC_Movement] 42.0
+[2025.05.18-15.50.41:895][778]LogBlueprintUserMessages: [BPC_Movement] 41.0
+[2025.05.18-15.50.41:994][788]LogBlueprintUserMessages: [BPC_Movement] 40.0
+[2025.05.18-15.50.42:824][872]LogBlueprintUserMessages: [BPC_Movement] 39.0
+[2025.05.18-15.50.42:926][881]LogBlueprintUserMessages: [BPC_Movement] 38.0
+[2025.05.18-15.50.43:024][890]LogBlueprintUserMessages: [BPC_Movement] 37.0
+[2025.05.18-15.50.43:123][900]LogBlueprintUserMessages: [BPC_Movement] 36.0
+[2025.05.18-15.50.43:677][956]LogBlueprintUserMessages: [BPC_Movement] 35.0
+[2025.05.18-15.50.43:783][966]LogBlueprintUserMessages: [BPC_Movement] 34.0
+[2025.05.18-15.50.43:878][976]LogBlueprintUserMessages: [BPC_Movement] 33.0
+[2025.05.18-15.50.43:981][987]LogBlueprintUserMessages: [BPC_Movement] 32.0
+[2025.05.18-15.50.44:077][997]LogBlueprintUserMessages: [BPC_Movement] 31.0
+[2025.05.18-15.50.44:184][  8]LogBlueprintUserMessages: [BPC_Movement] 30.0
+[2025.05.18-15.50.44:280][ 18]LogBlueprintUserMessages: [BPC_Movement] 29.0
+[2025.05.18-15.50.44:388][ 28]LogBlueprintUserMessages: [BPC_Movement] 28.0
+[2025.05.18-15.50.44:485][ 36]LogBlueprintUserMessages: [BPC_Movement] 27.0
+[2025.05.18-15.50.44:930][ 83]LogBlueprintUserMessages: [BPC_Movement] 26.0
+[2025.05.18-15.50.45:026][ 93]LogBlueprintUserMessages: [BPC_Movement] 25.0
+[2025.05.18-15.50.45:127][103]LogBlueprintUserMessages: [BPC_Movement] 24.0
+[2025.05.18-15.50.45:224][111]LogBlueprintUserMessages: [BPC_Movement] 23.0
+[2025.05.18-15.50.45:330][122]LogBlueprintUserMessages: [BPC_Movement] 22.0
+[2025.05.18-15.50.45:952][184]LogBlueprintUserMessages: [BPC_Movement] 21.0
+[2025.05.18-15.50.46:052][194]LogBlueprintUserMessages: [BPC_Movement] 20.0
+[2025.05.18-15.50.46:156][205]LogBlueprintUserMessages: [BPC_Movement] 19.0
+[2025.05.18-15.50.46:252][215]LogBlueprintUserMessages: [BPC_Movement] 18.0
+[2025.05.18-15.50.46:347][225]LogBlueprintUserMessages: [BPC_Movement] 17.0
+[2025.05.18-15.50.46:450][236]LogBlueprintUserMessages: [BPC_Movement] 16.0
+[2025.05.18-15.50.46:927][283]LogBlueprintUserMessages: [BPC_Movement] 15.0
+[2025.05.18-15.50.47:024][293]LogBlueprintUserMessages: [BPC_Movement] 14.0
+[2025.05.18-15.50.47:760][367]LogBlueprintUserMessages: [BPC_Movement] 13.0
+[2025.05.18-15.50.47:862][377]LogBlueprintUserMessages: [BPC_Movement] 12.0
+[2025.05.18-15.50.48:662][457]LogBlueprintUserMessages: [BPC_Movement] 11.0
+[2025.05.18-15.50.48:759][467]LogBlueprintUserMessages: [BPC_Movement] 10.0
+[2025.05.18-15.50.48:858][477]LogBlueprintUserMessages: [BPC_Movement] 9.0
+[2025.05.18-15.50.49:565][547]LogBlueprintUserMessages: [BPC_Movement] 8.0
+[2025.05.18-15.50.49:667][556]LogBlueprintUserMessages: [BPC_Movement] 7.0
+[2025.05.18-15.50.49:768][565]LogBlueprintUserMessages: [BPC_Movement] 6.0
+[2025.05.18-15.50.49:867][575]LogBlueprintUserMessages: [BPC_Movement] 5.0
+[2025.05.18-15.50.50:520][639]LogBlueprintUserMessages: [BPC_Movement] 4.0
+[2025.05.18-15.50.50:618][649]LogBlueprintUserMessages: [BPC_Movement] 3.0
+[2025.05.18-15.50.50:717][659]LogBlueprintUserMessages: [BPC_Movement] 2.0
+[2025.05.18-15.50.50:814][669]LogBlueprintUserMessages: [BPC_Movement] 1.0
+[2025.05.18-15.50.51:398][727]LogBlueprintUserMessages: [BPC_Movement] 0.0
+[2025.05.18-15.50.53:014][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-15.50.53:014][884]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.05.18-15.50.53:023][884]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.05.18-15.50.53:024][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-15.50.53:024][884]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.05.18-15.50.53:027][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.18-15.50.53:033][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-15.50.53:056][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-15.50.53:056][884]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.05.18-15.50.53:056][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2025.05.18-15.50.53:058][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2025.05.18-15.50.53:069][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.05.18-15.50.53:139][885]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.05.18-15.55.23:562][172]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6274.015137
+[2025.05.18-15.55.24:563][175]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.18-15.55.24:563][175]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6274.681641, Update Interval: 327.091278
+[2025.05.18-15.59.36:663][687]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.18-15.59.36:674][687]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.18-15.59.36:688][688]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.18-15.59.37:716][792]LogContentBrowser: Attempting asset rename: NewFolder -> Fonts
+[2025.05.18-15.59.37:717][792]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.18-16.00.41:818][273]LogStreaming: Display: FlushAsyncLoading(1891): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.18-16.00.41:847][273]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Light.otf)
+[2025.05.18-16.00.56:371][273]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.05.18-16.00.56:380][273]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.05.18-16.00.56:382][273]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.05.18-16.00.56:384][273]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Regular.otf)
+[2025.05.18-16.00.56:452][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.00.56:460][273]LogSlate: Took 0.005167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.18-16.01.05:457][273]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.05.18-16.01.05:465][273]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.05.18-16.01.05:467][273]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.05.18-16.01.05:469][273]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-SemiBold.otf)
+[2025.05.18-16.01.05:536][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.01.05:540][273]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.18-16.01.05:908][273]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.05.18-16.01.05:916][273]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.05.18-16.01.05:918][273]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.05.18-16.01.05:920][273]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Bold.otf)
+[2025.05.18-16.01.05:992][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.01.05:994][273]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.18-16.01.07:242][273]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.05.18-16.01.07:250][273]Message dialog closed, result: Cancel, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.05.18-16.01.07:920][273]LogSlate: Window 'Message' being destroyed
+[2025.05.18-16.01.07:928][273]Message dialog closed, result: Ok, title: Message, text: Failed to import 'G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Bold.otf'. Failed to create asset '/Game/Fonts/MaruBuri-Bold'.
+Please see Output Log for details.
+[2025.05.18-16.01.07:928][273]LogAssetTools: Warning: Failed to import 'G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Bold.otf'. Failed to create asset '/Game/Fonts/MaruBuri-Bold'.
+Please see Output Log for details.
+[2025.05.18-16.01.07:930][273]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-ExtraLight.otf)
+[2025.05.18-16.01.08:510][273]LogSlate: Window 'Message' being destroyed
+[2025.05.18-16.01.08:518][273]Message dialog closed, result: Ok, title: Message, text: Failed to import 'G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-ExtraLight.otf'. Failed to create asset '/Game/Fonts/MaruBuri-ExtraLight'.
+Please see Output Log for details.
+[2025.05.18-16.01.08:518][273]LogAssetTools: Warning: Failed to import 'G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-ExtraLight.otf'. Failed to create asset '/Game/Fonts/MaruBuri-ExtraLight'.
+Please see Output Log for details.
+[2025.05.18-16.01.08:546][273]LogSlate: Took 0.005501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.05.18-16.01.08:554][273]LogSlate: Took 0.004019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.05.18-16.01.11:658][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.05.18-16.01.11:665][556]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.029
+[2025.05.18-16.01.11:665][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-Light] ([1] browsable assets)...
+[2025.05.18-16.01.11:665][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-Light]
+[2025.05.18-16.01.11:665][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-Light" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-Light_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2025.05.18-16.01.11:666][556]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fonts/MaruBuri-Light_Auto5
+[2025.05.18-16.01.11:666][556]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-Light_Auto5AD2D19A94B82B4E2972F67B11EF80F03.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-Light_Auto5.uasset'
+[2025.05.18-16.01.11:667][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-Light_Font] ([1] browsable assets)...
+[2025.05.18-16.01.11:667][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-Light_Font]
+[2025.05.18-16.01.11:667][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-Light_Font" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-Light_Font_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2025.05.18-16.01.11:668][556]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fonts/MaruBuri-Light_Font_Auto5
+[2025.05.18-16.01.11:668][556]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-Light_Font_Auto599899CD147647E78158EC2AE5D71CFAA.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-Light_Font_Auto5.uasset'
+[2025.05.18-16.01.11:669][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-Regular] ([1] browsable assets)...
+[2025.05.18-16.01.11:669][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-Regular]
+[2025.05.18-16.01.11:669][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-Regular" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-Regular_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2025.05.18-16.01.11:670][556]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fonts/MaruBuri-Regular_Auto5
+[2025.05.18-16.01.11:670][556]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-Regular_Auto511B45FA541D88DD22901B2B33F1B7184.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-Regular_Auto5.uasset'
+[2025.05.18-16.01.11:671][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-Regular_Font] ([1] browsable assets)...
+[2025.05.18-16.01.11:671][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-Regular_Font]
+[2025.05.18-16.01.11:672][556]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fonts/MaruBuri-Regular_Font_Auto5
+[2025.05.18-16.01.11:672][556]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-Regular_Font_Auto5649EABF34B5C271E417654B61A1AA5F2.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-Regular_Font_Auto5.uasset'
+[2025.05.18-16.01.11:673][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-SemiBold] ([1] browsable assets)...
+[2025.05.18-16.01.11:673][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-SemiBold]
+[2025.05.18-16.01.11:673][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-SemiBold" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-SemiBold_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2025.05.18-16.01.11:675][556]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fonts/MaruBuri-SemiBold_Auto5
+[2025.05.18-16.01.11:675][556]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-SemiBold_Auto597DF6B7E482CA28E34B8EA8D4947415F.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-SemiBold_Auto5.uasset'
+[2025.05.18-16.01.11:676][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-SemiBold_Font] ([1] browsable assets)...
+[2025.05.18-16.01.11:676][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-SemiBold_Font]
+[2025.05.18-16.01.11:677][556]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fonts/MaruBuri-SemiBold_Font_Auto5
+[2025.05.18-16.01.11:677][556]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-SemiBold_Font_Auto5F1F3808A44BF13F9B91D43A11C5ACDD6.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Fonts/MaruBuri-SemiBold_Font_Auto5.uasset'
+[2025.05.18-16.01.11:678][556]LogFileHelpers: Auto-saving content packages took 0.013
+[2025.05.18-16.01.11:826][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.05.18-16.01.12:687][568]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.18-16.01.12:717][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.18-16.01.12:739][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.18-16.01.12:762][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.05.18-16.01.28:632][706]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-SemiBold.otf)
+[2025.05.18-16.01.30:307][706]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.05.18-16.01.30:314][706]Message dialog closed, result: Yes, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.05.18-16.01.30:316][706]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.05.18-16.01.30:330][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.01.30:334][707]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.18-16.01.30:338][707]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.05.18-16.01.30:341][707]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.05.18-16.01.33:944][778]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Light.otf)
+[2025.05.18-16.01.40:645][778]LogSlate: Window 'Font Face Import Options' being destroyed
+[2025.05.18-16.01.40:652][778]Message dialog closed, result: NoAll, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2025.05.18-16.01.40:652][778]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.05.18-16.01.40:655][778]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Regular.otf)
+[2025.05.18-16.01.40:657][778]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Bold.otf)
+[2025.05.18-16.01.40:660][778]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-ExtraLight.otf)
+[2025.05.18-16.01.40:685][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.01.40:687][778]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6651.144043
+[2025.05.18-16.01.40:689][779]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.18-16.01.40:692][779]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.05.18-16.01.40:697][779]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.05.18-16.01.40:938][799]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.18-16.01.40:938][799]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6651.384766, Update Interval: 301.691956
+[2025.05.18-16.01.46:466][974]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\TTF\MaruBuri-Light.ttf)
+[2025.05.18-16.01.46:469][974]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.05.18-16.01.46:492][974]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\TTF\MaruBuri-Regular.ttf)
+[2025.05.18-16.01.46:518][974]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\TTF\MaruBuri-SemiBold.ttf)
+[2025.05.18-16.01.46:541][974]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\TTF\MaruBuri-Bold.ttf)
+[2025.05.18-16.01.46:568][974]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\TTF\MaruBuri-ExtraLight.ttf)
+[2025.05.18-16.01.46:643][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.01.46:789][975]LogSlate: Took 0.000431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.18-16.01.46:826][975]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.05.18-16.01.46:830][975]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.05.18-16.01.58:238][494]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Light.otf)
+[2025.05.18-16.01.58:239][494]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.05.18-16.01.58:249][494]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Regular.otf)
+[2025.05.18-16.01.58:260][494]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-SemiBold.otf)
+[2025.05.18-16.01.58:271][494]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-Bold.otf)
+[2025.05.18-16.01.58:283][494]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 G:\GameEngine2025\Fonts\maruburi_naver\OTF\MaruBuri-ExtraLight.otf)
+[2025.05.18-16.01.58:357][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.01.58:599][495]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.18-16.01.58:601][495]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.05.18-16.01.58:605][495]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.05.18-16.02.01:504][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.18-16.02.01:512][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-16.02.01:553][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-SemiBold] ([1] browsable assets)...
+[2025.05.18-16.02.01:553][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-SemiBold]
+[2025.05.18-16.02.01:553][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-SemiBold" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold.uasset" SILENT=true
+[2025.05.18-16.02.01:554][642]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-SemiBold
+[2025.05.18-16.02.01:554][642]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-SemiBoldFC9328594C72697AF276F3B2AC1455D9.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold.uasset'
+[2025.05.18-16.02.01:555][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-SemiBold_Font] ([1] browsable assets)...
+[2025.05.18-16.02.01:555][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-SemiBold_Font]
+[2025.05.18-16.02.01:555][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-SemiBold_Font" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset" SILENT=true
+[2025.05.18-16.02.01:556][642]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-SemiBold_Font
+[2025.05.18-16.02.01:556][642]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-SemiBold_FontBD1DE95F4C1A402CCEFC2DAAE1040E30.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset'
+[2025.05.18-16.02.01:557][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-Light] ([1] browsable assets)...
+[2025.05.18-16.02.01:557][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-Light]
+[2025.05.18-16.02.01:557][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-Light" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-Light.uasset" SILENT=true
+[2025.05.18-16.02.01:558][642]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-Light
+[2025.05.18-16.02.01:558][642]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-LightC9345B1C45992C5B787753B7CF6E910F.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-Light.uasset'
+[2025.05.18-16.02.01:558][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-Regular] ([1] browsable assets)...
+[2025.05.18-16.02.01:558][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-Regular]
+[2025.05.18-16.02.01:558][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-Regular" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-Regular.uasset" SILENT=true
+[2025.05.18-16.02.01:559][642]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-Regular
+[2025.05.18-16.02.01:559][642]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-Regular52151EDB423D5DBBB026A1BD937BE9F4.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-Regular.uasset'
+[2025.05.18-16.02.01:560][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-Bold] ([1] browsable assets)...
+[2025.05.18-16.02.01:560][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-Bold]
+[2025.05.18-16.02.01:560][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-Bold" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-Bold.uasset" SILENT=true
+[2025.05.18-16.02.01:562][642]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-Bold
+[2025.05.18-16.02.01:562][642]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-Bold150EB0204C306A9B005993AE88D0F43D.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-Bold.uasset'
+[2025.05.18-16.02.01:563][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-ExtraLight] ([1] browsable assets)...
+[2025.05.18-16.02.01:563][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-ExtraLight]
+[2025.05.18-16.02.01:563][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-ExtraLight" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-ExtraLight.uasset" SILENT=true
+[2025.05.18-16.02.01:564][642]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-ExtraLight
+[2025.05.18-16.02.01:564][642]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-ExtraLight953036BB4A5289DFFCB80783B48D0DDC.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-ExtraLight.uasset'
+[2025.05.18-16.02.01:579][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.059 ms (total: 352.907 ms)
+[2025.05.18-16.02.01:620][642]LogContentValidation: Display: Starting to validate 6 assets
+[2025.05.18-16.02.01:620][642]LogContentValidation: Enabled validators:
+[2025.05.18-16.02.01:620][642]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-16.02.01:620][642]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-16.02.01:620][642]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-16.02.01:620][642]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-16.02.01:620][642]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-16.02.01:620][642]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-16.02.01:620][642]AssetCheck: /Game/Fonts/MaruBuri-SemiBold Validating asset
+[2025.05.18-16.02.01:620][642]AssetCheck: /Game/Fonts/MaruBuri-SemiBold_Font Validating asset
+[2025.05.18-16.02.01:620][642]AssetCheck: /Game/Fonts/MaruBuri-Light Validating asset
+[2025.05.18-16.02.01:620][642]AssetCheck: /Game/Fonts/MaruBuri-Regular Validating asset
+[2025.05.18-16.02.01:620][642]AssetCheck: /Game/Fonts/MaruBuri-Bold Validating asset
+[2025.05.18-16.02.01:620][642]AssetCheck: /Game/Fonts/MaruBuri-ExtraLight Validating asset
+[2025.05.18-16.02.13:877][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.05.18-16.02.27:853][ 19]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/Fonts/MaruBuri-SemiBold_Font.MaruBuri-SemiBold_Font
+[2025.05.18-16.02.28:062][ 19]LogSlate: Took 0.006284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.05.18-16.02.30:831][341]LogSlate: Took 0.004694 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.05.18-16.02.35:465][890]LogSlate: Took 0.007192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.05.18-16.02.43:039][444]LogSlate: Took 0.003858 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.05.18-16.02.47:225][875]LogAssetEditorSubsystem: Opening Asset editor for FontFace /Game/Fonts/MaruBuri-Bold.MaruBuri-Bold
+[2025.05.18-16.02.47:226][875]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.05.18-16.02.47:377][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.02.47:381][876]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.18-16.02.47:385][876]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.05.18-16.02.47:386][876]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.05.18-16.02.47:386][876]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.05.18-16.02.54:284][681]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/Fonts/MaruBuri-SemiBold_Font.MaruBuri-SemiBold_Font
+[2025.05.18-16.03.05:191][597]LogSlate: Took 0.001299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.05.18-16.03.12:980][529]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.05.18-16.03.15:473][804]LogAssetEditorSubsystem: Opening Asset editor for FontFace /Game/Fonts/MaruBuri-Bold.MaruBuri-Bold
+[2025.05.18-16.03.15:475][804]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2025.05.18-16.03.15:619][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.03.15:623][805]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.18-16.03.15:627][805]LogSlate: Took 0.000432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.05.18-16.03.15:628][805]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.05.18-16.03.15:629][805]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.05.18-16.03.46:578][597]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/Fonts/MaruBuri-SemiBold_Font.MaruBuri-SemiBold_Font
+[2025.05.18-16.03.48:807][836]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.05.18-16.03.56:629][718]LogSlate: Took 0.001279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.05.18-16.04.34:677][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-16.04.34:713][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-SemiBold_Font] ([1] browsable assets)...
+[2025.05.18-16.04.34:713][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-SemiBold_Font]
+[2025.05.18-16.04.34:713][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-SemiBold_Font" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset" SILENT=true
+[2025.05.18-16.04.34:714][701]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-SemiBold_Font
+[2025.05.18-16.04.34:715][701]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-SemiBold_Font3A4404F24DE8FC438DCE26BBA5C4D3F0.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset'
+[2025.05.18-16.04.34:724][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.061 ms (total: 398.969 ms)
+[2025.05.18-16.04.34:756][701]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.18-16.04.34:756][701]LogContentValidation: Enabled validators:
+[2025.05.18-16.04.34:756][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-16.04.34:756][701]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-16.04.34:756][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-16.04.34:756][701]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-16.04.34:756][701]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-16.04.34:756][701]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-16.04.34:756][701]AssetCheck: /Game/Fonts/MaruBuri-SemiBold_Font Validating asset
+[2025.05.18-16.05.03:614][138]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-16.05.03:650][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-SemiBold_Font] ([1] browsable assets)...
+[2025.05.18-16.05.03:651][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-SemiBold_Font]
+[2025.05.18-16.05.03:651][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-SemiBold_Font" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset" SILENT=true
+[2025.05.18-16.05.03:652][138]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-SemiBold_Font
+[2025.05.18-16.05.03:652][138]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-SemiBold_Font097E09E240937105C6AE8898AA661C4E.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset'
+[2025.05.18-16.05.03:661][138]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.162 ms (total: 446.131 ms)
+[2025.05.18-16.05.03:688][138]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.18-16.05.03:688][138]LogContentValidation: Enabled validators:
+[2025.05.18-16.05.03:688][138]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-16.05.03:688][138]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-16.05.03:688][138]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-16.05.03:688][138]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-16.05.03:688][138]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-16.05.03:688][138]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-16.05.03:688][138]AssetCheck: /Game/Fonts/MaruBuri-SemiBold_Font Validating asset
+[2025.05.18-16.05.04:426][226]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-16.05.04:456][226]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-SemiBold_Font] ([1] browsable assets)...
+[2025.05.18-16.05.04:456][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-SemiBold_Font]
+[2025.05.18-16.05.04:456][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-SemiBold_Font" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset" SILENT=true
+[2025.05.18-16.05.04:457][226]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-SemiBold_Font
+[2025.05.18-16.05.04:458][226]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-SemiBold_FontB7F3A6DF43887000A16E5DAE399952B5.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset'
+[2025.05.18-16.05.04:466][226]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.452 ms (total: 485.584 ms)
+[2025.05.18-16.05.04:494][226]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.18-16.05.04:494][226]LogContentValidation: Enabled validators:
+[2025.05.18-16.05.04:494][226]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-16.05.04:494][226]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-16.05.04:494][226]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-16.05.04:494][226]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-16.05.04:494][226]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-16.05.04:494][226]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-16.05.04:495][226]AssetCheck: /Game/Fonts/MaruBuri-SemiBold_Font Validating asset
+[2025.05.18-16.06.31:108][244]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-16.06.31:136][244]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-SemiBold_Font] ([1] browsable assets)...
+[2025.05.18-16.06.31:136][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-SemiBold_Font]
+[2025.05.18-16.06.31:136][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-SemiBold_Font" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset" SILENT=true
+[2025.05.18-16.06.31:137][244]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-SemiBold_Font
+[2025.05.18-16.06.31:138][244]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-SemiBold_FontE49225FB433A776360A4EE9D63CFB19B.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset'
+[2025.05.18-16.06.31:146][244]LogFileHelpers: InternalPromptForCheckoutAndSave took 37.052 ms (total: 522.636 ms)
+[2025.05.18-16.06.31:173][244]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.18-16.06.31:173][244]LogContentValidation: Enabled validators:
+[2025.05.18-16.06.31:173][244]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-16.06.31:173][244]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-16.06.31:173][244]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-16.06.31:173][244]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-16.06.31:173][244]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-16.06.31:173][244]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-16.06.31:173][244]AssetCheck: /Game/Fonts/MaruBuri-SemiBold_Font Validating asset
+[2025.05.18-16.06.36:938][935]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-16.06.36:970][935]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/MaruBuri-SemiBold_Font] ([1] browsable assets)...
+[2025.05.18-16.06.36:970][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/MaruBuri-SemiBold_Font]
+[2025.05.18-16.06.36:970][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/MaruBuri-SemiBold_Font" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset" SILENT=true
+[2025.05.18-16.06.36:971][935]LogSavePackage: Moving output files for package: /Game/Fonts/MaruBuri-SemiBold_Font
+[2025.05.18-16.06.36:972][935]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/MaruBuri-SemiBold_Font45BE50E74287845063E4EEB90D632A9F.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/MaruBuri-SemiBold_Font.uasset'
+[2025.05.18-16.06.36:981][935]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.485 ms (total: 566.122 ms)
+[2025.05.18-16.06.37:013][935]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.18-16.06.37:013][935]LogContentValidation: Enabled validators:
+[2025.05.18-16.06.37:013][935]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-16.06.37:013][935]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-16.06.37:013][935]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-16.06.37:013][935]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-16.06.37:013][935]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-16.06.37:013][935]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-16.06.37:013][935]AssetCheck: /Game/Fonts/MaruBuri-SemiBold_Font Validating asset
+[2025.05.18-16.07.16:287][583]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6986.756348
+[2025.05.18-16.07.17:287][586]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.18-16.07.17:287][586]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6987.423340, Update Interval: 344.886017
+[2025.05.18-16.08.35:483][ 89]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UMG/W_MainHUD.W_MainHUD
+[2025.05.18-16.08.35:483][ 89]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.05.18-16.08.35:492][ 89]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.05.18-16.08.35:499][ 89]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.05.18-16.08.35:905][ 89]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.05.18-16.08.35:922][ 89]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.05.18-16.08.52:199][965]LogStreaming: Display: FlushAsyncLoading(1896): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.18-16.09.18:923][445]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 85b...450
+[2025.05.18-16.09.18:923][445]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 100 RefreshExpires: 1.546e+07
+[2025.05.18-16.09.19:190][477]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 85b...450 Access[Expires: 2025.05.18-18.09.19 Remaining: 7200.14] Refresh[Expires: 2025-11-14T16:09:19.139Z Remaining: 15552000.14] State: Valid
+[2025.05.18-16.09.55:656][776]LogContentBrowser: Attempting asset rename: MaruBuri-SemiBold_Font -> Maruburi_Font
+[2025.05.18-16.09.55:736][776]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-16.09.55:736][776]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fonts/Maruburi_Font] ([1] browsable assets)...
+[2025.05.18-16.09.55:736][776]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fonts/Maruburi_Font]
+[2025.05.18-16.09.55:736][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/Maruburi_Font" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/Maruburi_Font.uasset" SILENT=true
+[2025.05.18-16.09.55:737][776]LogSavePackage: Moving output files for package: /Game/Fonts/Maruburi_Font
+[2025.05.18-16.09.55:737][776]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Maruburi_Font4121746845CCEEB8BF9AC49B14F97A01.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Fonts/Maruburi_Font.uasset'
+[2025.05.18-16.09.55:739][776]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.865 ms (total: 568.987 ms)
+[2025.05.18-16.09.56:088][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.05.18-16.09.56:114][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.05.18-16.09.56:133][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.05.18-16.09.56:176][776]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.18-16.09.56:176][776]LogContentValidation: Enabled validators:
+[2025.05.18-16.09.56:176][776]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-16.09.56:176][776]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-16.09.56:176][776]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-16.09.56:176][776]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-16.09.56:176][776]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-16.09.56:176][776]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-16.09.56:176][776]AssetCheck: /Game/Fonts/Maruburi_Font Validating asset
+[2025.05.18-16.09.57:281][883]LogSlate: Took 0.005216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.05.18-16.10.22:944][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.05.18-16.10.23:156][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.05.18-16.10.25:551][ 50]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.18-16.10.25:559][ 50]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.18-16.10.25:559][ 50]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.05.18-16.10.25:563][ 50]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 4.777 ms (total: 111.780 ms)
+[2025.05.18-16.10.25:564][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.18-16.10.25:598][ 50]LogPlayLevel: Display: Creating online subsystem for client :Context_35
+[2025.05.18-16.10.25:600][ 50]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2025.05.18-16.10.25:647][ 51]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.05.18-16.10.25:654][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006595s)
+[2025.05.18-16.10.25:654][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.006636s)
+[2025.05.18-16.10.25:670][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.18-16.10.25:683][ 51]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.05.18-16.10.25:686][ 51]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.18-16.10.25:686][ 51]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.18-16.10.25:686][ 51]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.18-16.10.25:686][ 51]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.18-16.10.25:691][ 51]LogWorldPartition: Display: WorldPartition initialize took 5.616 ms (total: 717.108 ms)
+[2025.05.18-16.10.25:691][ 51]LogPlayLevel: PIE: World Init took: (0.007455s)
+[2025.05.18-16.10.25:692][ 51]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.05.18-16.10.25:692][ 51]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.18-16.10.25:692][ 51]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.18-16.10.25:692][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.18-16.10.25:692][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.18-16.10.25:692][ 51]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.18-16.10.25:692][ 51]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.18-16.10.25:692][ 51]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.18-16.10.25:692][ 51]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.18-16.10.25:692][ 51]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.18-16.10.25:692][ 51]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.18-16.10.25:692][ 51]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.18-16.10.25:694][ 51]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.18-16.10.25:771][ 51]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.05.18-16.10.25:772][ 51]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.18-16.10.25:772][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.18-16.10.25:772][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.18-16.10.25:772][ 51]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.05.18-16.10.25:772][ 51]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=25
+[2025.05.18-16.10.25:775][ 51]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.05.18-16.10.25:775][ 51]LogInit: FAudioDevice initialized with ID 25.
+[2025.05.18-16.10.25:775][ 51]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2025.05.18-16.10.25:775][ 51]LogAudio: Display: Audio Device (ID: 25) registered with world 'Level1'.
+[2025.05.18-16.10.25:775][ 51]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.05.18-16.10.25:778][ 51]LogLoad: Game class is 'L1_GameMode_C'
+[2025.05.18-16.10.25:781][ 51]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.05.19-01.10.25
+[2025.05.18-16.10.25:781][ 51]LogWorld: Bringing up level for play took: 0.001718
+[2025.05.18-16.10.25:785][ 51]LogStreaming: Display: FlushAsyncLoading(1949,1948,1947,1946,1945,1944,1943,1942,1941,1940,1939,1938,1937,1936,1935,1934,1933,1932,1931,1930,1929,1928,1927,1926,1925,1924,1923,1922,1921,1920,1919,1918,1917,1916,1915,1914,1913,1911,1912,1910,1902,1903,1904,1905,1906,1907,1908,1909,1901,1900,1899,1898): 52 QueuedPackages, 0 AsyncPackages
+[2025.05.18-16.10.25:928][ 51]PIE: Server logged in
+[2025.05.18-16.10.25:930][ 51]PIE: Play in editor total start time 0.371 seconds.
+[2025.05.18-16.10.26:876][137]LogBlueprintUserMessages: [BPC_Movement] 99.0
+[2025.05.18-16.10.26:977][147]LogBlueprintUserMessages: [BPC_Movement] 98.0
+[2025.05.18-16.10.27:079][156]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.18-16.10.27:171][164]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.18-16.10.27:277][174]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.18-16.10.27:379][184]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.18-16.10.27:480][194]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.18-16.10.27:579][204]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.18-16.10.28:447][289]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.18-16.10.28:545][299]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.18-16.10.28:646][307]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.18-16.10.28:745][317]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.18-16.10.28:843][327]LogBlueprintUserMessages: [BPC_Movement] 87.0
+[2025.05.18-16.10.28:939][337]LogBlueprintUserMessages: [BPC_Movement] 86.0
+[2025.05.18-16.10.29:045][348]LogBlueprintUserMessages: [BPC_Movement] 85.0
+[2025.05.18-16.10.29:138][358]LogBlueprintUserMessages: [BPC_Movement] 84.0
+[2025.05.18-16.10.29:243][369]LogBlueprintUserMessages: [BPC_Movement] 83.0
+[2025.05.18-16.10.29:346][379]LogBlueprintUserMessages: [BPC_Movement] 82.0
+[2025.05.18-16.10.29:441][387]LogBlueprintUserMessages: [BPC_Movement] 81.0
+[2025.05.18-16.10.29:544][398]LogBlueprintUserMessages: [BPC_Movement] 80.0
+[2025.05.18-16.10.29:644][408]LogBlueprintUserMessages: [BPC_Movement] 79.0
+[2025.05.18-16.10.29:741][418]LogBlueprintUserMessages: [BPC_Movement] 78.0
+[2025.05.18-16.10.29:844][428]LogBlueprintUserMessages: [BPC_Movement] 77.0
+[2025.05.18-16.10.29:944][438]LogBlueprintUserMessages: [BPC_Movement] 76.0
+[2025.05.18-16.10.30:044][448]LogBlueprintUserMessages: [BPC_Movement] 75.0
+[2025.05.18-16.10.30:141][456]LogBlueprintUserMessages: [BPC_Movement] 74.0
+[2025.05.18-16.10.30:242][466]LogBlueprintUserMessages: [BPC_Movement] 73.0
+[2025.05.18-16.10.30:342][476]LogBlueprintUserMessages: [BPC_Movement] 72.0
+[2025.05.18-16.10.30:442][486]LogBlueprintUserMessages: [BPC_Movement] 71.0
+[2025.05.18-16.10.30:542][496]LogBlueprintUserMessages: [BPC_Movement] 70.0
+[2025.05.18-16.10.30:639][506]LogBlueprintUserMessages: [BPC_Movement] 69.0
+[2025.05.18-16.10.30:739][516]LogBlueprintUserMessages: [BPC_Movement] 68.0
+[2025.05.18-16.10.31:567][597]LogBlueprintUserMessages: [BPC_Movement] 67.0
+[2025.05.18-16.10.31:670][605]LogBlueprintUserMessages: [BPC_Movement] 66.0
+[2025.05.18-16.10.31:762][614]LogBlueprintUserMessages: [BPC_Movement] 65.0
+[2025.05.18-16.10.31:863][624]LogBlueprintUserMessages: [BPC_Movement] 64.0
+[2025.05.18-16.10.31:959][634]LogBlueprintUserMessages: [BPC_Movement] 63.0
+[2025.05.18-16.10.32:059][644]LogBlueprintUserMessages: [BPC_Movement] 62.0
+[2025.05.18-16.10.32:159][654]LogBlueprintUserMessages: [BPC_Movement] 61.0
+[2025.05.18-16.10.32:817][718]LogBlueprintUserMessages: [BPC_Movement] 60.0
+[2025.05.18-16.10.32:917][728]LogBlueprintUserMessages: [BPC_Movement] 59.0
+[2025.05.18-16.10.33:018][738]LogBlueprintUserMessages: [BPC_Movement] 58.0
+[2025.05.18-16.10.33:113][746]LogBlueprintUserMessages: [BPC_Movement] 57.0
+[2025.05.18-16.10.33:211][755]LogBlueprintUserMessages: [BPC_Movement] 56.0
+[2025.05.18-16.10.33:312][765]LogBlueprintUserMessages: [BPC_Movement] 55.0
+[2025.05.18-16.10.33:410][775]LogBlueprintUserMessages: [BPC_Movement] 54.0
+[2025.05.18-16.10.33:509][785]LogBlueprintUserMessages: [BPC_Movement] 53.0
+[2025.05.18-16.10.34:093][841]LogBlueprintUserMessages: [BPC_Movement] 52.0
+[2025.05.18-16.10.34:196][851]LogBlueprintUserMessages: [BPC_Movement] 51.0
+[2025.05.18-16.10.34:298][861]LogBlueprintUserMessages: [BPC_Movement] 50.0
+[2025.05.18-16.10.34:630][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-16.10.34:630][891]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.05.18-16.10.34:638][891]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.05.18-16.10.34:639][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.10.34:639][891]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.05.18-16.10.34:643][891]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.18-16.10.34:649][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-16.10.34:672][891]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.18-16.10.34:672][891]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.05.18-16.10.34:672][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2025.05.18-16.10.34:674][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2025.05.18-16.10.34:677][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-16.10.34:684][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.05.18-16.10.34:757][892]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2025.05.18-16.10.42:411][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.05.18-16.10.42:421][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-16.10.42:452][521]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UMG/W_MainHUD] ([2] browsable assets)...
+[2025.05.18-16.10.42:455][521]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UMG/W_MainHUD.W_MainHUD]
+[2025.05.18-16.10.42:456][521]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/W_MainHUD]
+[2025.05.18-16.10.42:456][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/W_MainHUD" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/W_MainHUD.uasset" SILENT=true
+[2025.05.18-16.10.42:459][521]LogSavePackage: Moving output files for package: /Game/UMG/W_MainHUD
+[2025.05.18-16.10.42:460][521]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/W_MainHUDC5744B344A8401E04A225D8C29412371.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/W_MainHUD.uasset'
+[2025.05.18-16.10.42:470][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 49.112 ms (total: 618.100 ms)
+[2025.05.18-16.10.42:501][521]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.18-16.10.42:501][521]LogContentValidation: Enabled validators:
+[2025.05.18-16.10.42:501][521]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-16.10.42:501][521]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-16.10.42:501][521]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-16.10.42:501][521]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-16.10.42:501][521]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-16.10.42:501][521]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-16.10.42:502][521]AssetCheck: /Game/UMG/W_MainHUD Validating asset
