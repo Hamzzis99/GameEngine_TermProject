@@ -4295,3 +4295,423 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.18-15.14.47:602][424]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3843.850830
 [2025.05.18-15.14.48:603][427]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.05.18-15.14.48:603][427]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3844.518311, Update Interval: 338.352600
+[2025.05.18-15.17.55:892][139]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.05.18-15.17.55:941][140]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.05.18-15.18.23:389][373]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.18-15.18.23:399][373]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.18-15.18.23:408][374]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.18-15.18.26:625][710]LogContentBrowser: Attempting asset rename: NewFolder -> CameraShakes
+[2025.05.18-15.18.26:626][710]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.18-15.22.41:126][208]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.05.18-15.22.41:136][208]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.05.18-15.22.41:143][208]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.05.18-15.22.41:167][210]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.05.18-15.22.41:269][213]LogRHI: Error: GpuProfiler's scratch buffer is out of space for this frame (current size : 32 kB). Dropping this frame. The size can be increased dynamically with the console variable r.GpuProfilerMaxEventBufferSizeKB
+[2025.05.18-15.22.53:987][392]LogContentBrowser: Attempting asset rename: NewBlueprint -> CS_HeadBob_Walk
+[2025.05.18-15.22.53:995][392]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.05.18-15.22.54:370][434]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraShakes/CS_HeadBob_Walk.CS_HeadBob_Walk
+[2025.05.18-15.22.54:370][434]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.05.18-15.22.56:052][579]LogSlate: Window 'CS_HeadBob_Walk' being destroyed
+[2025.05.18-15.23.12:240][891]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4348.479492
+[2025.05.18-15.23.13:238][894]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.18-15.23.13:238][894]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4349.146484, Update Interval: 310.426331
+[2025.05.18-15.24.50:588][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.05.18-15.25.29:152][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.05.18-15.27.02:390][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.18-15.27.29:993][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.18-15.27.38:120][882]LogContentBrowser: Attempting asset rename: CS_HeadBob_Walk1 -> CS_HeadBob_Run
+[2025.05.18-15.27.38:235][882]LogMetaData: Removing '/Game/Blueprints/CameraShakes/CS_HeadBob_Run.SKEL_CS_HeadBob_Run_C' ref from Metadata '/Game/Blueprints/CameraShakes/CS_HeadBob_Walk1.PackageMetaData'
+[2025.05.18-15.27.38:235][882]LogMetaData: Removing '/Game/Blueprints/CameraShakes/CS_HeadBob_Run.CS_HeadBob_Run_C' ref from Metadata '/Game/Blueprints/CameraShakes/CS_HeadBob_Walk1.PackageMetaData'
+[2025.05.18-15.27.38:240][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-15.27.38:240][882]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraShakes/CS_HeadBob_Run] ([2] browsable assets)...
+[2025.05.18-15.27.38:240][882]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraShakes/CS_HeadBob_Run]
+[2025.05.18-15.27.38:240][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShakes/CS_HeadBob_Run" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/CameraShakes/CS_HeadBob_Run.uasset" SILENT=true
+[2025.05.18-15.27.38:242][882]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShakes/CS_HeadBob_Run
+[2025.05.18-15.27.38:242][882]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/CS_HeadBob_Run0D74CC29448018E2ED8F3C984CE4260D.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/CameraShakes/CS_HeadBob_Run.uasset'
+[2025.05.18-15.27.38:247][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.399 ms (total: 213.404 ms)
+[2025.05.18-15.27.38:274][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.18-15.27.38:295][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.05.18-15.27.38:316][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.05.18-15.27.38:362][882]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.18-15.27.38:362][882]LogContentValidation: Enabled validators:
+[2025.05.18-15.27.38:362][882]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-15.27.38:362][882]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-15.27.38:362][882]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-15.27.38:362][882]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-15.27.38:362][882]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-15.27.38:362][882]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-15.27.38:362][882]AssetCheck: /Game/Blueprints/CameraShakes/CS_HeadBob_Run Validating asset
+[2025.05.18-15.27.39:256][977]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraShakes/CS_HeadBob_Run.CS_HeadBob_Run
+[2025.05.18-15.27.39:257][977]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.05.18-15.27.46:471][619]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.05.18-15.27.46:471][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-15.27.46:493][619]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraShakes/CS_HeadBob_Run.CS_HeadBob_Run
+[2025.05.18-15.27.46:493][619]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.05.18-15.27.46:772][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.05.18-15.28.36:470][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.18-15.28.36:473][227]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.022
+[2025.05.18-15.28.36:473][227]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraShakes/CS_HeadBob_Walk] ([2] browsable assets)...
+[2025.05.18-15.28.36:474][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraShakes/CS_HeadBob_Walk]
+[2025.05.18-15.28.36:475][227]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/CameraShakes/CS_HeadBob_Walk_Auto3
+[2025.05.18-15.28.36:475][227]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/CS_HeadBob_Walk_Auto31A3D89164F9AB0DF70071A90FC9C922F.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Blueprints/CameraShakes/CS_HeadBob_Walk_Auto3.uasset'
+[2025.05.18-15.28.36:476][227]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraShakes/CS_HeadBob_Run] ([2] browsable assets)...
+[2025.05.18-15.28.36:476][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraShakes/CS_HeadBob_Run]
+[2025.05.18-15.28.36:477][227]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/CameraShakes/CS_HeadBob_Run_Auto3
+[2025.05.18-15.28.36:477][227]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/CS_HeadBob_Run_Auto3C015EA7B4A3B9EF27E9779B66C0AAC51.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Blueprints/CameraShakes/CS_HeadBob_Run_Auto3.uasset'
+[2025.05.18-15.28.36:477][227]LogFileHelpers: Auto-saving content packages took 0.005
+[2025.05.18-15.28.49:614][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.18-15.28.54:191][ 33]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4690.427734
+[2025.05.18-15.28.54:450][ 64]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.18-15.28.54:451][ 65]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4690.678223, Update Interval: 358.791473
+[2025.05.18-15.28.54:891][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.05.18-15.28.55:079][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.18-15.30.15:199][844]LogStreaming: Display: FlushAsyncLoading(1730): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.18-15.30.15:318][846]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.05.18-15.31.31:092][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.05.18-15.35.43:044][940]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5093.488281
+[2025.05.18-15.35.43:292][958]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.18-15.35.43:292][958]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5093.730469, Update Interval: 348.044678
+[2025.05.18-15.39.42:041][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.05.18-15.39.42:045][121]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.025
+[2025.05.18-15.39.42:046][121]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameBP/Level1/L1_Character] ([2] browsable assets)...
+[2025.05.18-15.39.42:046][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameBP/Level1/L1_Character]
+[2025.05.18-15.39.42:046][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBP/Level1/L1_Character" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/GameBP/Level1/L1_Character_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.05.18-15.39.42:060][121]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GameBP/Level1/L1_Character_Auto4
+[2025.05.18-15.39.42:060][121]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/L1_Character_Auto4C9556EF74749EE549C28C8A4B01440F3.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/GameBP/Level1/L1_Character_Auto4.uasset'
+[2025.05.18-15.39.42:062][121]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraShakes/CS_HeadBob_Run] ([2] browsable assets)...
+[2025.05.18-15.39.42:062][121]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraShakes/CS_HeadBob_Run]
+[2025.05.18-15.39.42:063][121]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/CameraShakes/CS_HeadBob_Run_Auto4
+[2025.05.18-15.39.42:063][121]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/CS_HeadBob_Run_Auto46C5439DD47B6346CE28D45AFAAE1B982.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/Blueprints/CameraShakes/CS_HeadBob_Run_Auto4.uasset'
+[2025.05.18-15.39.42:063][121]LogFileHelpers: Auto-saving content packages took 0.018
+[2025.05.18-15.41.55:840][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.05.18-15.42.30:719][213]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5501.205078
+[2025.05.18-15.42.31:308][243]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.18-15.42.31:308][243]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5501.786621, Update Interval: 348.310181
+[2025.05.18-15.42.48:838][ 33]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::MapRangeClamped' [요소가 없습니다.]
+[2025.05.18-15.43.50:263][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.18-15.43.50:365][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.05.18-15.44.39:687][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.05.18-15.44.41:021][175]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.18-15.44.41:029][175]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.18-15.44.41:029][175]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.05.18-15.44.41:033][175]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 4.177 ms (total: 97.130 ms)
+[2025.05.18-15.44.41:034][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.18-15.44.41:034][175]LogPlayLevel: Display: Creating online subsystem for client :Context_30
+[2025.05.18-15.44.41:036][175]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.05.18-15.44.41:046][176]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.05.18-15.44.41:053][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007064s)
+[2025.05.18-15.44.41:053][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.007100s)
+[2025.05.18-15.44.41:070][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.18-15.44.41:078][176]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.05.18-15.44.41:080][176]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.18-15.44.41:080][176]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.18-15.44.41:080][176]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.18-15.44.41:080][176]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.18-15.44.41:086][176]LogWorldPartition: Display: WorldPartition initialize took 5.817 ms (total: 700.532 ms)
+[2025.05.18-15.44.41:086][176]LogPlayLevel: PIE: World Init took: (0.007657s)
+[2025.05.18-15.44.41:086][176]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.05.18-15.44.41:086][176]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.18-15.44.41:086][176]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.18-15.44.41:086][176]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.18-15.44.41:086][176]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.18-15.44.41:086][176]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.18-15.44.41:086][176]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.18-15.44.41:086][176]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.18-15.44.41:086][176]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.18-15.44.41:086][176]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.18-15.44.41:086][176]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.18-15.44.41:086][176]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.18-15.44.41:088][176]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.18-15.44.41:168][176]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.05.18-15.44.41:169][176]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.18-15.44.41:169][176]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.18-15.44.41:169][176]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.18-15.44.41:169][176]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.05.18-15.44.41:169][176]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=22
+[2025.05.18-15.44.41:171][176]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.05.18-15.44.41:171][176]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.05.18-15.44.41:171][176]LogInit: FAudioDevice initialized with ID 22.
+[2025.05.18-15.44.41:172][176]LogAudio: Display: Audio Device (ID: 22) registered with world 'Level1'.
+[2025.05.18-15.44.41:172][176]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.05.18-15.44.41:198][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-15.44.41:198][176]LogLoad: Game class is 'L1_GameMode_C'
+[2025.05.18-15.44.41:200][176]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.05.19-00.44.41
+[2025.05.18-15.44.41:200][176]LogWorld: Bringing up level for play took: 0.001797
+[2025.05.18-15.44.41:205][176]LogStreaming: Display: FlushAsyncLoading(1782,1781,1780,1779,1778,1777,1776,1775,1774,1773,1772,1771,1770,1769,1768,1767,1766,1765,1764,1763,1762,1761,1760,1759,1758,1757,1756,1755,1754,1753,1752,1751,1750,1749,1748,1747,1746,1744,1745,1743,1735,1736,1737,1738,1739,1740,1741,1742,1734,1733,1732,1731): 52 QueuedPackages, 0 AsyncPackages
+[2025.05.18-15.44.41:353][176]PIE: Server logged in
+[2025.05.18-15.44.41:355][176]PIE: Play in editor total start time 0.326 seconds.
+[2025.05.18-15.44.43:613][385]LogBlueprintUserMessages: [BPC_Movement] 99.0
+[2025.05.18-15.44.43:709][394]LogBlueprintUserMessages: [BPC_Movement] 98.0
+[2025.05.18-15.44.43:815][405]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.18-15.44.43:908][415]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.18-15.44.44:011][426]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.18-15.44.44:108][436]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.18-15.44.44:215][447]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.18-15.44.44:312][457]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.18-15.44.44:410][467]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.18-15.44.44:510][477]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.18-15.44.44:614][488]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.18-15.44.44:715][497]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.18-15.44.44:809][506]LogBlueprintUserMessages: [BPC_Movement] 87.0
+[2025.05.18-15.44.44:916][517]LogBlueprintUserMessages: [BPC_Movement] 86.0
+[2025.05.18-15.44.45:014][527]LogBlueprintUserMessages: [BPC_Movement] 85.0
+[2025.05.18-15.44.45:111][537]LogBlueprintUserMessages: [BPC_Movement] 84.0
+[2025.05.18-15.44.45:216][547]LogBlueprintUserMessages: [BPC_Movement] 83.0
+[2025.05.18-15.44.45:310][556]LogBlueprintUserMessages: [BPC_Movement] 82.0
+[2025.05.18-15.44.45:418][566]LogBlueprintUserMessages: [BPC_Movement] 81.0
+[2025.05.18-15.44.45:514][575]LogBlueprintUserMessages: [BPC_Movement] 80.0
+[2025.05.18-15.44.46:285][650]LogBlueprintUserMessages: [BPC_Movement] 79.0
+[2025.05.18-15.44.46:389][661]LogBlueprintUserMessages: [BPC_Movement] 78.0
+[2025.05.18-15.44.46:490][672]LogBlueprintUserMessages: [BPC_Movement] 77.0
+[2025.05.18-15.44.46:587][682]LogBlueprintUserMessages: [BPC_Movement] 76.0
+[2025.05.18-15.44.46:685][692]LogBlueprintUserMessages: [BPC_Movement] 75.0
+[2025.05.18-15.44.46:791][702]LogBlueprintUserMessages: [BPC_Movement] 74.0
+[2025.05.18-15.44.46:885][712]LogBlueprintUserMessages: [BPC_Movement] 73.0
+[2025.05.18-15.44.46:990][723]LogBlueprintUserMessages: [BPC_Movement] 72.0
+[2025.05.18-15.44.47:086][733]LogBlueprintUserMessages: [BPC_Movement] 71.0
+[2025.05.18-15.44.47:183][743]LogBlueprintUserMessages: [BPC_Movement] 70.0
+[2025.05.18-15.44.47:289][754]LogBlueprintUserMessages: [BPC_Movement] 69.0
+[2025.05.18-15.44.47:390][765]LogBlueprintUserMessages: [BPC_Movement] 68.0
+[2025.05.18-15.44.47:490][774]LogBlueprintUserMessages: [BPC_Movement] 67.0
+[2025.05.18-15.44.47:587][783]LogBlueprintUserMessages: [BPC_Movement] 66.0
+[2025.05.18-15.44.47:686][793]LogBlueprintUserMessages: [BPC_Movement] 65.0
+[2025.05.18-15.44.47:785][801]LogBlueprintUserMessages: [BPC_Movement] 64.0
+[2025.05.18-15.44.47:886][810]LogBlueprintUserMessages: [BPC_Movement] 63.0
+[2025.05.18-15.44.47:992][821]LogBlueprintUserMessages: [BPC_Movement] 62.0
+[2025.05.18-15.44.48:086][830]LogBlueprintUserMessages: [BPC_Movement] 61.0
+[2025.05.18-15.44.48:192][840]LogBlueprintUserMessages: [BPC_Movement] 60.0
+[2025.05.18-15.44.48:287][850]LogBlueprintUserMessages: [BPC_Movement] 59.0
+[2025.05.18-15.44.48:389][860]LogBlueprintUserMessages: [BPC_Movement] 58.0
+[2025.05.18-15.44.48:483][870]LogBlueprintUserMessages: [BPC_Movement] 57.0
+[2025.05.18-15.44.48:585][881]LogBlueprintUserMessages: [BPC_Movement] 56.0
+[2025.05.18-15.44.48:683][891]LogBlueprintUserMessages: [BPC_Movement] 55.0
+[2025.05.18-15.44.48:789][902]LogBlueprintUserMessages: [BPC_Movement] 54.0
+[2025.05.18-15.44.48:891][912]LogBlueprintUserMessages: [BPC_Movement] 53.0
+[2025.05.18-15.44.48:988][922]LogBlueprintUserMessages: [BPC_Movement] 52.0
+[2025.05.18-15.44.52:076][233]LogBlueprintUserMessages: [BPC_Movement] 53.0
+[2025.05.18-15.44.52:117][237]LogBlueprintUserMessages: [BPC_Movement] 54.0
+[2025.05.18-15.44.52:139][239]LogBlueprintUserMessages: [BPC_Movement] 55.0
+[2025.05.18-15.44.52:168][242]LogBlueprintUserMessages: [BPC_Movement] 56.0
+[2025.05.18-15.44.52:198][245]LogBlueprintUserMessages: [BPC_Movement] 57.0
+[2025.05.18-15.44.52:227][248]LogBlueprintUserMessages: [BPC_Movement] 58.0
+[2025.05.18-15.44.52:256][251]LogBlueprintUserMessages: [BPC_Movement] 59.0
+[2025.05.18-15.44.52:288][254]LogBlueprintUserMessages: [BPC_Movement] 60.0
+[2025.05.18-15.44.52:316][257]LogBlueprintUserMessages: [BPC_Movement] 61.0
+[2025.05.18-15.44.52:355][261]LogBlueprintUserMessages: [BPC_Movement] 62.0
+[2025.05.18-15.44.52:386][264]LogBlueprintUserMessages: [BPC_Movement] 63.0
+[2025.05.18-15.44.52:414][267]LogBlueprintUserMessages: [BPC_Movement] 64.0
+[2025.05.18-15.44.52:442][270]LogBlueprintUserMessages: [BPC_Movement] 65.0
+[2025.05.18-15.44.52:472][273]LogBlueprintUserMessages: [BPC_Movement] 66.0
+[2025.05.18-15.44.52:502][276]LogBlueprintUserMessages: [BPC_Movement] 67.0
+[2025.05.18-15.44.52:529][279]LogBlueprintUserMessages: [BPC_Movement] 68.0
+[2025.05.18-15.44.52:557][282]LogBlueprintUserMessages: [BPC_Movement] 69.0
+[2025.05.18-15.44.52:595][286]LogBlueprintUserMessages: [BPC_Movement] 70.0
+[2025.05.18-15.44.52:623][289]LogBlueprintUserMessages: [BPC_Movement] 71.0
+[2025.05.18-15.44.52:653][292]LogBlueprintUserMessages: [BPC_Movement] 72.0
+[2025.05.18-15.44.52:683][295]LogBlueprintUserMessages: [BPC_Movement] 73.0
+[2025.05.18-15.44.52:715][298]LogBlueprintUserMessages: [BPC_Movement] 74.0
+[2025.05.18-15.44.52:736][300]LogBlueprintUserMessages: [BPC_Movement] 75.0
+[2025.05.18-15.44.52:766][303]LogBlueprintUserMessages: [BPC_Movement] 76.0
+[2025.05.18-15.44.52:801][306]LogBlueprintUserMessages: [BPC_Movement] 77.0
+[2025.05.18-15.44.52:835][309]LogBlueprintUserMessages: [BPC_Movement] 78.0
+[2025.05.18-15.44.52:866][312]LogBlueprintUserMessages: [BPC_Movement] 79.0
+[2025.05.18-15.44.52:897][315]LogBlueprintUserMessages: [BPC_Movement] 80.0
+[2025.05.18-15.44.52:926][318]LogBlueprintUserMessages: [BPC_Movement] 81.0
+[2025.05.18-15.44.52:953][321]LogBlueprintUserMessages: [BPC_Movement] 82.0
+[2025.05.18-15.44.52:982][324]LogBlueprintUserMessages: [BPC_Movement] 83.0
+[2025.05.18-15.44.53:013][327]LogBlueprintUserMessages: [BPC_Movement] 84.0
+[2025.05.18-15.44.53:042][330]LogBlueprintUserMessages: [BPC_Movement] 85.0
+[2025.05.18-15.44.53:071][333]LogBlueprintUserMessages: [BPC_Movement] 86.0
+[2025.05.18-15.44.53:100][336]LogBlueprintUserMessages: [BPC_Movement] 87.0
+[2025.05.18-15.44.53:128][339]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.18-15.44.53:159][342]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.18-15.44.53:195][346]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.18-15.44.53:222][349]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.18-15.44.53:251][352]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.18-15.44.53:279][355]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.18-15.44.53:309][358]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.18-15.44.53:339][361]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.18-15.44.53:368][364]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.18-15.44.53:396][367]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.18-15.44.53:435][371]LogBlueprintUserMessages: [BPC_Movement] 98.0
+[2025.05.18-15.44.53:459][373]LogBlueprintUserMessages: [BPC_Movement] 99.0
+[2025.05.18-15.44.53:492][376]LogBlueprintUserMessages: [BPC_Movement] 100.0
+[2025.05.18-15.44.55:953][625]LogBlueprintUserMessages: [BPC_Movement] 99.0
+[2025.05.18-15.44.56:049][635]LogBlueprintUserMessages: [BPC_Movement] 98.0
+[2025.05.18-15.44.56:153][646]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.18-15.44.56:248][656]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.18-15.44.56:352][667]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.18-15.44.56:447][676]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.18-15.44.56:554][686]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.18-15.44.56:657][696]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.18-15.44.56:755][705]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.18-15.44.56:856][714]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.18-15.44.56:952][723]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.18-15.44.57:051][732]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.18-15.44.57:156][743]LogBlueprintUserMessages: [BPC_Movement] 87.0
+[2025.05.18-15.44.57:249][752]LogBlueprintUserMessages: [BPC_Movement] 86.0
+[2025.05.18-15.44.57:350][762]LogBlueprintUserMessages: [BPC_Movement] 85.0
+[2025.05.18-15.44.57:455][772]LogBlueprintUserMessages: [BPC_Movement] 84.0
+[2025.05.18-15.44.57:551][781]LogBlueprintUserMessages: [BPC_Movement] 83.0
+[2025.05.18-15.44.57:655][791]LogBlueprintUserMessages: [BPC_Movement] 82.0
+[2025.05.18-15.44.57:751][800]LogBlueprintUserMessages: [BPC_Movement] 81.0
+[2025.05.18-15.44.57:857][810]LogBlueprintUserMessages: [BPC_Movement] 80.0
+[2025.05.18-15.44.57:947][818]LogBlueprintUserMessages: [BPC_Movement] 79.0
+[2025.05.18-15.44.58:056][829]LogBlueprintUserMessages: [BPC_Movement] 78.0
+[2025.05.18-15.44.58:154][839]LogBlueprintUserMessages: [BPC_Movement] 77.0
+[2025.05.18-15.44.58:248][848]LogBlueprintUserMessages: [BPC_Movement] 76.0
+[2025.05.18-15.44.58:352][858]LogBlueprintUserMessages: [BPC_Movement] 75.0
+[2025.05.18-15.44.58:456][868]LogBlueprintUserMessages: [BPC_Movement] 74.0
+[2025.05.18-15.44.58:548][877]LogBlueprintUserMessages: [BPC_Movement] 73.0
+[2025.05.18-15.44.58:649][887]LogBlueprintUserMessages: [BPC_Movement] 72.0
+[2025.05.18-15.44.58:757][897]LogBlueprintUserMessages: [BPC_Movement] 71.0
+[2025.05.18-15.44.58:857][907]LogBlueprintUserMessages: [BPC_Movement] 70.0
+[2025.05.18-15.44.58:948][916]LogBlueprintUserMessages: [BPC_Movement] 69.0
+[2025.05.18-15.44.59:054][927]LogBlueprintUserMessages: [BPC_Movement] 68.0
+[2025.05.18-15.44.59:149][937]LogBlueprintUserMessages: [BPC_Movement] 67.0
+[2025.05.18-15.44.59:251][948]LogBlueprintUserMessages: [BPC_Movement] 66.0
+[2025.05.18-15.44.59:353][959]LogBlueprintUserMessages: [BPC_Movement] 65.0
+[2025.05.18-15.44.59:451][969]LogBlueprintUserMessages: [BPC_Movement] 64.0
+[2025.05.18-15.44.59:547][979]LogBlueprintUserMessages: [BPC_Movement] 63.0
+[2025.05.18-15.44.59:653][990]LogBlueprintUserMessages: [BPC_Movement] 62.0
+[2025.05.18-15.44.59:748][  0]LogBlueprintUserMessages: [BPC_Movement] 61.0
+[2025.05.18-15.44.59:851][ 11]LogBlueprintUserMessages: [BPC_Movement] 60.0
+[2025.05.18-15.44.59:953][ 22]LogBlueprintUserMessages: [BPC_Movement] 59.0
+[2025.05.18-15.45.00:055][ 32]LogBlueprintUserMessages: [BPC_Movement] 58.0
+[2025.05.18-15.45.00:147][ 41]LogBlueprintUserMessages: [BPC_Movement] 57.0
+[2025.05.18-15.45.00:256][ 52]LogBlueprintUserMessages: [BPC_Movement] 56.0
+[2025.05.18-15.45.00:352][ 62]LogBlueprintUserMessages: [BPC_Movement] 55.0
+[2025.05.18-15.45.00:454][ 72]LogBlueprintUserMessages: [BPC_Movement] 54.0
+[2025.05.18-15.45.00:553][ 82]LogBlueprintUserMessages: [BPC_Movement] 53.0
+[2025.05.18-15.45.00:649][ 92]LogBlueprintUserMessages: [BPC_Movement] 52.0
+[2025.05.18-15.45.00:753][103]LogBlueprintUserMessages: [BPC_Movement] 51.0
+[2025.05.18-15.45.00:853][114]LogBlueprintUserMessages: [BPC_Movement] 50.0
+[2025.05.18-15.45.00:952][124]LogBlueprintUserMessages: [BPC_Movement] 49.0
+[2025.05.18-15.45.01:054][134]LogBlueprintUserMessages: [BPC_Movement] 48.0
+[2025.05.18-15.45.01:155][144]LogBlueprintUserMessages: [BPC_Movement] 47.0
+[2025.05.18-15.45.01:251][154]LogBlueprintUserMessages: [BPC_Movement] 46.0
+[2025.05.18-15.45.01:353][165]LogBlueprintUserMessages: [BPC_Movement] 45.0
+[2025.05.18-15.45.01:451][175]LogBlueprintUserMessages: [BPC_Movement] 44.0
+[2025.05.18-15.45.01:552][185]LogBlueprintUserMessages: [BPC_Movement] 43.0
+[2025.05.18-15.45.01:653][195]LogBlueprintUserMessages: [BPC_Movement] 42.0
+[2025.05.18-15.45.01:750][205]LogBlueprintUserMessages: [BPC_Movement] 41.0
+[2025.05.18-15.45.01:851][215]LogBlueprintUserMessages: [BPC_Movement] 40.0
+[2025.05.18-15.45.01:946][225]LogBlueprintUserMessages: [BPC_Movement] 39.0
+[2025.05.18-15.45.02:053][236]LogBlueprintUserMessages: [BPC_Movement] 38.0
+[2025.05.18-15.45.02:150][246]LogBlueprintUserMessages: [BPC_Movement] 37.0
+[2025.05.18-15.45.02:249][257]LogBlueprintUserMessages: [BPC_Movement] 36.0
+[2025.05.18-15.45.02:352][268]LogBlueprintUserMessages: [BPC_Movement] 35.0
+[2025.05.18-15.45.02:451][279]LogBlueprintUserMessages: [BPC_Movement] 34.0
+[2025.05.18-15.45.02:549][288]LogBlueprintUserMessages: [BPC_Movement] 33.0
+[2025.05.18-15.45.02:653][298]LogBlueprintUserMessages: [BPC_Movement] 32.0
+[2025.05.18-15.45.02:757][308]LogBlueprintUserMessages: [BPC_Movement] 31.0
+[2025.05.18-15.45.02:853][316]LogBlueprintUserMessages: [BPC_Movement] 30.0
+[2025.05.18-15.45.02:948][325]LogBlueprintUserMessages: [BPC_Movement] 29.0
+[2025.05.18-15.45.03:048][334]LogBlueprintUserMessages: [BPC_Movement] 28.0
+[2025.05.18-15.45.03:158][344]LogBlueprintUserMessages: [BPC_Movement] 27.0
+[2025.05.18-15.45.03:253][353]LogBlueprintUserMessages: [BPC_Movement] 26.0
+[2025.05.18-15.45.03:351][362]LogBlueprintUserMessages: [BPC_Movement] 25.0
+[2025.05.18-15.45.03:452][373]LogBlueprintUserMessages: [BPC_Movement] 24.0
+[2025.05.18-15.45.03:549][383]LogBlueprintUserMessages: [BPC_Movement] 23.0
+[2025.05.18-15.45.03:649][393]LogBlueprintUserMessages: [BPC_Movement] 22.0
+[2025.05.18-15.45.03:753][404]LogBlueprintUserMessages: [BPC_Movement] 21.0
+[2025.05.18-15.45.03:847][414]LogBlueprintUserMessages: [BPC_Movement] 20.0
+[2025.05.18-15.45.03:950][425]LogBlueprintUserMessages: [BPC_Movement] 19.0
+[2025.05.18-15.45.04:053][435]LogBlueprintUserMessages: [BPC_Movement] 18.0
+[2025.05.18-15.45.04:150][445]LogBlueprintUserMessages: [BPC_Movement] 17.0
+[2025.05.18-15.45.04:256][456]LogBlueprintUserMessages: [BPC_Movement] 16.0
+[2025.05.18-15.45.04:354][466]LogBlueprintUserMessages: [BPC_Movement] 15.0
+[2025.05.18-15.45.04:447][476]LogBlueprintUserMessages: [BPC_Movement] 14.0
+[2025.05.18-15.45.04:554][487]LogBlueprintUserMessages: [BPC_Movement] 13.0
+[2025.05.18-15.45.04:651][497]LogBlueprintUserMessages: [BPC_Movement] 12.0
+[2025.05.18-15.45.04:747][507]LogBlueprintUserMessages: [BPC_Movement] 11.0
+[2025.05.18-15.45.04:849][517]LogBlueprintUserMessages: [BPC_Movement] 10.0
+[2025.05.18-15.45.04:953][527]LogBlueprintUserMessages: [BPC_Movement] 9.0
+[2025.05.18-15.45.05:048][536]LogBlueprintUserMessages: [BPC_Movement] 8.0
+[2025.05.18-15.45.05:154][547]LogBlueprintUserMessages: [BPC_Movement] 7.0
+[2025.05.18-15.45.05:255][557]LogBlueprintUserMessages: [BPC_Movement] 6.0
+[2025.05.18-15.45.05:354][567]LogBlueprintUserMessages: [BPC_Movement] 5.0
+[2025.05.18-15.45.05:455][578]LogBlueprintUserMessages: [BPC_Movement] 4.0
+[2025.05.18-15.45.05:552][587]LogBlueprintUserMessages: [BPC_Movement] 3.0
+[2025.05.18-15.45.05:649][597]LogBlueprintUserMessages: [BPC_Movement] 2.0
+[2025.05.18-15.45.05:751][608]LogBlueprintUserMessages: [BPC_Movement] 1.0
+[2025.05.18-15.45.05:847][618]LogBlueprintUserMessages: [BPC_Movement] 0.0
+[2025.05.18-15.45.09:418][981]LogBlueprintUserMessages: [BPC_Movement] 1.0
+[2025.05.18-15.45.09:447][984]LogBlueprintUserMessages: [BPC_Movement] 2.0
+[2025.05.18-15.45.09:478][987]LogBlueprintUserMessages: [BPC_Movement] 3.0
+[2025.05.18-15.45.09:508][990]LogBlueprintUserMessages: [BPC_Movement] 4.0
+[2025.05.18-15.45.09:536][993]LogBlueprintUserMessages: [BPC_Movement] 5.0
+[2025.05.18-15.45.09:567][996]LogBlueprintUserMessages: [BPC_Movement] 6.0
+[2025.05.18-15.45.09:596][999]LogBlueprintUserMessages: [BPC_Movement] 7.0
+[2025.05.18-15.45.09:626][  2]LogBlueprintUserMessages: [BPC_Movement] 8.0
+[2025.05.18-15.45.09:654][  5]LogBlueprintUserMessages: [BPC_Movement] 9.0
+[2025.05.18-15.45.09:683][  8]LogBlueprintUserMessages: [BPC_Movement] 10.0
+[2025.05.18-15.45.09:720][ 12]LogBlueprintUserMessages: [BPC_Movement] 11.0
+[2025.05.18-15.45.09:748][ 15]LogBlueprintUserMessages: [BPC_Movement] 12.0
+[2025.05.18-15.45.09:777][ 18]LogBlueprintUserMessages: [BPC_Movement] 13.0
+[2025.05.18-15.45.09:805][ 21]LogBlueprintUserMessages: [BPC_Movement] 14.0
+[2025.05.18-15.45.09:834][ 24]LogBlueprintUserMessages: [BPC_Movement] 15.0
+[2025.05.18-15.45.09:863][ 27]LogBlueprintUserMessages: [BPC_Movement] 16.0
+[2025.05.18-15.45.09:901][ 31]LogBlueprintUserMessages: [BPC_Movement] 17.0
+[2025.05.18-15.45.09:931][ 34]LogBlueprintUserMessages: [BPC_Movement] 18.0
+[2025.05.18-15.45.10:052][ 46]LogBlueprintUserMessages: [BPC_Movement] 17.0
+[2025.05.18-15.45.10:160][ 57]LogBlueprintUserMessages: [BPC_Movement] 16.0
+[2025.05.18-15.45.10:258][ 67]LogBlueprintUserMessages: [BPC_Movement] 15.0
+[2025.05.18-15.45.10:357][ 77]LogBlueprintUserMessages: [BPC_Movement] 14.0
+[2025.05.18-15.45.10:454][ 87]LogBlueprintUserMessages: [BPC_Movement] 13.0
+[2025.05.18-15.45.10:560][ 98]LogBlueprintUserMessages: [BPC_Movement] 12.0
+[2025.05.18-15.45.10:657][108]LogBlueprintUserMessages: [BPC_Movement] 11.0
+[2025.05.18-15.45.10:756][118]LogBlueprintUserMessages: [BPC_Movement] 10.0
+[2025.05.18-15.45.10:854][128]LogBlueprintUserMessages: [BPC_Movement] 9.0
+[2025.05.18-15.45.10:953][138]LogBlueprintUserMessages: [BPC_Movement] 8.0
+[2025.05.18-15.45.11:056][148]LogBlueprintUserMessages: [BPC_Movement] 7.0
+[2025.05.18-15.45.11:160][159]LogBlueprintUserMessages: [BPC_Movement] 6.0
+[2025.05.18-15.45.11:258][169]LogBlueprintUserMessages: [BPC_Movement] 5.0
+[2025.05.18-15.45.11:352][179]LogBlueprintUserMessages: [BPC_Movement] 4.0
+[2025.05.18-15.45.11:455][189]LogBlueprintUserMessages: [BPC_Movement] 3.0
+[2025.05.18-15.45.11:553][199]LogBlueprintUserMessages: [BPC_Movement] 2.0
+[2025.05.18-15.45.11:662][209]LogBlueprintUserMessages: [BPC_Movement] 1.0
+[2025.05.18-15.45.11:762][218]LogBlueprintUserMessages: [BPC_Movement] 0.0
+[2025.05.18-15.45.12:918][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-15.45.12:918][326]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.05.18-15.45.12:919][326]LogSlate: Window 'UE5_MyGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.05.18-15.45.12:933][326]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.05.18-15.45.12:934][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-15.45.12:934][326]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.05.18-15.45.12:937][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.18-15.45.12:942][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-15.45.12:964][326]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.18-15.45.12:964][326]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.05.18-15.45.12:964][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.05.18-15.45.12:965][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.05.18-15.45.12:977][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.05.18-15.45.13:002][327]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.05.18-15.45.43:482][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.05.18-15.45.43:489][768]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-15.45.43:531][768]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameBP/Level1/L1_Character] ([2] browsable assets)...
+[2025.05.18-15.45.43:531][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameBP/Level1/L1_Character]
+[2025.05.18-15.45.43:531][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameBP/Level1/L1_Character" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/GameBP/Level1/L1_Character.uasset" SILENT=true
+[2025.05.18-15.45.43:547][768]LogSavePackage: Moving output files for package: /Game/GameBP/Level1/L1_Character
+[2025.05.18-15.45.43:547][768]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/L1_Character6F7688504B545F76E7DF1DB1DC181A03.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/GameBP/Level1/L1_Character.uasset'
+[2025.05.18-15.45.43:549][768]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraShakes/CS_HeadBob_Walk] ([2] browsable assets)...
+[2025.05.18-15.45.43:549][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraShakes/CS_HeadBob_Walk]
+[2025.05.18-15.45.43:549][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShakes/CS_HeadBob_Walk" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/CameraShakes/CS_HeadBob_Walk.uasset" SILENT=true
+[2025.05.18-15.45.43:550][768]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShakes/CS_HeadBob_Walk
+[2025.05.18-15.45.43:550][768]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/CS_HeadBob_WalkD79A3B5A4865B45D3644F28802BB1268.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/CameraShakes/CS_HeadBob_Walk.uasset'
+[2025.05.18-15.45.43:553][768]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraShakes/CS_HeadBob_Run] ([2] browsable assets)...
+[2025.05.18-15.45.43:553][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraShakes/CS_HeadBob_Run]
+[2025.05.18-15.45.43:553][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShakes/CS_HeadBob_Run" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/CameraShakes/CS_HeadBob_Run.uasset" SILENT=true
+[2025.05.18-15.45.43:554][768]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShakes/CS_HeadBob_Run
+[2025.05.18-15.45.43:554][768]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/CS_HeadBob_RunD22F60B44AEAB02D737C5A8CC4B3FB60.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/CameraShakes/CS_HeadBob_Run.uasset'
+[2025.05.18-15.45.43:563][768]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.443 ms (total: 286.848 ms)
+[2025.05.18-15.45.43:603][768]LogContentValidation: Display: Starting to validate 3 assets
+[2025.05.18-15.45.43:603][768]LogContentValidation: Enabled validators:
+[2025.05.18-15.45.43:603][768]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.18-15.45.43:603][768]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.18-15.45.43:603][768]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.18-15.45.43:603][768]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.18-15.45.43:603][768]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.18-15.45.43:603][768]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.18-15.45.43:603][768]AssetCheck: /Game/GameBP/Level1/L1_Character Validating asset
+[2025.05.18-15.45.43:603][768]AssetCheck: /Game/Blueprints/CameraShakes/CS_HeadBob_Walk Validating asset
+[2025.05.18-15.45.43:603][768]AssetCheck: /Game/Blueprints/CameraShakes/CS_HeadBob_Run Validating asset
