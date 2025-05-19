@@ -1946,3 +1946,215 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.19-18.59.00:577][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
 [2025.05.19-18.59.00:610][743]LogPlayLevel: Display: Destroying online subsystem :Context_9
 [2025.05.19-18.59.01:051][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.05.19-19.01.56:590][353]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 638.900269
+[2025.05.19-19.01.57:590][356]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.19-19.01.57:590][356]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 639.567322, Update Interval: 321.784729
+[2025.05.19-19.06.30:917][431]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UMG/Inventory/W_InventorySlot.W_InventorySlot
+[2025.05.19-19.06.30:917][431]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.05.19-19.06.30:932][431]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.05.19-19.06.30:937][431]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.05.19-19.06.31:243][431]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.05.19-19.07.24:278][494]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 966.589233
+[2025.05.19-19.07.25:278][497]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.19-19.07.25:278][497]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 967.256409, Update Interval: 355.848877
+[2025.05.19-19.08.19:861][ 36]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.05.19-19.08.25:962][625]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-19.08.25:998][625]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UMG/Inventory/W_InventorySlot] ([2] browsable assets)...
+[2025.05.19-19.08.26:001][625]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UMG/Inventory/W_InventorySlot.W_InventorySlot]
+[2025.05.19-19.08.26:001][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/Inventory/W_InventorySlot]
+[2025.05.19-19.08.26:001][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Inventory/W_InventorySlot" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/Inventory/W_InventorySlot.uasset" SILENT=true
+[2025.05.19-19.08.26:011][625]LogSavePackage: Moving output files for package: /Game/UMG/Inventory/W_InventorySlot
+[2025.05.19-19.08.26:011][625]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/W_InventorySlot1D7019C3442D0B5B90988986B0F72129.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/Inventory/W_InventorySlot.uasset'
+[2025.05.19-19.08.26:023][625]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.427 ms (total: 388.534 ms)
+[2025.05.19-19.08.26:053][625]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-19.08.26:053][625]LogContentValidation: Enabled validators:
+[2025.05.19-19.08.26:053][625]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-19.08.26:053][625]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-19.08.26:053][625]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-19.08.26:053][625]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-19.08.26:053][625]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-19.08.26:053][625]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-19.08.26:053][625]AssetCheck: /Game/UMG/Inventory/W_InventorySlot Validating asset
+[2025.05.19-19.08.26:824][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.05.19-19.08.28:925][769]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.05.19-19.08.31:496][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.05.19-19.09.13:092][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.05.19-19.09.13:097][312]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-19.09.13:125][312]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UMG/Inventory/W_InventorySlot] ([2] browsable assets)...
+[2025.05.19-19.09.13:126][312]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UMG/Inventory/W_InventorySlot.W_InventorySlot]
+[2025.05.19-19.09.13:126][312]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/Inventory/W_InventorySlot]
+[2025.05.19-19.09.13:126][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Inventory/W_InventorySlot" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/Inventory/W_InventorySlot.uasset" SILENT=true
+[2025.05.19-19.09.13:136][312]LogSavePackage: Moving output files for package: /Game/UMG/Inventory/W_InventorySlot
+[2025.05.19-19.09.13:136][312]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/W_InventorySlot5199D85046219178241FCFA1E22572A7.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/Inventory/W_InventorySlot.uasset'
+[2025.05.19-19.09.13:148][312]LogFileHelpers: InternalPromptForCheckoutAndSave took 50.693 ms (total: 439.227 ms)
+[2025.05.19-19.09.13:185][312]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-19.09.13:185][312]LogContentValidation: Enabled validators:
+[2025.05.19-19.09.13:185][312]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-19.09.13:185][312]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-19.09.13:185][312]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-19.09.13:185][312]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-19.09.13:185][312]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-19.09.13:185][312]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-19.09.13:186][312]AssetCheck: /Game/UMG/Inventory/W_InventorySlot Validating asset
+[2025.05.19-19.09.13:667][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.05.19-19.09.14:328][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.19-19.09.55:694][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.05.19-19.09.56:325][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.05.19-19.09.56:333][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-19.09.56:365][ 44]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UMG/Inventory/W_InventorySlot] ([2] browsable assets)...
+[2025.05.19-19.09.56:366][ 44]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UMG/Inventory/W_InventorySlot.W_InventorySlot]
+[2025.05.19-19.09.56:366][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/Inventory/W_InventorySlot]
+[2025.05.19-19.09.56:366][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Inventory/W_InventorySlot" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/Inventory/W_InventorySlot.uasset" SILENT=true
+[2025.05.19-19.09.56:378][ 44]LogSavePackage: Moving output files for package: /Game/UMG/Inventory/W_InventorySlot
+[2025.05.19-19.09.56:378][ 44]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/W_InventorySlot3300077B4A7B6595DDF99B9DEE5CC8DC.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/Inventory/W_InventorySlot.uasset'
+[2025.05.19-19.09.56:388][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.272 ms (total: 493.500 ms)
+[2025.05.19-19.09.56:422][ 44]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-19.09.56:422][ 44]LogContentValidation: Enabled validators:
+[2025.05.19-19.09.56:422][ 44]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-19.09.56:422][ 44]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-19.09.56:422][ 44]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-19.09.56:422][ 44]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-19.09.56:422][ 44]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-19.09.56:422][ 44]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-19.09.56:423][ 44]AssetCheck: /Game/UMG/Inventory/W_InventorySlot Validating asset
+[2025.05.19-19.09.57:000][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.05.19-19.09.58:091][208]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.19-19.09.58:099][208]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.19-19.09.58:099][208]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.05.19-19.09.58:104][208]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 4.583 ms (total: 26.720 ms)
+[2025.05.19-19.09.58:104][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.19-19.09.58:104][208]LogPlayLevel: Display: Creating online subsystem for client :Context_13
+[2025.05.19-19.09.58:108][208]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.05.19-19.09.58:142][209]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.05.19-19.09.58:149][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006663s)
+[2025.05.19-19.09.58:149][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.006704s)
+[2025.05.19-19.09.58:164][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.19-19.09.58:169][209]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.05.19-19.09.58:170][209]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.19-19.09.58:170][209]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.19-19.09.58:170][209]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.19-19.09.58:170][209]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.19-19.09.58:175][209]LogWorldPartition: Display: WorldPartition initialize took 5.648 ms (total: 255.826 ms)
+[2025.05.19-19.09.58:175][209]LogPlayLevel: PIE: World Init took: (0.007114s)
+[2025.05.19-19.09.58:177][209]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.05.19-19.09.58:177][209]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.19-19.09.58:177][209]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.19-19.09.58:177][209]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.19-19.09.58:177][209]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.19-19.09.58:177][209]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.19-19.09.58:177][209]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.19-19.09.58:177][209]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.19-19.09.58:177][209]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.19-19.09.58:177][209]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.19-19.09.58:177][209]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.19-19.09.58:177][209]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.19-19.09.58:179][209]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.19-19.09.58:258][209]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.05.19-19.09.58:258][209]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.19-19.09.58:258][209]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.19-19.09.58:258][209]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.19-19.09.58:258][209]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.05.19-19.09.58:258][209]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=6
+[2025.05.19-19.09.58:261][209]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.05.19-19.09.58:261][209]LogInit: FAudioDevice initialized with ID 6.
+[2025.05.19-19.09.58:261][209]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.05.19-19.09.58:261][209]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level1'.
+[2025.05.19-19.09.58:261][209]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.05.19-19.09.58:263][209]LogLoad: Game class is 'L1_GameMode_C'
+[2025.05.19-19.09.58:265][209]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.05.20-04.09.58
+[2025.05.19-19.09.58:265][209]LogWorld: Bringing up level for play took: 0.001454
+[2025.05.19-19.09.58:269][209]LogStreaming: Display: FlushAsyncLoading(962,961,960,959,958,957,956,955,954,953,952,951,950,949,948,947,946,945,944,943,942,941,940,939,938,937,936,935,934,933,932,931,930,929,928,927,925,926,919,920,921,922,923,924,918,917,916,915,914,905,906,907,908,909,910,911,912,913): 58 QueuedPackages, 0 AsyncPackages
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.19-19.09.58:422][209]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.19-19.09.58:423][209]PIE: Server logged in
+[2025.05.19-19.09.58:424][209]PIE: Play in editor total start time 0.325 seconds.
+[2025.05.19-19.09.59:434][286]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.19-19.09.59:434][286]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.05.19-19.09.59:434][286]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.19-19.09.59:956][331]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.19-19.09.59:956][331]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.19-19.10.00:390][366]LogBlueprintUserMessages: [BPC_Movement] 99.0
+[2025.05.19-19.10.00:500][376]LogBlueprintUserMessages: [BPC_Movement] 98.0
+[2025.05.19-19.10.00:600][385]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.19-19.10.00:699][394]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.19-19.10.00:793][402]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.19-19.10.00:895][409]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.19-19.10.00:994][416]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.19-19.10.01:094][425]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.19-19.10.01:195][434]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.19-19.10.01:295][443]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.19-19.10.01:396][452]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.19-19.10.01:499][461]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.19-19.10.01:603][469]LogBlueprintUserMessages: [BPC_Movement] 87.0
+[2025.05.19-19.10.02:817][573]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.19-19.10.02:817][573]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2025.05.19-19.10.04:319][707]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.19-19.10.04:319][707]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.19-19.10.04:725][741]LogBlueprintUserMessages: [BPC_Movement] 86.0
+[2025.05.19-19.10.04:831][750]LogBlueprintUserMessages: [BPC_Movement] 85.0
+[2025.05.19-19.10.04:924][758]LogBlueprintUserMessages: [BPC_Movement] 84.0
+[2025.05.19-19.10.05:025][767]LogBlueprintUserMessages: [BPC_Movement] 83.0
+[2025.05.19-19.10.05:125][776]LogBlueprintUserMessages: [BPC_Movement] 82.0
+[2025.05.19-19.10.05:226][785]LogBlueprintUserMessages: [BPC_Movement] 81.0
+[2025.05.19-19.10.05:328][793]LogBlueprintUserMessages: [BPC_Movement] 80.0
+[2025.05.19-19.10.05:427][800]LogBlueprintUserMessages: [BPC_Movement] 79.0
+[2025.05.19-19.10.05:574][812]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.19-19.10.05:574][812]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2025.05.19-19.10.08:506][ 55]LogBlueprintUserMessages: [BPC_Movement] 80.0
+[2025.05.19-19.10.08:534][ 57]LogBlueprintUserMessages: [BPC_Movement] 81.0
+[2025.05.19-19.10.08:562][ 59]LogBlueprintUserMessages: [BPC_Movement] 82.0
+[2025.05.19-19.10.08:590][ 61]LogBlueprintUserMessages: [BPC_Movement] 83.0
+[2025.05.19-19.10.08:616][ 63]LogBlueprintUserMessages: [BPC_Movement] 84.0
+[2025.05.19-19.10.08:651][ 66]LogBlueprintUserMessages: [BPC_Movement] 85.0
+[2025.05.19-19.10.08:675][ 68]LogBlueprintUserMessages: [BPC_Movement] 86.0
+[2025.05.19-19.10.08:712][ 71]LogBlueprintUserMessages: [BPC_Movement] 87.0
+[2025.05.19-19.10.08:734][ 73]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.19-19.10.08:756][ 75]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.19-19.10.08:756][ 75]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.19-19.10.08:770][ 76]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.19-19.10.08:799][ 79]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.19-19.10.08:825][ 81]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.19-19.10.08:856][ 84]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.19-19.10.08:885][ 87]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.19-19.10.08:920][ 90]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.19-19.10.08:952][ 93]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.19-19.10.08:975][ 95]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.19-19.10.09:008][ 98]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.19-19.10.09:155][109]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.19-19.10.09:255][116]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.19-19.10.09:345][124]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.19-19.10.09:452][134]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.19-19.10.09:551][143]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.19-19.10.09:650][152]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.19-19.10.09:747][161]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.19-19.10.09:851][169]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.19-19.10.12:418][386]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.19-19.10.12:517][395]LogBlueprintUserMessages: [BPC_Movement] 87.0
+[2025.05.19-19.10.12:619][404]LogBlueprintUserMessages: [BPC_Movement] 86.0
+[2025.05.19-19.10.12:978][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.19-19.10.12:979][430]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.05.19-19.10.12:988][430]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-19.10.12:989][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-19.10.12:989][430]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.05.19-19.10.12:994][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.19-19.10.13:000][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-19.10.13:020][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.19-19.10.13:020][430]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.05.19-19.10.13:020][430]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.05.19-19.10.13:023][430]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.05.19-19.10.13:038][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.05.19-19.10.13:147][431]LogPlayLevel: Display: Destroying online subsystem :Context_13
