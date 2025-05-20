@@ -2307,3 +2307,419 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.20-17.27.13:392][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
 [2025.05.20-17.27.13:430][337]LogPlayLevel: Display: Destroying online subsystem :Context_13
 [2025.05.20-17.27.18:459][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.05.20-17.29.16:888][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.20-17.29.17:165][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.05.20-17.30.56:377][174]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2025.05.20-17.31.00:417][588]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2025.05.20-17.31.06:841][282]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_30
+[2025.05.20-17.31.16:596][819]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.20-17.31.16:603][819]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.20-17.31.16:612][820]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.20-17.31.19:670][159]LogContentBrowser: Attempting asset rename: NewFolder -> Battery
+[2025.05.20-17.31.19:671][159]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.20-17.31.23:211][480]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.31.23:211][480]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery] ([2] browsable assets)...
+[2025.05.20-17.31.23:242][480]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery.BP_Pickup_FlashlightBattery]
+[2025.05.20-17.31.23:242][480]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery]
+[2025.05.20-17.31.23:246][480]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery
+[2025.05.20-17.31.23:246][480]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_Pickup_FlashlightBattery7A18E7C64D66827B6723C582C3353479.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery.uasset'
+[2025.05.20-17.31.23:247][480]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Meshes/Battery/Battery] ([1] browsable assets)...
+[2025.05.20-17.31.23:247][480]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Meshes/Battery/Battery]
+[2025.05.20-17.31.23:247][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/Battery/Battery" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Meshes/Battery/Battery.uasset" SILENT=true
+[2025.05.20-17.31.23:250][480]LogSavePackage: Moving output files for package: /Game/Props/Meshes/Battery/Battery
+[2025.05.20-17.31.23:250][480]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Battery7D79C6D5433D76E7F5D5608DF1B5840E.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Meshes/Battery/Battery.uasset'
+[2025.05.20-17.31.23:253][480]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Meshes/Battery/BatteryTex] ([1] browsable assets)...
+[2025.05.20-17.31.23:253][480]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Meshes/Battery/BatteryTex]
+[2025.05.20-17.31.23:253][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/Battery/BatteryTex" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Meshes/Battery/BatteryTex.uasset" SILENT=true
+[2025.05.20-17.31.23:254][480]LogSavePackage: Moving output files for package: /Game/Props/Meshes/Battery/BatteryTex
+[2025.05.20-17.31.23:255][480]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BatteryTex07E3681548F1DC0CED696A9A9C6929FF.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Meshes/Battery/BatteryTex.uasset'
+[2025.05.20-17.31.23:255][480]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Meshes/Battery/Metal] ([1] browsable assets)...
+[2025.05.20-17.31.23:255][480]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Meshes/Battery/Metal]
+[2025.05.20-17.31.23:255][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/Battery/Metal" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Meshes/Battery/Metal.uasset" SILENT=true
+[2025.05.20-17.31.23:256][480]LogSavePackage: Moving output files for package: /Game/Props/Meshes/Battery/Metal
+[2025.05.20-17.31.23:256][480]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Metal0BE0EB2A47CA13EC09514CA0BFF361F9.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Meshes/Battery/Metal.uasset'
+[2025.05.20-17.31.23:257][480]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.135 ms (total: 1.08 sec)
+[2025.05.20-17.31.23:318][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.20-17.31.23:339][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.20-17.31.23:355][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.05.20-17.31.23:378][480]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.20-17.31.23:378][480]LogContentValidation: Display: Starting to validate 4 assets
+[2025.05.20-17.31.23:378][480]LogContentValidation: Enabled validators:
+[2025.05.20-17.31.23:378][480]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.20-17.31.23:378][480]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.20-17.31.23:378][480]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.20-17.31.23:378][480]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.20-17.31.23:378][480]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.20-17.31.23:378][480]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.20-17.31.23:378][480]AssetCheck: /Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery Validating asset
+[2025.05.20-17.31.23:380][480]AssetCheck: /Game/Props/Meshes/Battery/Battery Validating asset
+[2025.05.20-17.31.23:380][480]AssetCheck: /Game/Props/Meshes/Battery/BatteryTex Validating asset
+[2025.05.20-17.31.23:380][480]AssetCheck: /Game/Props/Meshes/Battery/Metal Validating asset
+[2025.05.20-17.31.27:392][760]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.20-17.31.27:399][760]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.20-17.31.27:407][761]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.20-17.31.28:408][878]LogContentBrowser: Attempting asset rename: NewFolder -> Key
+[2025.05.20-17.31.28:408][878]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.20-17.31.30:545][933]LogStreaming: Display: FlushAsyncLoading(881): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.20-17.31.30:566][933]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/kgh/Downloads/DoorKey.fbx]
+[2025.05.20-17.31.32:720][933]LogSlate: Window 'Import Content' being destroyed
+[2025.05.20-17.31.32:743][933]LogInterchangeEngine: [Pending] Importing
+[2025.05.20-17.31.32:781][934]LogInterchangeEngine: [Pending] Importing - Operation was canceled by user.
+[2025.05.20-17.31.32:781][934]LogInterchangeEngine: [Success] Import Canceled
+[2025.05.20-17.31.34:348][996]LogStreaming: Display: FlushAsyncLoading(882): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.20-17.31.34:368][996]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/kgh/Downloads/DoorKey.fbx]
+[2025.05.20-17.33.34:047][996]LogSlate: Window 'Import Content' being destroyed
+[2025.05.20-17.33.34:080][996]LogInterchangeEngine: [Pending] Importing
+[2025.05.20-17.33.34:319][997]LogInterchangeEngine: [Pending] Importing - Operation was canceled by user.
+[2025.05.20-17.33.34:319][997]LogInterchangeEngine: [Success] Import Canceled
+[2025.05.20-17.33.34:350][999]LogRHI: Error: GpuProfiler's scratch buffer is out of space for this frame (current size : 32 kB). Dropping this frame. The size can be increased dynamically with the console variable r.GpuProfilerMaxEventBufferSizeKB
+[2025.05.20-17.33.44:666][124]LogStreaming: Display: FlushAsyncLoading(883): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.20-17.33.44:688][124]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/kgh/Downloads/DoorKey.fbx]
+[2025.05.20-17.33.46:253][124]LogSlate: Window 'Import Content' being destroyed
+[2025.05.20-17.33.46:279][124]LogInterchangeEngine: [Pending] Importing
+[2025.05.20-17.33.46:326][125]LogStreaming: Display: FlushAsyncLoading(884): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.20-17.33.46:357][127]LogStaticMesh: Display: Building static mesh DoorKey (Required Memory Estimate: 0.239458 MB)...
+[2025.05.20-17.33.46:359][127]LogStaticMesh: Adjacency [0.00s], tris: 148, UVs 1
+[2025.05.20-17.33.46:359][127]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.05.20-17.33.46:359][127]LogStaticMesh: Leaves [0.00s]
+[2025.05.20-17.33.46:360][127]LogStaticMesh: Reduce [0.00s]
+[2025.05.20-17.33.46:361][127]LogStaticMesh: Fallback [0.00s], num tris: 148
+[2025.05.20-17.33.46:361][127]LogStaticMesh: ConstrainClusters:
+[2025.05.20-17.33.46:361][127]LogStaticMesh:   Input: 3 Clusters, 274 Triangles and 451 Vertices
+[2025.05.20-17.33.46:361][127]LogStaticMesh:   Output without splits: 3 Clusters, 274 Triangles and 451 Vertices
+[2025.05.20-17.33.46:361][127]LogStaticMesh:   Output with splits: 3 Clusters, 274 Triangles and 451 Vertices
+[2025.05.20-17.33.46:361][127]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 3, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.05.20-17.33.46:361][127]LogStaticMesh: WritePages:
+[2025.05.20-17.33.46:361][127]LogStaticMesh:   Root: GPU size: 4892 bytes. 1 Pages. 4892.000 bytes per page (14.929% utilization).
+[2025.05.20-17.33.46:361][127]LogStaticMesh:   Streaming: 0 bytes.
+[2025.05.20-17.33.46:361][127]LogStaticMesh:   Page data disk size: 4300 bytes. Fixup data size: 40 bytes.
+[2025.05.20-17.33.46:361][127]LogStaticMesh:   Total GPU size: 4892 bytes, Total disk size: 4340 bytes.
+[2025.05.20-17.33.46:361][127]LogStaticMesh: Encode [0.00s]
+[2025.05.20-17.33.46:361][127]LogStaticMesh: Nanite build [0.00s]
+
+[2025.05.20-17.33.46:362][127]LogStaticMesh: Built static mesh [0.01s] /Game/Props/Meshes/Key/DoorKey.DoorKey
+[2025.05.20-17.33.46:544][129]LogInterchangeEngine: Display: Interchange import completed [C:/Users/kgh/Downloads/DoorKey.fbx]
+[2025.05.20-17.33.46:551][129]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.05.20-17.33.46:551][129]LogInterchangeEngine: [Success] Import Done
+[2025.05.20-17.34.00:836][322]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1770.562256
+[2025.05.20-17.34.01:837][325]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.20-17.34.01:837][325]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1771.229126, Update Interval: 304.466064
+[2025.05.20-17.34.42:738][755]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey.BP_PickupItem_DoorKey
+[2025.05.20-17.34.42:738][755]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2025.05.20-17.34.45:713][ 77]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.34.45:713][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.34.45:734][ 77]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey.BP_PickupItem_DoorKey
+[2025.05.20-17.34.45:734][ 77]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_32
+[2025.05.20-17.34.46:012][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.05.20-17.34.52:780][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.20-17.34.52:973][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.20-17.34.53:177][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.05.20-17.35.57:501][734]LogStreaming: Display: FlushAsyncLoading(885): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.20-17.35.57:514][734]LogInterchangeEngine: [Pending] Importing
+[2025.05.20-17.35.57:514][734]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/kgh/Downloads/KeyIcon.png]
+[2025.05.20-17.35.58:190][736]LogStreaming: Display: FlushAsyncLoading(886): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.20-17.35.58:193][737]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.20-17.35.58:508][738]LogTexture: Display: Building textures: /Game/Blueprints/Actors/Inventory/PickupActors/KeyIcon.KeyIcon (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.05.20-17.35.58:858][738]LogInterchangeEngine: Display: Interchange import completed [C:/Users/kgh/Downloads/KeyIcon.png]
+[2025.05.20-17.35.58:864][738]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.05.20-17.35.58:864][738]LogInterchangeEngine: [Success] Import Done
+[2025.05.20-17.36.06:057][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.05.20-17.36.06:779][457]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.20-17.36.06:807][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.05.20-17.36.06:823][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.05.20-17.36.06:840][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.05.20-17.36.22:590][143]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.20-17.36.22:610][143]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.20-17.36.22:618][144]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.20-17.36.25:583][481]LogContentBrowser: Attempting asset rename: NewFolder -> PropIcons
+[2025.05.20-17.36.25:583][481]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.20-17.36.32:968][261]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.20-17.36.32:974][261]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.20-17.36.32:983][262]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.20-17.36.33:988][379]LogContentBrowser: Attempting asset rename: NewFolder -> Icon
+[2025.05.20-17.36.33:989][379]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.20-17.36.36:897][487]LogStreaming: Display: FlushAsyncLoading(887): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.20-17.36.36:908][487]LogInterchangeEngine: [Pending] Importing
+[2025.05.20-17.36.36:908][487]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/kgh/Downloads/BatteryIcon.png]
+[2025.05.20-17.36.36:909][487]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.05.20-17.36.36:909][487]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/kgh/Downloads/KeyIcon.png]
+[2025.05.20-17.36.37:585][489]LogStreaming: Display: FlushAsyncLoading(889): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.20-17.36.37:587][490]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.20-17.36.37:588][490]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.20-17.36.37:904][491]LogTexture: Display: Building textures: /Game/Props/Icon/BatteryIcon.BatteryIcon (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.05.20-17.36.38:253][491]LogInterchangeEngine: Display: Interchange import completed [C:/Users/kgh/Downloads/KeyIcon.png]
+[2025.05.20-17.36.38:253][491]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.05.20-17.36.38:253][491]LogInterchangeEngine: Display: Interchange import completed [C:/Users/kgh/Downloads/BatteryIcon.png]
+[2025.05.20-17.36.38:264][491]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.05.20-17.36.38:264][491]LogInterchangeEngine: [Success] Import Done
+[2025.05.20-17.36.49:800][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.20-17.36.54:800][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.05.20-17.37.02:659][548]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.20-17.37.02:666][548]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.20-17.37.02:666][548]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.05.20-17.37.02:674][548]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 7.173 ms (total: 21.190 ms)
+[2025.05.20-17.37.02:674][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.20-17.37.02:702][548]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2025.05.20-17.37.02:704][548]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.05.20-17.37.02:721][549]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.05.20-17.37.02:729][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007838s)
+[2025.05.20-17.37.02:729][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.007871s)
+[2025.05.20-17.37.02:745][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.20-17.37.02:751][549]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.05.20-17.37.02:752][549]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.20-17.37.02:752][549]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.20-17.37.02:752][549]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.20-17.37.02:752][549]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.20-17.37.02:757][549]LogWorldPartition: Display: WorldPartition initialize took 5.364 ms (total: 228.715 ms)
+[2025.05.20-17.37.02:757][549]LogPlayLevel: PIE: World Init took: (0.006699s)
+[2025.05.20-17.37.02:758][549]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.05.20-17.37.02:758][549]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.20-17.37.02:758][549]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.20-17.37.02:758][549]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.20-17.37.02:758][549]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.20-17.37.02:758][549]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.20-17.37.02:758][549]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.20-17.37.02:758][549]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.20-17.37.02:758][549]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.20-17.37.02:758][549]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.20-17.37.02:758][549]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.20-17.37.02:758][549]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.20-17.37.02:760][549]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.20-17.37.02:831][549]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.05.20-17.37.02:832][549]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.20-17.37.02:832][549]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.20-17.37.02:832][549]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.20-17.37.02:832][549]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.05.20-17.37.02:832][549]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2025.05.20-17.37.02:834][549]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.05.20-17.37.02:834][549]LogInit: FAudioDevice initialized with ID 5.
+[2025.05.20-17.37.02:834][549]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.05.20-17.37.02:834][549]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level1'.
+[2025.05.20-17.37.02:834][549]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.05.20-17.37.02:838][549]LogLoad: Game class is 'L1_GameMode_C'
+[2025.05.20-17.37.02:839][549]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.05.21-02.37.02
+[2025.05.20-17.37.02:840][549]LogWorld: Bringing up level for play took: 0.001393
+[2025.05.20-17.37.02:848][549]LogStreaming: Display: FlushAsyncLoading(942,941,940,939,938,937,936,935,934,933,932,931,930,929,928,927,926,925,924,923,922,921,920,919,918,917,916,915,914,913,912,911,910,909,908,907,905,906,904,903,902,901,900,891,892,893,894,895,896,897,898,899): 52 QueuedPackages, 0 AsyncPackages
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.05.20-17.37.02:979][549]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.05.20-17.37.02:980][549]PIE: Server logged in
+[2025.05.20-17.37.02:980][549]PIE: Play in editor total start time 0.314 seconds.
+[2025.05.20-17.37.05:256][768]LogBlueprintUserMessages: [BPC_Movement] 99.0
+[2025.05.20-17.37.05:357][779]LogBlueprintUserMessages: [BPC_Movement] 98.0
+[2025.05.20-17.37.05:459][790]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.20-17.37.05:562][801]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.20-17.37.06:080][852]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.20-17.37.06:184][863]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.20-17.37.06:648][909]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.20-17.37.06:744][920]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.20-17.37.06:843][931]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.20-17.37.06:943][942]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.20-17.37.07:041][953]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.20-17.37.07:143][964]LogBlueprintUserMessages: [BPC_Movement] 88.0
+[2025.05.20-17.37.07:320][979]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.20-17.37.07:320][979]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.05.20-17.37.07:320][979]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.20-17.37.07:896][ 41]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.20-17.37.07:896][ 41]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.20-17.37.10:197][279]LogBlueprintUserMessages: [BPC_Movement] 89.0
+[2025.05.20-17.37.10:225][281]LogBlueprintUserMessages: [BPC_Movement] 90.0
+[2025.05.20-17.37.10:249][283]LogBlueprintUserMessages: [BPC_Movement] 91.0
+[2025.05.20-17.37.10:277][285]LogBlueprintUserMessages: [BPC_Movement] 92.0
+[2025.05.20-17.37.10:317][288]LogBlueprintUserMessages: [BPC_Movement] 93.0
+[2025.05.20-17.37.10:337][290]LogBlueprintUserMessages: [BPC_Movement] 94.0
+[2025.05.20-17.37.10:366][293]LogBlueprintUserMessages: [BPC_Movement] 95.0
+[2025.05.20-17.37.10:406][297]LogBlueprintUserMessages: [BPC_Movement] 96.0
+[2025.05.20-17.37.10:435][300]LogBlueprintUserMessages: [BPC_Movement] 97.0
+[2025.05.20-17.37.10:462][303]LogBlueprintUserMessages: [BPC_Movement] 98.0
+[2025.05.20-17.37.10:492][306]LogBlueprintUserMessages: [BPC_Movement] 99.0
+[2025.05.20-17.37.10:523][309]LogBlueprintUserMessages: [BPC_Movement] 100.0
+[2025.05.20-17.37.16:666][979]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.20-17.37.16:666][979]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2025.05.20-17.37.18:979][236]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.20-17.37.18:979][236]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.20-17.37.19:542][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.20-17.37.19:542][297]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.05.20-17.37.19:552][297]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.37.19:552][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.37.19:552][297]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.05.20-17.37.19:556][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.20-17.37.19:562][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.37.19:581][297]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.20-17.37.19:584][297]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.05.20-17.37.19:584][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.05.20-17.37.19:586][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.05.20-17.37.19:591][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.20-17.37.19:598][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.05.20-17.37.19:629][298]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.05.20-17.38.09:216][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.05.20-17.38.09:220][  3]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.38.09:409][  3]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level1/E/ER/92QJ9M7WCR7A6LRKO54PWX
+[2025.05.20-17.38.09:409][  3]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/92QJ9M7WCR7A6LRKO54PWXC96242F740A46A39010064BEB7489A94.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/__ExternalActors__/Level1/E/ER/92QJ9M7WCR7A6LRKO54PWX.uasset'
+[2025.05.20-17.38.09:411][  3]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level1/C/8E/DI3HIN3VECGT5Y5VJIAAWX
+[2025.05.20-17.38.09:411][  3]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/DI3HIN3VECGT5Y5VJIAAWXB01816D14E8F748007A9F0B0FD521370.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/__ExternalActors__/Level1/C/8E/DI3HIN3VECGT5Y5VJIAAWX.uasset'
+[2025.05.20-17.38.09:412][  3]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey] ([2] browsable assets)...
+[2025.05.20-17.38.09:445][  3]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey.BP_PickupItem_DoorKey]
+[2025.05.20-17.38.09:445][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey]
+[2025.05.20-17.38.09:449][  3]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey
+[2025.05.20-17.38.09:449][  3]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_PickupItem_DoorKey45EF32324FE8A9BDB8FAB694C5305C1A.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey.uasset'
+[2025.05.20-17.38.09:451][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actors/Inventory/BP_Inventory_DoorKey] ([2] browsable assets)...
+[2025.05.20-17.38.09:451][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Inventory/BP_Inventory_DoorKey]
+[2025.05.20-17.38.09:454][  3]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/Inventory/BP_Inventory_DoorKey
+[2025.05.20-17.38.09:454][  3]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_Inventory_DoorKey0C0CEF124E8963F1035DC3AE3A21F572.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/Inventory/BP_Inventory_DoorKey.uasset'
+[2025.05.20-17.38.09:455][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actors/Inventory/BP_Inventory_Flashlight_Battery] ([2] browsable assets)...
+[2025.05.20-17.38.09:455][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Inventory/BP_Inventory_Flashlight_Battery]
+[2025.05.20-17.38.09:458][  3]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/Inventory/BP_Inventory_Flashlight_Battery
+[2025.05.20-17.38.09:459][  3]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_Inventory_Flashlight_Battery395B1C624A1E5FF1E2DE659CB30B2EFA.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/Inventory/BP_Inventory_Flashlight_Battery.uasset'
+[2025.05.20-17.38.09:460][  3]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/Meshes/Key/DoorKey] ([1] browsable assets)...
+[2025.05.20-17.38.09:466][  3]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Props/Meshes/Key/DoorKey.DoorKey]
+[2025.05.20-17.38.09:466][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Meshes/Key/DoorKey]
+[2025.05.20-17.38.09:466][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/Key/DoorKey" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Meshes/Key/DoorKey.uasset" SILENT=true
+[2025.05.20-17.38.09:468][  3]LogSavePackage: Moving output files for package: /Game/Props/Meshes/Key/DoorKey
+[2025.05.20-17.38.09:468][  3]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/DoorKeyF68B65D340127AB4A7158B99244CE869.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Meshes/Key/DoorKey.uasset'
+[2025.05.20-17.38.09:471][  3]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/Icon/KeyIcon] ([1] browsable assets)...
+[2025.05.20-17.38.09:472][  3]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Props/Icon/KeyIcon.KeyIcon]
+[2025.05.20-17.38.09:472][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Icon/KeyIcon]
+[2025.05.20-17.38.09:472][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Icon/KeyIcon" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Icon/KeyIcon.uasset" SILENT=true
+[2025.05.20-17.38.09:474][  3]LogSavePackage: Moving output files for package: /Game/Props/Icon/KeyIcon
+[2025.05.20-17.38.09:474][  3]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/KeyIcon1D1A1B214BC6717A36FD65B92BAC8B9C.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Icon/KeyIcon.uasset'
+[2025.05.20-17.38.09:474][  3]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/Icon/BatteryIcon] ([1] browsable assets)...
+[2025.05.20-17.38.09:475][  3]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Props/Icon/BatteryIcon.BatteryIcon]
+[2025.05.20-17.38.09:475][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Icon/BatteryIcon]
+[2025.05.20-17.38.09:475][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Icon/BatteryIcon" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Icon/BatteryIcon.uasset" SILENT=true
+[2025.05.20-17.38.09:478][  3]LogSavePackage: Moving output files for package: /Game/Props/Icon/BatteryIcon
+[2025.05.20-17.38.09:478][  3]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BatteryIconEC626A68406453C2C1EA769D2DAB2E36.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Props/Icon/BatteryIcon.uasset'
+[2025.05.20-17.38.09:488][  3]LogFileHelpers: InternalPromptForCheckoutAndSave took 266.719 ms (total: 1.35 sec)
+[2025.05.20-17.38.09:516][  3]LogContentValidation: Display: Starting to validate 8 assets
+[2025.05.20-17.38.09:516][  3]LogContentValidation: Enabled validators:
+[2025.05.20-17.38.09:516][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.20-17.38.09:516][  3]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.20-17.38.09:516][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.20-17.38.09:516][  3]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.20-17.38.09:516][  3]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.20-17.38.09:516][  3]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.20-17.38.09:516][  3]AssetCheck: /Game/Level1 Validating asset
+[2025.05.20-17.38.09:516][  3]AssetCheck: /Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey Validating asset
+[2025.05.20-17.38.09:516][  3]AssetCheck: /Game/Blueprints/Actors/Inventory/BP_Inventory_DoorKey Validating asset
+[2025.05.20-17.38.09:516][  3]AssetCheck: /Game/Blueprints/Actors/Inventory/BP_Inventory_Flashlight_Battery Validating asset
+[2025.05.20-17.38.09:516][  3]AssetCheck: /Game/Props/Meshes/Key/DoorKey Validating asset
+[2025.05.20-17.38.09:516][  3]AssetCheck: /Game/Props/Icon/KeyIcon Validating asset
+[2025.05.20-17.38.09:516][  3]AssetCheck: /Game/Props/Icon/BatteryIcon Validating asset
+[2025.05.20-17.38.09:978][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.05.20-17.38.10:030][ 56]LogStall: Shutdown...
+[2025.05.20-17.38.10:030][ 56]LogStall: Shutdown complete.
+[2025.05.20-17.38.10:091][ 56]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:091][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:145][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.20-17.38.10:145][ 56]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:145][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:205][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.20-17.38.10:205][ 56]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:205][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:272][ 56]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:272][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:279][ 56]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:280][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:349][ 56]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:349][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:357][ 56]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:357][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:407][ 56]LogSlate: Window 'UE5_MyGame - Unreal Editor' being destroyed
+[2025.05.20-17.38.10:409][ 56]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.05.20-17.38.10:527][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.05.20-17.38.10:574][ 56]Cmd: QUIT_EDITOR
+[2025.05.20-17.38.10:574][ 57]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.05.20-17.38.10:580][ 57]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.05.20-17.38.10:580][ 57]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.05.20-17.38.10:580][ 57]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.05.20-17.38.10:587][ 57]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:587][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:587][ 57]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level1.Level1
+[2025.05.20-17.38.10:597][ 57]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.05.20-17.38.10:597][ 57]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.05.20-17.38.10:599][ 57]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:599][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:603][ 57]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:603][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:605][ 57]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:605][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:608][ 57]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:608][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:610][ 57]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:610][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:611][ 57]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:612][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:613][ 57]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.38.10:613][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.38.10:616][ 57]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.05.20-17.38.10:618][ 57]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.05.20-17.38.10:618][ 57]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.05.20-17.38.10:618][ 57]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.05.20-17.38.11:328][ 57]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.05.20-17.38.11:328][ 57]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.05.20-17.38.11:328][ 57]LogAudio: Display: Audio Device unregistered from world 'Level1'.
+[2025.05.20-17.38.11:328][ 57]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.05.20-17.38.11:328][ 57]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.20-17.38.11:329][ 57]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.20-17.38.11:334][ 57]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.05.20-17.38.11:334][ 57]LogAudio: Display: Audio Device Manager Shutdown
+[2025.05.20-17.38.11:337][ 57]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.05.20-17.38.11:337][ 57]LogExit: Preparing to exit.
+[2025.05.20-17.38.11:367][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:372][ 57]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.20-17.38.11:578][ 57]LogEditorDataStorage: Deinitializing
+[2025.05.20-17.38.11:649][ 57]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.05.20-17.38.11:662][ 57]LogExit: Editor shut down
+[2025.05.20-17.38.11:663][ 57]LogExit: Transaction tracking system shut down
+[2025.05.20-17.38.11:789][ 57]LogExit: Object subsystem successfully closed.
+[2025.05.20-17.38.11:813][ 57]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.05.20-17.38.12:029][ 57]LogMemoryProfiler: Shutdown
+[2025.05.20-17.38.12:029][ 57]LogNetworkingProfiler: Shutdown
+[2025.05.20-17.38.12:029][ 57]LoadingProfiler: Shutdown
+[2025.05.20-17.38.12:029][ 57]LogTimingProfiler: Shutdown
+[2025.05.20-17.38.12:339][ 57]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.05.20-17.38.12:345][ 57]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.05.20-17.38.12:345][ 57]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6AA1729C-44E8-F76D-1E8C-FF9933B19F26%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=7f29145c4844e8d16b9c048d4c79961b%7C85bc612123aa4f4dae9f93f969b09450%7Cd01c44bb-62a9-4deb-8fb6-87056b4c44a3&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.05.20-17.38.13:399][ 57]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.05.20-17.38.13:399][ 57]RenderDocPlugin: plugin has been unloaded.
+[2025.05.20-17.38.13:405][ 57]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.05.20-17.38.13:405][ 57]LogNFORDenoise: NFORDenoise function shutting down
+[2025.05.20-17.38.13:409][ 57]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.05.20-17.38.13:409][ 57]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.05.20-17.38.13:409][ 57]LogPakFile: Destroying PakPlatformFile
+[2025.05.20-17.38.13:639][ 57]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.05.20-17.38.13:669][ 57]LogExit: Exiting.
+[2025.05.20-17.38.13:693][ 57]Log file closed, 05/21/25 02:38:13
