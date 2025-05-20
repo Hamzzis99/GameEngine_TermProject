@@ -87,6 +87,8 @@
 				"E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/Inventory/PickupActors/BP_PickupActor_Master.uasset",
 				"E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Textures/E_Prompt.uasset",
 				"E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Textures/Arrow_Prompt.uasset",
+				"E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/Inventory/W_InventoryDropDown.uasset",
+				"E:/Github/GameEngine_TermProject/UE5_MyGame/Content/UMG/Inventory/W_PickupPrompt.uasset",
 				"E:/Github/GameEngine_TermProject/UE5_MyGame/Content/__ExternalActors__/Level1/B/JR/G9GZGA02WB5RBCMULKF7NC.uasset",
 				"E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/Inventory/BP_Inventory_Door_Key.uasset",
 				"E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/Inventory/PickupActors/BP_PickupActor_DoorKey.uasset",
