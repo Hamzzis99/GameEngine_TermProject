@@ -1,0 +1,542 @@
+[+] Containers:
+ |- [+] Container: /Game/GameBP/Studio/Studio
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:0027123A45D24425196F0BB2C1CC16AC BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey.BP_PickupItem_DoorKey_C NativeClass:/Script/Engine.Actor Name:BP_PickupItem_DoorKey_C_UAID_10FFE02870CF706A02_1103083160 Label:BP_PickupItem_DoorKey SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=274.000 Y=419.000 Z=362.000), Max=(X=474.000 Y=619.000 Z=562.000) RuntimeBounds:IsValid=true, Min=(X=274.000 Y=419.000 Z=362.000), Max=(X=474.000 Y=619.000 Z=562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:0EC04E4B4C144F2DAFABEAA9CA057536 NativeClass:/Script/Engine.SceneCapture2D Name:SceneCapture2D_UAID_10FFE02870CFBF6A02_1835760060 Label:SceneCapture_Paper SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1001.000 Y=15.000 Z=-1621.000), Max=(X=999.000 Y=2015.000 Z=379.000) RuntimeBounds:IsValid=true, Min=(X=-1.000 Y=1015.000 Z=-621.000), Max=(X=-1.000 Y=1015.000 Z=-621.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:15A7FCD846D91FD3D32F92AC10A23EAA NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1077940955 Label:PointLight6 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=98.000 Z=-438.000), Max=(X=3841.000 Y=2098.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=98.000 Z=-438.000), Max=(X=3841.000 Y=2098.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:75FF94A54C8A4E8F8D56ECA38457C874
+ |   |   |- Guid:15C7FD6B48A6171979715B8A06DC77F8 BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery.BP_Pickup_FlashlightBattery_C NativeClass:/Script/Engine.Actor Name:BP_Pickup_FlashlightBattery_C_UAID_10FFE02870CF706A02_1097145159 Label:BP_Pickup_FlashlightBattery SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=333.000 Y=1133.000 Z=394.000), Max=(X=353.000 Y=1153.000 Z=436.500) RuntimeBounds:IsValid=true, Min=(X=333.000 Y=1133.000 Z=394.000), Max=(X=353.000 Y=1153.000 Z=436.500) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:1B83F0604CE343CB5A32499E9E5BB1D0 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1097661976 Label:Floor_400x413 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=2535.000 Z=300.000), Max=(X=2242.000 Y=3337.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=2535.000 Z=300.000), Max=(X=2242.000 Y=3337.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:247636614D12B96E71241586100AB70A NativeClass:/Script/Engine.SceneCapture2D Name:SceneCapture2D_UAID_10FFE02870CF696A02_1990903914 Label:SceneCapture2D SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1001.000 Y=-1000.000 Z=-1000.000), Max=(X=999.000 Y=1000.000 Z=1000.000) RuntimeBounds:IsValid=true, Min=(X=-1.000 Y=0.000 Z=0.000), Max=(X=-1.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:27B0939C47B706701EAD6487680853FD BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery.BP_Pickup_FlashlightBattery_C NativeClass:/Script/Engine.Actor Name:BP_Pickup_FlashlightBattery_C_UAID_10FFE02870CF936A02_1356331335 Label:BP_Pickup_FlashlightBattery SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2653.000 Y=885.000 Z=397.000), Max=(X=2673.000 Y=905.000 Z=439.500) RuntimeBounds:IsValid=true, Min=(X=2653.000 Y=885.000 Z=397.000), Max=(X=2673.000 Y=905.000 Z=439.500) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:2907962C4E05CD6CB5B42A9D3D81DF59 NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_10FFE02870CF706A02_1079745158 Label:PlayerStart SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=111.000 Y=886.000 Z=284.000), Max=(X=479.000 Y=1142.000 Z=540.000) RuntimeBounds:IsValid=true, Min=(X=199.000 Y=974.000 Z=320.000), Max=(X=279.000 Y=1054.000 Z=504.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:2CA3CB854DF88AC7ADECC6AD0034071C NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1089593965 Label:PointLight11 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=912.000 Z=-438.000), Max=(X=2633.000 Y=2912.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=912.000 Z=-438.000), Max=(X=2633.000 Y=2912.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:33BEA3C44DFE80823114C88FB2B1B0A8
+ |   |   |- Guid:2F7DE14A4932034DCF07DCB890DC782F BaseClass:/Game/Blueprints/Actors/Notes/BP_Note_FirstNote.BP_Note_FirstNote_C NativeClass:/Script/Engine.Actor Name:BP_Note_FirstNote_C_UAID_10FFE02870CFC06A02_1996985223 Label:BP_Note_FirstNote SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=417.000 Y=821.000 Z=347.000), Max=(X=481.000 Y=885.000 Z=411.000) RuntimeBounds:IsValid=true, Min=(X=417.000 Y=821.000 Z=347.000), Max=(X=481.000 Y=885.000 Z=411.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:33BEA3C44DFE80823114C88FB2B1B0A8 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1089591964 Label:Floor_400x407 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=1709.000 Z=300.000), Max=(X=2242.000 Y=2511.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=1709.000 Z=300.000), Max=(X=2242.000 Y=2511.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:3C50069C4F5E973F877BE4930DFD1A75 BaseClass:/Game/Blueprints/Actors/Notes/BP_Note_SecondNote.BP_Note_SecondNote_C NativeClass:/Script/Engine.Actor Name:BP_Note_SecondNote_C_UAID_10FFE02870CFC06A02_2001191224 Label:BP_Note_SecondNote SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=440.000 Y=937.000 Z=359.000), Max=(X=504.000 Y=1001.000 Z=423.000) RuntimeBounds:IsValid=true, Min=(X=440.000 Y=937.000 Z=359.000), Max=(X=504.000 Y=1001.000 Z=423.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:46D5FF444AA436DAB27D24A126265B68 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF6F6A02_2101101980 Label:Floor_400x400 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=895.000 Z=300.000), Max=(X=1033.000 Y=1697.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=895.000 Z=300.000), Max=(X=1033.000 Y=1697.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:486E38634738174D27BE93849406489E NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CFBF6A02_1835763062 Label:PointLight9 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1101.000 Y=115.000 Z=-1521.000), Max=(X=899.000 Y=2115.000 Z=479.000) RuntimeBounds:IsValid=true, Min=(X=-1101.000 Y=115.000 Z=-1521.000), Max=(X=899.000 Y=2115.000 Z=479.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:0EC04E4B4C144F2DAFABEAA9CA057536
+ |   |   |- Guid:52175DBE4C0CEB733DC2E49327F3C12D NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1085274960 Label:Floor_400x405 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=95.000 Z=300.000), Max=(X=3450.000 Y=897.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=95.000 Z=300.000), Max=(X=3450.000 Y=897.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:55FC0AB244FC4FAF0EFC1BB0EC04DBA9 BaseClass:/Game/Blueprints/Actors/BP_Lock.BP_Lock_C NativeClass:/Script/Engine.Actor Name:BP_Lock_C_UAID_10FFE02870CFE16A02_1755129031 Label:BP_Lock SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1168.259 Y=-197.629 Z=349.040), Max=(X=1171.741 Y=-196.371 Z=355.264) RuntimeBounds:IsValid=true, Min=(X=1168.259 Y=-197.629 Z=349.040), Max=(X=1171.741 Y=-196.371 Z=355.264) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:5620D1D94A07D8788D20DE9FF2FD3943 BaseClass:/Game/Blueprints/Actors/Inventory/BP_InventoryBackPack.BP_InventoryBackPack_C NativeClass:/Script/Engine.Actor Name:BP_InventoryBackPack_C_UAID_10FFE02870CF8C6A02_1899947072 Label:BP_InventoryBackPack SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-352.000 Y=1028.000 Z=-147.000), Max=(X=648.000 Y=2028.000 Z=853.000) RuntimeBounds:IsValid=true, Min=(X=-352.000 Y=1028.000 Z=-147.000), Max=(X=648.000 Y=2028.000 Z=853.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:5912831C4DA2D2511BAF3493A9EC36B5 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1085269956 Label:Floor_400x403 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=95.000 Z=300.000), Max=(X=1033.000 Y=897.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=95.000 Z=300.000), Max=(X=1033.000 Y=897.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:5FC2128541A5CEE3452E1E93B64EE851 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1074811953 Label:PointLight5 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=98.000 Z=-438.000), Max=(X=2633.000 Y=2098.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=98.000 Z=-438.000), Max=(X=2633.000 Y=2098.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:A7896E4E4C05EB3322D57BA7B1B24757
+ |   |   |- Guid:6031522240D3FE4F53605DB76765CED7 NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:false EditorBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:true
+ |   |   |- Guid:632653A0451A7AC447DAD28D021358E2 BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_Bandage.BP_Pickup_Bandage_C NativeClass:/Script/Engine.Actor Name:BP_Pickup_Bandage_C_UAID_10FFE02870CF916A02_2067350981 Label:BP_Pickup_Bandage SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1932.000 Y=851.000 Z=430.000), Max=(X=1952.000 Y=871.000 Z=472.500) RuntimeBounds:IsValid=true, Min=(X=1932.000 Y=851.000 Z=430.000), Max=(X=1952.000 Y=871.000 Z=472.500) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:75FF94A54C8A4E8F8D56ECA38457C874 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1077938954 Label:Floor_400x402 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=895.000 Z=300.000), Max=(X=3450.000 Y=1697.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=895.000 Z=300.000), Max=(X=3450.000 Y=1697.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:7AD0032B4A93786DA0202EBF69F78E80 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1089594966 Label:Floor_400x408 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=1709.000 Z=300.000), Max=(X=3450.000 Y=2511.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=1709.000 Z=300.000), Max=(X=3450.000 Y=2511.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:7C006C52497D715D56B0488461E663D2 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1095593971 Label:PointLight14 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=-1512.000 Z=-438.000), Max=(X=2633.000 Y=488.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=-1512.000 Z=-438.000), Max=(X=2633.000 Y=488.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:F0203D0649029C822148698687BC3F15
+ |   |   |- Guid:7D2C14AA4F7717EA9C6E82AB5907654D NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CFBF6A02_1835762061 Label:PointLight6 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1101.000 Y=-85.000 Z=-1521.000), Max=(X=899.000 Y=1915.000 Z=479.000) RuntimeBounds:IsValid=true, Min=(X=-1101.000 Y=-85.000 Z=-1521.000), Max=(X=899.000 Y=1915.000 Z=479.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:0EC04E4B4C144F2DAFABEAA9CA057536
+ |   |   |- Guid:8F5B70BD4C9DD34A9E3196A133FE34F9 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1085272957 Label:PointLight7 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=-702.000 Z=-438.000), Max=(X=1424.000 Y=1298.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=-702.000 Z=-438.000), Max=(X=1424.000 Y=1298.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:5912831C4DA2D2511BAF3493A9EC36B5
+ |   |   |- Guid:921A64AA4A8BE1666E74BBA987952176 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF6F6A02_2109081981 Label:PointLight4 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=98.000 Z=-438.000), Max=(X=1424.000 Y=2098.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=98.000 Z=-438.000), Max=(X=1424.000 Y=2098.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:46D5FF444AA436DAB27D24A126265B68
+ |   |   |- Guid:937E589249984A22E864B4A206CA3A60 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1097662978 Label:Floor_400x414 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=2535.000 Z=300.000), Max=(X=3450.000 Y=3337.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=2535.000 Z=300.000), Max=(X=3450.000 Y=3337.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:956708024556EF01A068BAB115836766 BaseClass:/Game/Blueprints/Actors/HideActors/BP_HideActorLocker.BP_HideActorLocker_C NativeClass:/Script/Engine.Actor Name:BP_HideActorLocker_C_UAID_10FFE02870CFA66A02_1229703683 Label:BP_HideActorLocker SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=869.000 Y=597.000 Z=320.000), Max=(X=1349.621 Y=757.000 Z=544.592) RuntimeBounds:IsValid=true, Min=(X=869.000 Y=597.000 Z=320.000), Max=(X=1349.621 Y=757.000 Z=544.592) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:975F177A4FD38A103A8467A3C184DFF1 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1095594973 Label:PointLight15 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=-1512.000 Z=-438.000), Max=(X=3841.000 Y=488.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=-1512.000 Z=-438.000), Max=(X=3841.000 Y=488.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:9B91A3884172E4A6D18D8FBB1A546B7B
+ |   |   |- Guid:9B91A3884172E4A6D18D8FBB1A546B7B NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1095593972 Label:Floor_400x411 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=-715.000 Z=300.000), Max=(X=3450.000 Y=87.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=-715.000 Z=300.000), Max=(X=3450.000 Y=87.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:9E49A0F6431B1BCFD6D4EE89BD34C7EB NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1089594967 Label:PointLight12 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=912.000 Z=-438.000), Max=(X=3841.000 Y=2912.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=912.000 Z=-438.000), Max=(X=3841.000 Y=2912.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:7AD0032B4A93786DA0202EBF69F78E80
+ |   |   |- Guid:9E82C8A447EA64FAEFAAAFA8A5703AC0 BaseClass:/Game/Blueprints/Actors/Notes/BP_NoteExamination.BP_NoteExamination_C NativeClass:/Script/Engine.Actor Name:BP_NoteExamination_C_UAID_10FFE02870CFBF6A02_1874580064 Label:BP_NoteExamination SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=13.999 Y=1002.711 Z=-629.908), Max=(X=14.100 Y=1027.289 Z=-596.092) RuntimeBounds:IsValid=true, Min=(X=13.999 Y=1002.711 Z=-629.908), Max=(X=14.100 Y=1027.289 Z=-596.092) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:0EC04E4B4C144F2DAFABEAA9CA057536
+ |   |   |- Guid:A02B54D44206F3691B36C49EAF97B47E NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1095588968 Label:Floor_400x409 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=-715.000 Z=300.000), Max=(X=1033.000 Y=87.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=-715.000 Z=300.000), Max=(X=1033.000 Y=87.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:A1C1D4CC4F99F1CCC7314794DA241A56 BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey.BP_PickupItem_DoorKey_C NativeClass:/Script/Engine.Actor Name:BP_PickupItem_DoorKey_C_UAID_10FFE02870CF936A02_1368277336 Label:BP_PickupItem_DoorKey2 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2390.000 Y=640.000 Z=357.000), Max=(X=2590.000 Y=840.000 Z=557.000) RuntimeBounds:IsValid=true, Min=(X=2390.000 Y=640.000 Z=357.000), Max=(X=2590.000 Y=840.000 Z=557.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:A38DDB444C0417A91905358277F31CF7 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF6A6A02_1632934092 Label:PointLight SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1101.000 Y=-1100.000 Z=-900.000), Max=(X=899.000 Y=900.000 Z=1100.000) RuntimeBounds:IsValid=true, Min=(X=-1101.000 Y=-1100.000 Z=-900.000), Max=(X=899.000 Y=900.000 Z=1100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:247636614D12B96E71241586100AB70A
+ |   |   |- Guid:A7896E4E4C05EB3322D57BA7B1B24757 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1074808952 Label:Floor_400x401 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=895.000 Z=300.000), Max=(X=2242.000 Y=1697.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=895.000 Z=300.000), Max=(X=2242.000 Y=1697.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:A7FBECFE4927C1FCD2B7BC80996A3D29 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1097659975 Label:PointLight16 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=1738.000 Z=-438.000), Max=(X=1424.000 Y=3738.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=1738.000 Z=-438.000), Max=(X=1424.000 Y=3738.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:DF31E5EC4A8855D39F41FFA0D24DD8C4
+ |   |   |- Guid:A84BDE9A43919C65283C6C83807DB22A NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1085274961 Label:PointLight9 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=-702.000 Z=-438.000), Max=(X=3841.000 Y=1298.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=-702.000 Z=-438.000), Max=(X=3841.000 Y=1298.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:52175DBE4C0CEB733DC2E49327F3C12D
+ |   |   |- Guid:ABD73F644E38A1190301588E0173F622 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1097663979 Label:PointLight18 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=1738.000 Z=-438.000), Max=(X=3841.000 Y=3738.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=1738.000 Z=-438.000), Max=(X=3841.000 Y=3738.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:937E589249984A22E864B4A206CA3A60
+ |   |   |- Guid:B0B68B0A4603E1038EDBABB7EFC9B4E3 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1097662977 Label:PointLight17 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=1738.000 Z=-438.000), Max=(X=2633.000 Y=3738.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=1738.000 Z=-438.000), Max=(X=2633.000 Y=3738.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:1B83F0604CE343CB5A32499E9E5BB1D0
+ |   |   |- Guid:B9502D1E45A6DC7FE20BEC80F6A144BC BaseClass:/Game/Blueprints/Actors/Inventory/Examination/BP_Examination.BP_Examination_C NativeClass:/Script/Engine.Actor Name:BP_Examination_C_UAID_10FFE02870CF696A02_2040200915 Label:BP_Examination SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=19.740 Y=-3.501 Z=-1.477), Max=(X=37.973 Y=4.359 Z=1.477) RuntimeBounds:IsValid=true, Min=(X=19.740 Y=-3.501 Z=-1.477), Max=(X=37.973 Y=4.359 Z=1.477) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:247636614D12B96E71241586100AB70A
+ |   |   |- Guid:BEA9FAFF4B96EFC41DCDE19DDA6BA30C BaseClass:/Game/Blueprints/Actors/Interaction/BP_DoorRE7.BP_DoorRE7_C NativeClass:/Script/Engine.Actor Name:BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980 Label:BP_DoorRE7 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2651.978 Y=1127.000 Z=257.000), Max=(X=2906.000 Y=1287.000 Z=569.607) RuntimeBounds:IsValid=true, Min=(X=2651.978 Y=1127.000 Z=257.000), Max=(X=2906.000 Y=1287.000 Z=569.607) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:BF069CD44BF8E85425DFB79EE02536CE NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1089589962 Label:Floor_400x406 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=1709.000 Z=300.000), Max=(X=1033.000 Y=2511.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=1709.000 Z=300.000), Max=(X=1033.000 Y=2511.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:C354106D475BBB994A4A08B1A78F53E4 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1095590969 Label:PointLight13 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=-1512.000 Z=-438.000), Max=(X=1424.000 Y=488.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=-1512.000 Z=-438.000), Max=(X=1424.000 Y=488.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:A02B54D44206F3691B36C49EAF97B47E
+ |   |   |- Guid:C5C25B304001E10ED51B5CA073A72A83 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF6A6A02_1776193094 Label:PointLight3 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-901.000 Y=-1100.000 Z=-900.000), Max=(X=1099.000 Y=900.000 Z=1100.000) RuntimeBounds:IsValid=true, Min=(X=-901.000 Y=-1100.000 Z=-900.000), Max=(X=1099.000 Y=900.000 Z=1100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:247636614D12B96E71241586100AB70A
+ |   |   |- Guid:CE2792294B5FFB247A9F959EEF262C21 NativeClass:/Script/Engine.PostProcessVolume Name:PostProcessVolume_UAID_10FFE02870CF9F6A02_1216414449 Label:PostProcessVolume SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-225.000 Y=405.000 Z=335.000), Max=(X=1025.000 Y=1655.000 Z=1585.000) RuntimeBounds:IsValid=true, Min=(X=-225.000 Y=405.000 Z=335.000), Max=(X=1025.000 Y=1655.000 Z=1585.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:D11D9F56474C917CCF953C8C7083B20E NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF6A6A02_1754192093 Label:PointLight2 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1101.000 Y=-900.000 Z=-900.000), Max=(X=899.000 Y=1100.000 Z=1100.000) RuntimeBounds:IsValid=true, Min=(X=-1101.000 Y=-900.000 Z=-900.000), Max=(X=899.000 Y=1100.000 Z=1100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:247636614D12B96E71241586100AB70A
+ |   |   |- Guid:D2EC59074B67EF9C4F504D9083A1EDB7 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1085273959 Label:PointLight8 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=-702.000 Z=-438.000), Max=(X=2633.000 Y=1298.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=-702.000 Z=-438.000), Max=(X=2633.000 Y=1298.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:ECABE3C7488145F8C761CBABEC3AF2F3
+ |   |   |- Guid:DF31E5EC4A8855D39F41FFA0D24DD8C4 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1097657974 Label:Floor_400x412 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=2535.000 Z=300.000), Max=(X=1033.000 Y=3337.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=2535.000 Z=300.000), Max=(X=1033.000 Y=3337.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:E98CE00F4DA110045EDD7BA5F3AC3719 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1089590963 Label:PointLight10 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=912.000 Z=-438.000), Max=(X=1424.000 Y=2912.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=912.000 Z=-438.000), Max=(X=1424.000 Y=2912.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:BF069CD44BF8E85425DFB79EE02536CE
+ |   |   |- Guid:ECABE3C7488145F8C761CBABEC3AF2F3 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1085273958 Label:Floor_400x404 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=95.000 Z=300.000), Max=(X=2242.000 Y=897.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=95.000 Z=300.000), Max=(X=2242.000 Y=897.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:F0203D0649029C822148698687BC3F15 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1095591970 Label:Floor_400x410 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=-715.000 Z=300.000), Max=(X=2242.000 Y=87.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=-715.000 Z=300.000), Max=(X=2242.000 Y=87.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- Guid:F3C5CFAB443D04D959BC92BA362EB52C NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CFBF6A02_1835764063 Label:PointLight12 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-901.000 Y=-85.000 Z=-1521.000), Max=(X=1099.000 Y=1915.000 Z=479.000) RuntimeBounds:IsValid=true, Min=(X=-901.000 Y=-85.000 Z=-1521.000), Max=(X=1099.000 Y=1915.000 Z=479.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:0EC04E4B4C144F2DAFABEAA9CA057536
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:0027123A45D24425196F0BB2C1CC16AC BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey.BP_PickupItem_DoorKey_C NativeClass:/Script/Engine.Actor Name:BP_PickupItem_DoorKey_C_UAID_10FFE02870CF706A02_1103083160 Label:BP_PickupItem_DoorKey SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=274.000 Y=419.000 Z=362.000), Max=(X=474.000 Y=619.000 Z=562.000) RuntimeBounds:IsValid=true, Min=(X=274.000 Y=419.000 Z=362.000), Max=(X=474.000 Y=619.000 Z=562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:0EC04E4B4C144F2DAFABEAA9CA057536 NativeClass:/Script/Engine.SceneCapture2D Name:SceneCapture2D_UAID_10FFE02870CFBF6A02_1835760060 Label:SceneCapture_Paper SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1001.000 Y=15.000 Z=-1621.000), Max=(X=999.000 Y=2015.000 Z=379.000) RuntimeBounds:IsValid=true, Min=(X=-1.000 Y=1015.000 Z=-621.000), Max=(X=-1.000 Y=1015.000 Z=-621.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:247636614D12B96E71241586100AB70A NativeClass:/Script/Engine.SceneCapture2D Name:SceneCapture2D_UAID_10FFE02870CF696A02_1990903914 Label:SceneCapture2D SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1001.000 Y=-1000.000 Z=-1000.000), Max=(X=999.000 Y=1000.000 Z=1000.000) RuntimeBounds:IsValid=true, Min=(X=-1.000 Y=0.000 Z=0.000), Max=(X=-1.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:486E38634738174D27BE93849406489E NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CFBF6A02_1835763062 Label:PointLight9 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1101.000 Y=115.000 Z=-1521.000), Max=(X=899.000 Y=2115.000 Z=479.000) RuntimeBounds:IsValid=true, Min=(X=-1101.000 Y=115.000 Z=-1521.000), Max=(X=899.000 Y=2115.000 Z=479.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:0EC04E4B4C144F2DAFABEAA9CA057536
+ |   |   |   |- Guid:7D2C14AA4F7717EA9C6E82AB5907654D NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CFBF6A02_1835762061 Label:PointLight6 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1101.000 Y=-85.000 Z=-1521.000), Max=(X=899.000 Y=1915.000 Z=479.000) RuntimeBounds:IsValid=true, Min=(X=-1101.000 Y=-85.000 Z=-1521.000), Max=(X=899.000 Y=1915.000 Z=479.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:0EC04E4B4C144F2DAFABEAA9CA057536
+ |   |   |   |- Guid:9E82C8A447EA64FAEFAAAFA8A5703AC0 BaseClass:/Game/Blueprints/Actors/Notes/BP_NoteExamination.BP_NoteExamination_C NativeClass:/Script/Engine.Actor Name:BP_NoteExamination_C_UAID_10FFE02870CFBF6A02_1874580064 Label:BP_NoteExamination SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=13.999 Y=1002.711 Z=-629.908), Max=(X=14.100 Y=1027.289 Z=-596.092) RuntimeBounds:IsValid=true, Min=(X=13.999 Y=1002.711 Z=-629.908), Max=(X=14.100 Y=1027.289 Z=-596.092) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:0EC04E4B4C144F2DAFABEAA9CA057536
+ |   |   |   |- Guid:A38DDB444C0417A91905358277F31CF7 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF6A6A02_1632934092 Label:PointLight SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1101.000 Y=-1100.000 Z=-900.000), Max=(X=899.000 Y=900.000 Z=1100.000) RuntimeBounds:IsValid=true, Min=(X=-1101.000 Y=-1100.000 Z=-900.000), Max=(X=899.000 Y=900.000 Z=1100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:247636614D12B96E71241586100AB70A
+ |   |   |   |- Guid:B9502D1E45A6DC7FE20BEC80F6A144BC BaseClass:/Game/Blueprints/Actors/Inventory/Examination/BP_Examination.BP_Examination_C NativeClass:/Script/Engine.Actor Name:BP_Examination_C_UAID_10FFE02870CF696A02_2040200915 Label:BP_Examination SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=19.740 Y=-3.501 Z=-1.477), Max=(X=37.973 Y=4.359 Z=1.477) RuntimeBounds:IsValid=true, Min=(X=19.740 Y=-3.501 Z=-1.477), Max=(X=37.973 Y=4.359 Z=1.477) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:247636614D12B96E71241586100AB70A
+ |   |   |   |- Guid:C5C25B304001E10ED51B5CA073A72A83 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF6A6A02_1776193094 Label:PointLight3 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-901.000 Y=-1100.000 Z=-900.000), Max=(X=1099.000 Y=900.000 Z=1100.000) RuntimeBounds:IsValid=true, Min=(X=-901.000 Y=-1100.000 Z=-900.000), Max=(X=1099.000 Y=900.000 Z=1100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:247636614D12B96E71241586100AB70A
+ |   |   |   |- Guid:D11D9F56474C917CCF953C8C7083B20E NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF6A6A02_1754192093 Label:PointLight2 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-1101.000 Y=-900.000 Z=-900.000), Max=(X=899.000 Y=1100.000 Z=1100.000) RuntimeBounds:IsValid=true, Min=(X=-1101.000 Y=-900.000 Z=-900.000), Max=(X=899.000 Y=1100.000 Z=1100.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:247636614D12B96E71241586100AB70A
+ |   |   |   |- Guid:F3C5CFAB443D04D959BC92BA362EB52C NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CFBF6A02_1835764063 Label:PointLight12 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-901.000 Y=-85.000 Z=-1521.000), Max=(X=1099.000 Y=1915.000 Z=479.000) RuntimeBounds:IsValid=true, Min=(X=-901.000 Y=-85.000 Z=-1521.000), Max=(X=1099.000 Y=1915.000 Z=479.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:0EC04E4B4C144F2DAFABEAA9CA057536
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:15A7FCD846D91FD3D32F92AC10A23EAA NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1077940955 Label:PointLight6 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=98.000 Z=-438.000), Max=(X=3841.000 Y=2098.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=98.000 Z=-438.000), Max=(X=3841.000 Y=2098.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:75FF94A54C8A4E8F8D56ECA38457C874
+ |   |   |   |- Guid:75FF94A54C8A4E8F8D56ECA38457C874 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1077938954 Label:Floor_400x402 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=895.000 Z=300.000), Max=(X=3450.000 Y=1697.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=895.000 Z=300.000), Max=(X=3450.000 Y=1697.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:15C7FD6B48A6171979715B8A06DC77F8 BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery.BP_Pickup_FlashlightBattery_C NativeClass:/Script/Engine.Actor Name:BP_Pickup_FlashlightBattery_C_UAID_10FFE02870CF706A02_1097145159 Label:BP_Pickup_FlashlightBattery SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=333.000 Y=1133.000 Z=394.000), Max=(X=353.000 Y=1153.000 Z=436.500) RuntimeBounds:IsValid=true, Min=(X=333.000 Y=1133.000 Z=394.000), Max=(X=353.000 Y=1153.000 Z=436.500) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:1B83F0604CE343CB5A32499E9E5BB1D0 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1097661976 Label:Floor_400x413 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=2535.000 Z=300.000), Max=(X=2242.000 Y=3337.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=2535.000 Z=300.000), Max=(X=2242.000 Y=3337.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:B0B68B0A4603E1038EDBABB7EFC9B4E3 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1097662977 Label:PointLight17 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=1738.000 Z=-438.000), Max=(X=2633.000 Y=3738.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=1738.000 Z=-438.000), Max=(X=2633.000 Y=3738.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:1B83F0604CE343CB5A32499E9E5BB1D0
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:27B0939C47B706701EAD6487680853FD BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_FlashlightBattery.BP_Pickup_FlashlightBattery_C NativeClass:/Script/Engine.Actor Name:BP_Pickup_FlashlightBattery_C_UAID_10FFE02870CF936A02_1356331335 Label:BP_Pickup_FlashlightBattery SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2653.000 Y=885.000 Z=397.000), Max=(X=2673.000 Y=905.000 Z=439.500) RuntimeBounds:IsValid=true, Min=(X=2653.000 Y=885.000 Z=397.000), Max=(X=2673.000 Y=905.000 Z=439.500) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:2907962C4E05CD6CB5B42A9D3D81DF59 NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_10FFE02870CF706A02_1079745158 Label:PlayerStart SpatiallyLoaded:false EditorBounds:IsValid=true, Min=(X=111.000 Y=886.000 Z=284.000), Max=(X=479.000 Y=1142.000 Z=540.000) RuntimeBounds:IsValid=true, Min=(X=199.000 Y=974.000 Z=320.000), Max=(X=279.000 Y=1054.000 Z=504.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:2CA3CB854DF88AC7ADECC6AD0034071C NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1089593965 Label:PointLight11 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=912.000 Z=-438.000), Max=(X=2633.000 Y=2912.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=912.000 Z=-438.000), Max=(X=2633.000 Y=2912.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:33BEA3C44DFE80823114C88FB2B1B0A8
+ |   |   |   |- Guid:33BEA3C44DFE80823114C88FB2B1B0A8 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1089591964 Label:Floor_400x407 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=1709.000 Z=300.000), Max=(X=2242.000 Y=2511.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=1709.000 Z=300.000), Max=(X=2242.000 Y=2511.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:2F7DE14A4932034DCF07DCB890DC782F BaseClass:/Game/Blueprints/Actors/Notes/BP_Note_FirstNote.BP_Note_FirstNote_C NativeClass:/Script/Engine.Actor Name:BP_Note_FirstNote_C_UAID_10FFE02870CFC06A02_1996985223 Label:BP_Note_FirstNote SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=417.000 Y=821.000 Z=347.000), Max=(X=481.000 Y=885.000 Z=411.000) RuntimeBounds:IsValid=true, Min=(X=417.000 Y=821.000 Z=347.000), Max=(X=481.000 Y=885.000 Z=411.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:3C50069C4F5E973F877BE4930DFD1A75 BaseClass:/Game/Blueprints/Actors/Notes/BP_Note_SecondNote.BP_Note_SecondNote_C NativeClass:/Script/Engine.Actor Name:BP_Note_SecondNote_C_UAID_10FFE02870CFC06A02_2001191224 Label:BP_Note_SecondNote SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=440.000 Y=937.000 Z=359.000), Max=(X=504.000 Y=1001.000 Z=423.000) RuntimeBounds:IsValid=true, Min=(X=440.000 Y=937.000 Z=359.000), Max=(X=504.000 Y=1001.000 Z=423.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:46D5FF444AA436DAB27D24A126265B68 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF6F6A02_2101101980 Label:Floor_400x400 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=895.000 Z=300.000), Max=(X=1033.000 Y=1697.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=895.000 Z=300.000), Max=(X=1033.000 Y=1697.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:921A64AA4A8BE1666E74BBA987952176 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF6F6A02_2109081981 Label:PointLight4 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=98.000 Z=-438.000), Max=(X=1424.000 Y=2098.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=98.000 Z=-438.000), Max=(X=1424.000 Y=2098.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:46D5FF444AA436DAB27D24A126265B68
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:52175DBE4C0CEB733DC2E49327F3C12D NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1085274960 Label:Floor_400x405 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=95.000 Z=300.000), Max=(X=3450.000 Y=897.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=95.000 Z=300.000), Max=(X=3450.000 Y=897.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:A84BDE9A43919C65283C6C83807DB22A NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1085274961 Label:PointLight9 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=-702.000 Z=-438.000), Max=(X=3841.000 Y=1298.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=-702.000 Z=-438.000), Max=(X=3841.000 Y=1298.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:52175DBE4C0CEB733DC2E49327F3C12D
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:55FC0AB244FC4FAF0EFC1BB0EC04DBA9 BaseClass:/Game/Blueprints/Actors/BP_Lock.BP_Lock_C NativeClass:/Script/Engine.Actor Name:BP_Lock_C_UAID_10FFE02870CFE16A02_1755129031 Label:BP_Lock SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1168.259 Y=-197.629 Z=349.040), Max=(X=1171.741 Y=-196.371 Z=355.264) RuntimeBounds:IsValid=true, Min=(X=1168.259 Y=-197.629 Z=349.040), Max=(X=1171.741 Y=-196.371 Z=355.264) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:5620D1D94A07D8788D20DE9FF2FD3943 BaseClass:/Game/Blueprints/Actors/Inventory/BP_InventoryBackPack.BP_InventoryBackPack_C NativeClass:/Script/Engine.Actor Name:BP_InventoryBackPack_C_UAID_10FFE02870CF8C6A02_1899947072 Label:BP_InventoryBackPack SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-352.000 Y=1028.000 Z=-147.000), Max=(X=648.000 Y=2028.000 Z=853.000) RuntimeBounds:IsValid=true, Min=(X=-352.000 Y=1028.000 Z=-147.000), Max=(X=648.000 Y=2028.000 Z=853.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:5912831C4DA2D2511BAF3493A9EC36B5 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1085269956 Label:Floor_400x403 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=95.000 Z=300.000), Max=(X=1033.000 Y=897.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=95.000 Z=300.000), Max=(X=1033.000 Y=897.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:8F5B70BD4C9DD34A9E3196A133FE34F9 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1085272957 Label:PointLight7 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=-702.000 Z=-438.000), Max=(X=1424.000 Y=1298.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=-702.000 Z=-438.000), Max=(X=1424.000 Y=1298.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:5912831C4DA2D2511BAF3493A9EC36B5
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:5FC2128541A5CEE3452E1E93B64EE851 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1074811953 Label:PointLight5 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=98.000 Z=-438.000), Max=(X=2633.000 Y=2098.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=98.000 Z=-438.000), Max=(X=2633.000 Y=2098.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:A7896E4E4C05EB3322D57BA7B1B24757
+ |   |   |   |- Guid:A7896E4E4C05EB3322D57BA7B1B24757 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1074808952 Label:Floor_400x401 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=895.000 Z=300.000), Max=(X=2242.000 Y=1697.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=895.000 Z=300.000), Max=(X=2242.000 Y=1697.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:6031522240D3FE4F53605DB76765CED7 NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:false EditorBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeBounds:IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:true
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:632653A0451A7AC447DAD28D021358E2 BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_Pickup_Bandage.BP_Pickup_Bandage_C NativeClass:/Script/Engine.Actor Name:BP_Pickup_Bandage_C_UAID_10FFE02870CF916A02_2067350981 Label:BP_Pickup_Bandage SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1932.000 Y=851.000 Z=430.000), Max=(X=1952.000 Y=871.000 Z=472.500) RuntimeBounds:IsValid=true, Min=(X=1932.000 Y=851.000 Z=430.000), Max=(X=1952.000 Y=871.000 Z=472.500) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:7AD0032B4A93786DA0202EBF69F78E80 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1089594966 Label:Floor_400x408 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=1709.000 Z=300.000), Max=(X=3450.000 Y=2511.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=1709.000 Z=300.000), Max=(X=3450.000 Y=2511.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:9E49A0F6431B1BCFD6D4EE89BD34C7EB NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1089594967 Label:PointLight12 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=912.000 Z=-438.000), Max=(X=3841.000 Y=2912.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=912.000 Z=-438.000), Max=(X=3841.000 Y=2912.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:7AD0032B4A93786DA0202EBF69F78E80
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:7C006C52497D715D56B0488461E663D2 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1095593971 Label:PointLight14 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=-1512.000 Z=-438.000), Max=(X=2633.000 Y=488.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=-1512.000 Z=-438.000), Max=(X=2633.000 Y=488.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:F0203D0649029C822148698687BC3F15
+ |   |   |   |- Guid:F0203D0649029C822148698687BC3F15 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1095591970 Label:Floor_400x410 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=-715.000 Z=300.000), Max=(X=2242.000 Y=87.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=-715.000 Z=300.000), Max=(X=2242.000 Y=87.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 20]
+ |   |   |   |- Guid:937E589249984A22E864B4A206CA3A60 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1097662978 Label:Floor_400x414 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=2535.000 Z=300.000), Max=(X=3450.000 Y=3337.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=2535.000 Z=300.000), Max=(X=3450.000 Y=3337.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:ABD73F644E38A1190301588E0173F622 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1097663979 Label:PointLight18 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=1738.000 Z=-438.000), Max=(X=3841.000 Y=3738.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=1738.000 Z=-438.000), Max=(X=3841.000 Y=3738.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:937E589249984A22E864B4A206CA3A60
+ |   |   |- [+] [ 21]
+ |   |   |   |- Guid:956708024556EF01A068BAB115836766 BaseClass:/Game/Blueprints/Actors/HideActors/BP_HideActorLocker.BP_HideActorLocker_C NativeClass:/Script/Engine.Actor Name:BP_HideActorLocker_C_UAID_10FFE02870CFA66A02_1229703683 Label:BP_HideActorLocker SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=869.000 Y=597.000 Z=320.000), Max=(X=1349.621 Y=757.000 Z=544.592) RuntimeBounds:IsValid=true, Min=(X=869.000 Y=597.000 Z=320.000), Max=(X=1349.621 Y=757.000 Z=544.592) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 22]
+ |   |   |   |- Guid:975F177A4FD38A103A8467A3C184DFF1 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1095594973 Label:PointLight15 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1841.000 Y=-1512.000 Z=-438.000), Max=(X=3841.000 Y=488.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=1841.000 Y=-1512.000 Z=-438.000), Max=(X=3841.000 Y=488.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:9B91A3884172E4A6D18D8FBB1A546B7B
+ |   |   |   |- Guid:9B91A3884172E4A6D18D8FBB1A546B7B NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1095593972 Label:Floor_400x411 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2234.000 Y=-715.000 Z=300.000), Max=(X=3450.000 Y=87.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=2234.000 Y=-715.000 Z=300.000), Max=(X=3450.000 Y=87.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 23]
+ |   |   |   |- Guid:A02B54D44206F3691B36C49EAF97B47E NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1095588968 Label:Floor_400x409 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=-715.000 Z=300.000), Max=(X=1033.000 Y=87.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=-715.000 Z=300.000), Max=(X=1033.000 Y=87.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:C354106D475BBB994A4A08B1A78F53E4 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1095590969 Label:PointLight13 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=-1512.000 Z=-438.000), Max=(X=1424.000 Y=488.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=-1512.000 Z=-438.000), Max=(X=1424.000 Y=488.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:A02B54D44206F3691B36C49EAF97B47E
+ |   |   |- [+] [ 24]
+ |   |   |   |- Guid:A1C1D4CC4F99F1CCC7314794DA241A56 BaseClass:/Game/Blueprints/Actors/Inventory/PickupActors/BP_PickupItem_DoorKey.BP_PickupItem_DoorKey_C NativeClass:/Script/Engine.Actor Name:BP_PickupItem_DoorKey_C_UAID_10FFE02870CF936A02_1368277336 Label:BP_PickupItem_DoorKey2 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2390.000 Y=640.000 Z=357.000), Max=(X=2590.000 Y=840.000 Z=557.000) RuntimeBounds:IsValid=true, Min=(X=2390.000 Y=640.000 Z=357.000), Max=(X=2590.000 Y=840.000 Z=557.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 25]
+ |   |   |   |- Guid:A7FBECFE4927C1FCD2B7BC80996A3D29 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1097659975 Label:PointLight16 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=1738.000 Z=-438.000), Max=(X=1424.000 Y=3738.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=1738.000 Z=-438.000), Max=(X=1424.000 Y=3738.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:DF31E5EC4A8855D39F41FFA0D24DD8C4
+ |   |   |   |- Guid:DF31E5EC4A8855D39F41FFA0D24DD8C4 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1097657974 Label:Floor_400x412 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=2535.000 Z=300.000), Max=(X=1033.000 Y=3337.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=2535.000 Z=300.000), Max=(X=1033.000 Y=3337.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 26]
+ |   |   |   |- Guid:BEA9FAFF4B96EFC41DCDE19DDA6BA30C BaseClass:/Game/Blueprints/Actors/Interaction/BP_DoorRE7.BP_DoorRE7_C NativeClass:/Script/Engine.Actor Name:BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980 Label:BP_DoorRE7 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=2651.978 Y=1127.000 Z=257.000), Max=(X=2906.000 Y=1287.000 Z=569.607) RuntimeBounds:IsValid=true, Min=(X=2651.978 Y=1127.000 Z=257.000), Max=(X=2906.000 Y=1287.000 Z=569.607) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 27]
+ |   |   |   |- Guid:BF069CD44BF8E85425DFB79EE02536CE NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1089589962 Label:Floor_400x406 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-183.000 Y=1709.000 Z=300.000), Max=(X=1033.000 Y=2511.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=-183.000 Y=1709.000 Z=300.000), Max=(X=1033.000 Y=2511.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |   |- Guid:E98CE00F4DA110045EDD7BA5F3AC3719 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1089590963 Label:PointLight10 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-576.000 Y=912.000 Z=-438.000), Max=(X=1424.000 Y=2912.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=-576.000 Y=912.000 Z=-438.000), Max=(X=1424.000 Y=2912.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:BF069CD44BF8E85425DFB79EE02536CE
+ |   |   |- [+] [ 28]
+ |   |   |   |- Guid:CE2792294B5FFB247A9F959EEF262C21 NativeClass:/Script/Engine.PostProcessVolume Name:PostProcessVolume_UAID_10FFE02870CF9F6A02_1216414449 Label:PostProcessVolume SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=-225.000 Y=405.000 Z=335.000), Max=(X=1025.000 Y=1655.000 Z=1585.000) RuntimeBounds:IsValid=true, Min=(X=-225.000 Y=405.000 Z=335.000), Max=(X=1025.000 Y=1655.000 Z=1585.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false
+ |   |   |- [+] [ 29]
+ |   |   |   |- Guid:D2EC59074B67EF9C4F504D9083A1EDB7 NativeClass:/Script/Engine.PointLight Name:PointLight_UAID_10FFE02870CF916A02_1085273959 Label:PointLight8 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=633.000 Y=-702.000 Z=-438.000), Max=(X=2633.000 Y=1298.000 Z=1562.000) RuntimeBounds:IsValid=true, Min=(X=633.000 Y=-702.000 Z=-438.000), Max=(X=2633.000 Y=1298.000 Z=1562.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:false ListedInSceneOutliner:true IsMainWorldOnly:false Parent:ECABE3C7488145F8C761CBABEC3AF2F3
+ |   |   |   |- Guid:ECABE3C7488145F8C761CBABEC3AF2F3 NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_10FFE02870CF916A02_1085273958 Label:Floor_400x404 SpatiallyLoaded:true EditorBounds:IsValid=true, Min=(X=1026.000 Y=95.000 Z=300.000), Max=(X=2242.000 Y=897.000 Z=320.000) RuntimeBounds:IsValid=true, Min=(X=1026.000 Y=95.000 Z=300.000), Max=(X=2242.000 Y=897.000 Z=320.000) RuntimeGrid:None EditorOnly:false RuntimeOnly:false HLODRelevant:true ListedInSceneOutliner:true IsMainWorldOnly:false
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=true, Min=(X=-1101.000 Y=-1512.000 Z=-1521.000), Max=(X=3841.000 Y=3738.000 Z=1585.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/GameBP/Studio/Studio
+----------------------------------------------------------------------------------------------------------------
+Studio - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of Studio Persistent Level
+ |- Always loaded Actor Count: 2 
+ |- Actor Path: /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PlayerStart_UAID_10FFE02870CF706A02_1079745158
+ |- Actor Package: /Game/__ExternalActors__/GameBP/Studio/Studio/1/6T/YB8UDKBRHJVSIHC88KFK9K
+ |- Actor Path: /Game/GameBP/Studio/Studio.Studio:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/GameBP/Studio/Studio/9/CK/8BVIDVFQ4J4JWUH9R44N6M
+
+----------------------------------------------------------------------------------------------------------------
+Studio - Runtime Hash Set
+----------------------------------------------------------------------------------------------------------------
+[+] Content of Cell Studio_MainPartition_L0_X0_Y0 (71I0K3J07KEBO65OIYJV1GWYI)
+ |- Actor Count: 35
+ |- Content Bounds: IsValid=true, Min=(X=0.000 Y=0.000 Z=-0.000), Max=(X=3841.000 Y=3738.000 Z=0.000)
+ |- Cell Bounds: IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=12800.000 Y=12800.000 Z=0.000)
+ |- Is 2D: True
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_PickupItem_DoorKey_C_UAID_10FFE02870CF706A02_1103083160
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/7/YX/IZA66L8VNZ9ZHEW8XKVB95
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 0027123A45D24425196F0BB2C1CC16AC
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1077940955
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/6/UN/30ZTR5HWDMV2EVRJOSSCLR
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 15A7FCD846D91FD3D32F92AC10A23EAA
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_Pickup_FlashlightBattery_C_UAID_10FFE02870CF706A02_1097145159
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/3/G7/N6JJIZVUF5FI4J68BR8LWN
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 15C7FD6B48A6171979715B8A06DC77F8
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1097661976
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/7/5U/0165JN3KQD5UQKZ2UOJHVC
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 1B83F0604CE343CB5A32499E9E5BB1D0
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_Pickup_FlashlightBattery_C_UAID_10FFE02870CF936A02_1356331335
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/2/5A/MQ07YN058QRMZ45OKROQ8C
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 27B0939C47B706701EAD6487680853FD
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1089593965
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/5/ZC/X3A3M59DS17L88PXHRNQYW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 2CA3CB854DF88AC7ADECC6AD0034071C
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_Note_FirstNote_C_UAID_10FFE02870CFC06A02_1996985223
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/0/YO/303WSQUI48IJ51WBT8JCIK
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 2F7DE14A4932034DCF07DCB890DC782F
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1089591964
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/5/4W/TMY9FNG5IUKM90F9B7I798
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 33BEA3C44DFE80823114C88FB2B1B0A8
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_Note_SecondNote_C_UAID_10FFE02870CFC06A02_2001191224
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/B/6E/VYS66VNGBJJGG5SMO99J4J
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 3C50069C4F5E973F877BE4930DFD1A75
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF6F6A02_2101101980
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/E/HQ/0BFIOEHERN4UOUYXX1F2VW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 46D5FF444AA436DAB27D24A126265B68
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1085274960
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/B/R6/G78OP1NHAC2JGUAGGVSD1A
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 52175DBE4C0CEB733DC2E49327F3C12D
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_InventoryBackPack_C_UAID_10FFE02870CF8C6A02_1899947072
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/9/O8/GJJA3JJQ9DNBO1LH8OIZUW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 5620D1D94A07D8788D20DE9FF2FD3943
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1085269956
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/5/I7/2V7M7P9PEVY7GZ57WSH9DE
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 5912831C4DA2D2511BAF3493A9EC36B5
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1074811953
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/1/MM/J4AJFI2PKOPHS8Z68L1J0Y
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 5FC2128541A5CEE3452E1E93B64EE851
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_Pickup_Bandage_C_UAID_10FFE02870CF916A02_2067350981
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/E/2D/7UGTZUH75J5GBFHW0NZNGE
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 632653A0451A7AC447DAD28D021358E2
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1077938954
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/D/DY/Z5M8GNKGIEZ0HF9SIADPDE
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 75FF94A54C8A4E8F8D56ECA38457C874
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1089594966
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/D/ZP/JLIK2XCEGDJTJCZ3YFFIXK
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7AD0032B4A93786DA0202EBF69F78E80
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1085272957
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/9/VK/FZ64O2UEM4X4B7WL5ISATX
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 8F5B70BD4C9DD34A9E3196A133FE34F9
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF6F6A02_2109081981
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/8/7R/OFHA3WFX5652ZJL36KK12S
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 921A64AA4A8BE1666E74BBA987952176
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1097662978
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/7/HP/CPOHU0UDD872NDAP6P0I41
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 937E589249984A22E864B4A206CA3A60
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_HideActorLocker_C_UAID_10FFE02870CFA66A02_1229703683
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/7/BZ/UTMRP1LZMNRZT6FGZQHD2J
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 956708024556EF01A068BAB115836766
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1089594967
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/E/LT/IL46VXBLZM3C2F3S8AHNOQ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 9E49A0F6431B1BCFD6D4EE89BD34C7EB
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_PickupItem_DoorKey_C_UAID_10FFE02870CF936A02_1368277336
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/8/GI/NPPSRBI7HOA7AP8H7IWX1I
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A1C1D4CC4F99F1CCC7314794DA241A56
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1074808952
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/5/Y8/GX38OCN4976UZSJ14WN9R2
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A7896E4E4C05EB3322D57BA7B1B24757
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1097659975
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/9/CA/NU2MF7THAZXL7R1CPTGFOX
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A7FBECFE4927C1FCD2B7BC80996A3D29
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1085274961
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/9/GB/4BHE0VYY0HTFDX3LZ7F76D
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A84BDE9A43919C65283C6C83807DB22A
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1097663979
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/D/QU/QWO69PMSB7UIO1RPZUZGGW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: ABD73F644E38A1190301588E0173F622
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1097662977
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/A/AC/6XNEAH6WCJSADP7GKUBUNM
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: B0B68B0A4603E1038EDBABB7EFC9B4E3
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/E/XE/JRBXJCVZOMGZ8X77S1MPQ2
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: BEA9FAFF4B96EFC41DCDE19DDA6BA30C
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1089589962
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/A/3Z/5W0KNPMZ70OF5JI0B8Z1WK
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: BF069CD44BF8E85425DFB79EE02536CE
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PostProcessVolume_UAID_10FFE02870CF9F6A02_1216414449
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/E/0R/1XYFJBP52JL0770ABEZP5B
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: CE2792294B5FFB247A9F959EEF262C21
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1085273959
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/B/2Z/0WC0K60FG6HG3HNV7CI2X3
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: D2EC59074B67EF9C4F504D9083A1EDB7
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1097657974
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/2/IN/NB31EXGRLF17NZIS8MYYRO
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: DF31E5EC4A8855D39F41FFA0D24DD8C4
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1089590963
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/2/BO/NTQJLNKP32V5R8HMCW5UCZ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: E98CE00F4DA110045EDD7BA5F3AC3719
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1085273958
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/4/DC/E7DLBGQ9BJO3Q4ET0SIO3D
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: ECABE3C7488145F8C761CBABEC3AF2F3
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell Studio_MainPartition_L0_X0_Y-1 (AM0GT5V0UYKBF7RZKOPVI7FF2)
+ |- Actor Count: 7
+ |- Content Bounds: IsValid=true, Min=(X=0.000 Y=-1512.000 Z=-0.000), Max=(X=3841.000 Y=0.000 Z=0.000)
+ |- Cell Bounds: IsValid=true, Min=(X=0.000 Y=-12800.000 Z=0.000), Max=(X=12800.000 Y=0.000 Z=0.000)
+ |- Is 2D: True
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_Lock_C_UAID_10FFE02870CFE16A02_1755129031
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/0/78/WANY2LDJ57I19JCH014HSH
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 55FC0AB244FC4FAF0EFC1BB0EC04DBA9
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1095593971
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/E/ES/8PCK2W0J9ND271KAEH8G47
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7C006C52497D715D56B0488461E663D2
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1095594973
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/E/HP/1UCL73JNOBQ4SU6SPXSBPV
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 975F177A4FD38A103A8467A3C184DFF1
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1095593972
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/5/83/JITQMZRSYOPNXU02P9YQMJ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 9B91A3884172E4A6D18D8FBB1A546B7B
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1095588968
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/A/D0/I9OCTVIL8F5MH3HXRCE14Z
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A02B54D44206F3691B36C49EAF97B47E
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF916A02_1095590969
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/2/T3/JZTFNRX53WK8RW7FKAXOOF
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: C354106D475BBB994A4A08B1A78F53E4
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.StaticMeshActor_UAID_10FFE02870CF916A02_1095591970
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/1/ZO/HNL6I9SSCCYFQCJ67O0AEE
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: F0203D0649029C822148698687BC3F15
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell Studio_MainPartition_L0_X-1_Y0 (AYLBGMVNR7JAJYWW0DP7DSJAQ)
+ |- Actor Count: 10
+ |- Content Bounds: IsValid=true, Min=(X=-1101.000 Y=0.000 Z=-0.000), Max=(X=0.000 Y=2115.000 Z=0.000)
+ |- Cell Bounds: IsValid=true, Min=(X=-12800.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=12800.000 Z=0.000)
+ |- Is 2D: True
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.SceneCapture2D_UAID_10FFE02870CFBF6A02_1835760060
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/D/J7/1CARZK2NJASM35ZP789Y25
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 0EC04E4B4C144F2DAFABEAA9CA057536
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.SceneCapture2D_UAID_10FFE02870CF696A02_1990903914
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/3/LP/GOQM0BREMADR4U4JR2UL52
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 247636614D12B96E71241586100AB70A
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CFBF6A02_1835763062
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/4/E7/M2BURR4K9O87R0A26MWRYV
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 486E38634738174D27BE93849406489E
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CFBF6A02_1835762061
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/6/HF/SYSGDEGMVQ7MNHTRQPRKWZ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7D2C14AA4F7717EA9C6E82AB5907654D
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_NoteExamination_C_UAID_10FFE02870CFBF6A02_1874580064
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/5/SW/I06WXYL9WI7ZPS4QEL0B63
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 9E82C8A447EA64FAEFAAAFA8A5703AC0
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF6A6A02_1632934092
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/5/0H/HXQ3C1YC9J7UQVI1FYK42S
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A38DDB444C0417A91905358277F31CF7
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.BP_Examination_C_UAID_10FFE02870CF696A02_2040200915
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/C/5S/AR2YC4MUAVSYQQ1SGKVM1R
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: B9502D1E45A6DC7FE20BEC80F6A144BC
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF6A6A02_1776193094
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/C/G5/62057P661O4YNXFJXP7KOY
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: C5C25B304001E10ED51B5CA073A72A83
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CF6A6A02_1754192093
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/5/T1/7Y0PUYV2XH8P7HU0EUOV8O
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: D11D9F56474C917CCF953C8C7083B20E
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/GameBP/Studio/Studio.Studio:PersistentLevel.PointLight_UAID_10FFE02870CFBF6A02_1835764063
+ |   |-         Package: /Game/__ExternalActors__/GameBP/Studio/Studio/D/8B/S7FCOZPHA1YPTEWP3Q4NAX
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: F3C5CFAB443D04D959BC92BA362EB52C
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+
