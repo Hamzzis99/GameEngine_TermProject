@@ -3673,3 +3673,1050 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.06.17-13.36.23:035][824]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.06.17-13.36.23:035][824]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.06.17-13.36.23:036][824]AssetCheck: /Game/AI/Classic/AIC_Classic Validating asset
+[2025.06.17-13.38.42:795][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.06.17-13.38.42:800][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.38.42:829][ 11]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/AIC_Classic] ([2] browsable assets)...
+[2025.06.17-13.38.42:829][ 11]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/AIC_Classic]
+[2025.06.17-13.38.42:829][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/AIC_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset" SILENT=true
+[2025.06.17-13.38.42:836][ 11]LogSavePackage: Moving output files for package: /Game/AI/Classic/AIC_Classic
+[2025.06.17-13.38.42:836][ 11]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/AIC_ClassicFB98CBE6421F13EC5699CC8FF25C92E0.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset'
+[2025.06.17-13.38.42:838][ 11]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/BT_Classic] ([1] browsable assets)...
+[2025.06.17-13.38.42:838][ 11]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/BT_Classic]
+[2025.06.17-13.38.42:838][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/BT_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset" SILENT=true
+[2025.06.17-13.38.42:843][ 11]LogSavePackage: Moving output files for package: /Game/AI/Classic/BT_Classic
+[2025.06.17-13.38.42:844][ 11]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BT_Classic114D00E14A0B54E8008030B4D30F0698.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset'
+[2025.06.17-13.38.42:852][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave took 51.655 ms (total: 1.89 sec)
+[2025.06.17-13.38.42:878][ 11]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.17-13.38.42:879][ 11]LogContentValidation: Enabled validators:
+[2025.06.17-13.38.42:879][ 11]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.38.42:879][ 11]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.38.42:879][ 11]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.38.42:879][ 11]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.38.42:879][ 11]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.38.42:879][ 11]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.38.42:879][ 11]AssetCheck: /Game/AI/Classic/AIC_Classic Validating asset
+[2025.06.17-13.38.42:879][ 11]AssetCheck: /Game/AI/Classic/BT_Classic Validating asset
+[2025.06.17-13.38.54:510][932]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.17-13.38.54:523][932]LogContentBundle: [Studio(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.17-13.38.54:523][932]LogWorldPartition: Display: GenerateStreaming for 'Studio' started...
+[2025.06.17-13.38.54:524][932]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.JumpScare_TriggerBox 
+[2025.06.17-13.38.54:524][932]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.BP_Doorwayscare 
+[2025.06.17-13.38.54:526][932]LogWorldPartition: Display: GenerateStreaming for 'Studio' took 3.608 ms (total: 57.456 ms)
+[2025.06.17-13.38.54:531][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.17-13.38.54:531][932]LogPlayLevel: Display: Creating online subsystem for client :Context_30
+[2025.06.17-13.38.54:533][932]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.06.17-13.38.54:572][933]LogPlayLevel: Creating play world package: /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.38.54:574][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003226s)
+[2025.06.17-13.38.54:574][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameBP/Studio/Studio.Studio to /Game/GameBP/Studio/UEDPIE_0_Studio.Studio (0.003270s)
+[2025.06.17-13.38.54:590][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.06.17-13.38.54:595][933]LogChaosDD: Creating Chaos Debug Draw Scene for world Studio
+[2025.06.17-13.38.54:597][933]LogWorldPartition: ULevel::OnLevelLoaded(Studio)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.17-13.38.54:597][933]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.17-13.38.54:597][933]LogWorldPartition: UWorldPartition::Initialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.17-13.38.54:597][933]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.17-13.38.54:598][933]LogWorldPartition: Display: WorldPartition initialize took 1.258 ms (total: 654.362 ms)
+[2025.06.17-13.38.54:598][933]LogPlayLevel: PIE: World Init took: (0.002718s)
+[2025.06.17-13.38.54:598][933]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.06.17-13.38.54:599][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.17-13.38.54:599][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.17-13.38.54:599][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.17-13.38.54:599][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.17-13.38.54:599][933]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.17-13.38.54:599][933]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.17-13.38.54:599][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.17-13.38.54:599][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.17-13.38.54:599][933]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.17-13.38.54:599][933]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.17-13.38.54:599][933]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.17-13.38.54:600][933]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.17-13.38.54:679][933]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.06.17-13.38.54:680][933]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.17-13.38.54:680][933]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.17-13.38.54:680][933]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.17-13.38.54:680][933]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.06.17-13.38.54:680][933]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=18
+[2025.06.17-13.38.54:684][933]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.06.17-13.38.54:684][933]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.06.17-13.38.54:684][933]LogInit: FAudioDevice initialized with ID 18.
+[2025.06.17-13.38.54:684][933]LogAudio: Display: Audio Device (ID: 18) registered with world 'Studio'.
+[2025.06.17-13.38.54:684][933]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.06.17-13.38.54:686][933]LogLoad: Game class is 'L1_GameMode_C'
+[2025.06.17-13.38.54:687][933]LogWorld: Bringing World /Game/GameBP/Studio/UEDPIE_0_Studio.Studio up for play (max tick rate 0) at 2025.06.17-22.38.54
+[2025.06.17-13.38.54:687][933]LogWorld: Bringing up level for play took: 0.001072
+[2025.06.17-13.38.54:690][933]LogStreaming: Display: FlushAsyncLoading(1353,1354,1355,1356,1357,1358,1359,1360,1361,1362,1343,1344,1345,1346,1347,1348,1349,1350,1351,1352,1302,1303,1304,1305,1306,1307,1308,1309,1310,1311,1312,1313,1314,1315,1316,1317,1318,1319,1320,1321,1322,1323,1324,1325,1326,1327,1328,1329,1330,1331,1332,1333,1334,1335,1336,1337,1338,1339,1340,1341,1342): 61 QueuedPackages, 0 AsyncPackages
+[2025.06.17-13.38.54:719][933]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.38.54:721][933]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.38.54:722][933]LogScript: Warning: Script Msg: BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980 Closer SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.06.17-13.38.54:722][933]LogScript: Warning: Script Msg called by: BP_DoorRE7_C /Memory/UEDPIE_0_71I0K3J07KEBO65OIYJV1GWYI.Studio:PersistentLevel.BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980
+[2025.06.17-13.38.54:724][933]LogBlueprintUserMessages: [BP_LockDial_C_0] 8
+[2025.06.17-13.38.54:724][933]LogBlueprintUserMessages: [BP_LockDial_C_1] 6
+[2025.06.17-13.38.54:724][933]LogBlueprintUserMessages: [BP_LockDial_C_2] 9
+[2025.06.17-13.38.54:724][933]LogBlueprintUserMessages: [BP_LockDial_C_3] 3
+[2025.06.17-13.38.54:725][933]PIE: Server logged in
+[2025.06.17-13.38.54:726][933]PIE: Play in editor total start time 0.204 seconds.
+[2025.06.17-13.39.09:946][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.39.09:946][ 86]LogWorld: BeginTearingDown for /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.39.09:948][ 86]LogWorld: UWorld::CleanupWorld for Studio, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-13.39.09:948][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.39.09:948][ 86]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio
+[2025.06.17-13.39.09:952][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.17-13.39.09:956][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.39.09:978][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.39.09:978][ 86]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.06.17-13.39.09:978][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.06.17-13.39.09:980][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.06.17-13.39.09:987][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.06.17-13.39.10:081][ 87]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.06.17-13.40.00:663][479]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/HideActors/BP_HideActorLocker.BP_HideActorLocker
+[2025.06.17-13.40.00:663][479]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.06.17-13.40.49:447][638]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8940.548828
+[2025.06.17-13.40.50:447][641]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.17-13.40.50:447][641]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8941.214844, Update Interval: 348.429199
+[2025.06.17-13.40.53:207][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.06.17-13.40.53:210][649]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/GameBP/Studio/Studio' took 0.061
+[2025.06.17-13.40.53:210][649]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/AIC_Classic] ([2] browsable assets)...
+[2025.06.17-13.40.53:210][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/AIC_Classic]
+[2025.06.17-13.40.53:210][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/AIC_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/AI/Classic/AIC_Classic_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.06.17-13.40.53:218][649]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/Classic/AIC_Classic_Auto3
+[2025.06.17-13.40.53:218][649]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/AIC_Classic_Auto3F2CE5F074E0B42A2B73664AB17255BBA.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/Autosaves/Game/AI/Classic/AIC_Classic_Auto3.uasset'
+[2025.06.17-13.40.53:219][649]LogFileHelpers: Auto-saving content packages took 0.009
+[2025.06.17-13.42.10:246][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.06.17-13.42.10:252][835]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.42.10:288][835]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/AIC_Classic] ([2] browsable assets)...
+[2025.06.17-13.42.10:288][835]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/AIC_Classic]
+[2025.06.17-13.42.10:288][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/AIC_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset" SILENT=true
+[2025.06.17-13.42.10:296][835]LogSavePackage: Moving output files for package: /Game/AI/Classic/AIC_Classic
+[2025.06.17-13.42.10:296][835]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/AIC_ClassicCAAD8A0845EA642762B32DB6EE46817F.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset'
+[2025.06.17-13.42.10:298][835]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/BT_Classic] ([1] browsable assets)...
+[2025.06.17-13.42.10:298][835]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/BT_Classic]
+[2025.06.17-13.42.10:298][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/BT_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset" SILENT=true
+[2025.06.17-13.42.10:303][835]LogSavePackage: Moving output files for package: /Game/AI/Classic/BT_Classic
+[2025.06.17-13.42.10:304][835]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BT_ClassicABC20F8645FB5E99CCB07587EF1512C7.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset'
+[2025.06.17-13.42.10:312][835]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.297 ms (total: 1.95 sec)
+[2025.06.17-13.42.10:334][835]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.17-13.42.10:334][835]LogContentValidation: Enabled validators:
+[2025.06.17-13.42.10:334][835]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.42.10:334][835]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.42.10:334][835]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.42.10:334][835]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.42.10:334][835]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.42.10:334][835]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.42.10:334][835]AssetCheck: /Game/AI/Classic/AIC_Classic Validating asset
+[2025.06.17-13.42.10:334][835]AssetCheck: /Game/AI/Classic/BT_Classic Validating asset
+[2025.06.17-13.42.11:500][938]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.17-13.42.11:509][938]LogContentBundle: [Studio(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.17-13.42.11:509][938]LogWorldPartition: Display: GenerateStreaming for 'Studio' started...
+[2025.06.17-13.42.11:510][938]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.JumpScare_TriggerBox 
+[2025.06.17-13.42.11:510][938]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.BP_Doorwayscare 
+[2025.06.17-13.42.11:514][938]LogWorldPartition: Display: GenerateStreaming for 'Studio' took 5.185 ms (total: 62.642 ms)
+[2025.06.17-13.42.11:519][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.17-13.42.11:558][938]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2025.06.17-13.42.11:561][938]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.06.17-13.42.11:609][939]LogPlayLevel: Creating play world package: /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.42.11:611][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002556s)
+[2025.06.17-13.42.11:611][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameBP/Studio/Studio.Studio to /Game/GameBP/Studio/UEDPIE_0_Studio.Studio (0.002602s)
+[2025.06.17-13.42.11:628][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.06.17-13.42.11:635][939]LogChaosDD: Creating Chaos Debug Draw Scene for world Studio
+[2025.06.17-13.42.11:636][939]LogWorldPartition: ULevel::OnLevelLoaded(Studio)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.17-13.42.11:636][939]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.17-13.42.11:636][939]LogWorldPartition: UWorldPartition::Initialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.17-13.42.11:636][939]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.17-13.42.11:637][939]LogWorldPartition: Display: WorldPartition initialize took 1.233 ms (total: 655.595 ms)
+[2025.06.17-13.42.11:637][939]LogPlayLevel: PIE: World Init took: (0.002801s)
+[2025.06.17-13.42.11:638][939]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.06.17-13.42.11:638][939]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.17-13.42.11:638][939]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.17-13.42.11:638][939]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.17-13.42.11:638][939]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.17-13.42.11:638][939]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.17-13.42.11:638][939]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.17-13.42.11:638][939]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.17-13.42.11:638][939]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.17-13.42.11:638][939]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.17-13.42.11:638][939]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.17-13.42.11:638][939]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.17-13.42.11:641][939]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.17-13.42.11:719][939]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.06.17-13.42.11:719][939]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.17-13.42.11:719][939]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.17-13.42.11:719][939]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.17-13.42.11:720][939]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.06.17-13.42.11:720][939]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=19
+[2025.06.17-13.42.11:723][939]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.06.17-13.42.11:723][939]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.06.17-13.42.11:723][939]LogInit: FAudioDevice initialized with ID 19.
+[2025.06.17-13.42.11:723][939]LogAudio: Display: Audio Device (ID: 19) registered with world 'Studio'.
+[2025.06.17-13.42.11:723][939]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.06.17-13.42.11:725][939]LogLoad: Game class is 'L1_GameMode_C'
+[2025.06.17-13.42.11:726][939]LogWorld: Bringing World /Game/GameBP/Studio/UEDPIE_0_Studio.Studio up for play (max tick rate 0) at 2025.06.17-22.42.11
+[2025.06.17-13.42.11:726][939]LogWorld: Bringing up level for play took: 0.001057
+[2025.06.17-13.42.11:728][939]LogStreaming: Display: FlushAsyncLoading(1414,1415,1416,1417,1418,1419,1420,1421,1422,1423,1404,1405,1406,1407,1408,1409,1410,1411,1412,1413,1363,1364,1365,1366,1367,1368,1369,1370,1371,1372,1373,1374,1375,1376,1377,1378,1379,1380,1381,1382,1383,1384,1385,1386,1387,1388,1389,1390,1391,1392,1393,1394,1395,1396,1397,1398,1399,1400,1401,1402,1403): 61 QueuedPackages, 0 AsyncPackages
+[2025.06.17-13.42.11:759][939]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.42.11:761][939]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.42.11:763][939]LogScript: Warning: Script Msg: BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980 Closer SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.06.17-13.42.11:763][939]LogScript: Warning: Script Msg called by: BP_DoorRE7_C /Memory/UEDPIE_0_71I0K3J07KEBO65OIYJV1GWYI.Studio:PersistentLevel.BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980
+[2025.06.17-13.42.11:764][939]LogBlueprintUserMessages: [BP_LockDial_C_0] 7
+[2025.06.17-13.42.11:764][939]LogBlueprintUserMessages: [BP_LockDial_C_1] 5
+[2025.06.17-13.42.11:764][939]LogBlueprintUserMessages: [BP_LockDial_C_2] 9
+[2025.06.17-13.42.11:765][939]LogBlueprintUserMessages: [BP_LockDial_C_3] 2
+[2025.06.17-13.42.11:765][939]PIE: Server logged in
+[2025.06.17-13.42.11:767][939]PIE: Play in editor total start time 0.258 seconds.
+[2025.06.17-13.42.19:983][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.42.19:983][550]LogWorld: BeginTearingDown for /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.42.19:985][550]LogWorld: UWorld::CleanupWorld for Studio, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-13.42.19:985][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.42.19:985][550]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio
+[2025.06.17-13.42.19:988][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.17-13.42.19:993][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.42.20:010][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.42.20:010][550]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.06.17-13.42.20:010][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.06.17-13.42.20:012][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.06.17-13.42.20:020][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.06.17-13.42.20:116][551]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.06.17-13.42.47:205][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.06.17-13.47.15:631][347]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9326.738281
+[2025.06.17-13.47.15:895][378]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.17-13.47.15:895][378]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9326.993164, Update Interval: 325.686829
+[2025.06.17-13.47.16:065][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.06.17-13.47.16:069][397]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.47.16:100][397]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actors/HideActors/BP_HideActor] ([2] browsable assets)...
+[2025.06.17-13.47.16:100][397]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/HideActors/BP_HideActor]
+[2025.06.17-13.47.16:100][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/HideActors/BP_HideActor" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActor.uasset" SILENT=true
+[2025.06.17-13.47.16:113][397]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/HideActors/BP_HideActor
+[2025.06.17-13.47.16:114][397]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_HideActorC70948B14EC4DA03C6332DB8612E8801.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActor.uasset'
+[2025.06.17-13.47.16:123][397]LogFileHelpers: InternalPromptForCheckoutAndSave took 53.268 ms (total: 2.00 sec)
+[2025.06.17-13.47.16:155][397]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.47.16:155][397]LogContentValidation: Enabled validators:
+[2025.06.17-13.47.16:155][397]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.47.16:155][397]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.47.16:155][397]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.47.16:155][397]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.47.16:155][397]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.47.16:155][397]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.47.16:155][397]AssetCheck: /Game/Blueprints/Actors/HideActors/BP_HideActor Validating asset
+[2025.06.17-13.47.18:665][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.06.17-13.47.58:951][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.06.17-13.47.58:957][459]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.47.58:988][459]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Actors/HideActors/BP_HideActorLocker] ([2] browsable assets)...
+[2025.06.17-13.47.59:030][459]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/HideActors/BP_HideActorLocker.BP_HideActorLocker]
+[2025.06.17-13.47.59:030][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/HideActors/BP_HideActorLocker]
+[2025.06.17-13.47.59:037][459]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/HideActors/BP_HideActorLocker
+[2025.06.17-13.47.59:038][459]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_HideActorLockerC89776214E9D815D717C6E9D9D26AFAB.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActorLocker.uasset'
+[2025.06.17-13.47.59:039][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actors/HideActors/BP_HideActor] ([2] browsable assets)...
+[2025.06.17-13.47.59:039][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/HideActors/BP_HideActor]
+[2025.06.17-13.47.59:039][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/HideActors/BP_HideActor" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActor.uasset" SILENT=true
+[2025.06.17-13.47.59:052][459]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/HideActors/BP_HideActor
+[2025.06.17-13.47.59:053][459]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_HideActorE42EE0404822371BB78A899A8E72534A.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActor.uasset'
+[2025.06.17-13.47.59:062][459]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.941 ms (total: 2.10 sec)
+[2025.06.17-13.47.59:099][459]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.17-13.47.59:099][459]LogContentValidation: Enabled validators:
+[2025.06.17-13.47.59:099][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.47.59:099][459]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.47.59:099][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.47.59:099][459]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.47.59:099][459]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.47.59:099][459]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.47.59:099][459]AssetCheck: /Game/Blueprints/Actors/HideActors/BP_HideActorLocker Validating asset
+[2025.06.17-13.47.59:099][459]AssetCheck: /Game/Blueprints/Actors/HideActors/BP_HideActor Validating asset
+[2025.06.17-13.48.28:291][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.06.17-13.48.29:374][939]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.17-13.48.29:385][939]LogContentBundle: [Studio(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.17-13.48.29:385][939]LogWorldPartition: Display: GenerateStreaming for 'Studio' started...
+[2025.06.17-13.48.29:386][939]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.JumpScare_TriggerBox 
+[2025.06.17-13.48.29:386][939]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.BP_Doorwayscare 
+[2025.06.17-13.48.29:388][939]LogWorldPartition: Display: GenerateStreaming for 'Studio' took 3.383 ms (total: 66.026 ms)
+[2025.06.17-13.48.29:391][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.17-13.48.29:391][939]LogPlayLevel: Display: Creating online subsystem for client :Context_33
+[2025.06.17-13.48.29:395][939]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.06.17-13.48.29:417][940]LogPlayLevel: Creating play world package: /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.48.29:419][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002512s)
+[2025.06.17-13.48.29:419][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameBP/Studio/Studio.Studio to /Game/GameBP/Studio/UEDPIE_0_Studio.Studio (0.002550s)
+[2025.06.17-13.48.29:437][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.06.17-13.48.29:441][940]LogChaosDD: Creating Chaos Debug Draw Scene for world Studio
+[2025.06.17-13.48.29:442][940]LogWorldPartition: ULevel::OnLevelLoaded(Studio)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.17-13.48.29:442][940]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.17-13.48.29:442][940]LogWorldPartition: UWorldPartition::Initialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.17-13.48.29:442][940]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.17-13.48.29:444][940]LogWorldPartition: Display: WorldPartition initialize took 1.218 ms (total: 656.814 ms)
+[2025.06.17-13.48.29:444][940]LogPlayLevel: PIE: World Init took: (0.002856s)
+[2025.06.17-13.48.29:445][940]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.06.17-13.48.29:445][940]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.17-13.48.29:445][940]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.17-13.48.29:445][940]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.17-13.48.29:445][940]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.17-13.48.29:445][940]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.17-13.48.29:445][940]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.17-13.48.29:445][940]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.17-13.48.29:445][940]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.17-13.48.29:445][940]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.17-13.48.29:445][940]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.17-13.48.29:445][940]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.17-13.48.29:447][940]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.17-13.48.29:526][940]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.06.17-13.48.29:526][940]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.17-13.48.29:527][940]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.17-13.48.29:527][940]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.17-13.48.29:527][940]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.06.17-13.48.29:527][940]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=20
+[2025.06.17-13.48.29:529][940]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.06.17-13.48.29:529][940]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.06.17-13.48.29:529][940]LogInit: FAudioDevice initialized with ID 20.
+[2025.06.17-13.48.29:529][940]LogAudio: Display: Audio Device (ID: 20) registered with world 'Studio'.
+[2025.06.17-13.48.29:529][940]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.06.17-13.48.29:532][940]LogLoad: Game class is 'L1_GameMode_C'
+[2025.06.17-13.48.29:532][940]LogWorld: Bringing World /Game/GameBP/Studio/UEDPIE_0_Studio.Studio up for play (max tick rate 0) at 2025.06.17-22.48.29
+[2025.06.17-13.48.29:532][940]LogWorld: Bringing up level for play took: 0.001055
+[2025.06.17-13.48.29:535][940]LogStreaming: Display: FlushAsyncLoading(1475,1476,1477,1478,1479,1480,1481,1482,1483,1484,1465,1466,1467,1468,1469,1470,1471,1472,1473,1474,1424,1425,1426,1427,1428,1429,1430,1431,1432,1433,1434,1435,1436,1437,1438,1439,1440,1441,1442,1443,1444,1445,1446,1447,1448,1449,1450,1451,1452,1453,1454,1455,1456,1457,1458,1459,1460,1461,1462,1463,1464): 61 QueuedPackages, 0 AsyncPackages
+[2025.06.17-13.48.29:568][940]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.48.29:569][940]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.48.29:571][940]LogScript: Warning: Script Msg: BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980 Closer SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.06.17-13.48.29:571][940]LogScript: Warning: Script Msg called by: BP_DoorRE7_C /Memory/UEDPIE_0_71I0K3J07KEBO65OIYJV1GWYI.Studio:PersistentLevel.BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980
+[2025.06.17-13.48.29:573][940]LogBlueprintUserMessages: [BP_LockDial_C_0] 6
+[2025.06.17-13.48.29:573][940]LogBlueprintUserMessages: [BP_LockDial_C_1] 2
+[2025.06.17-13.48.29:573][940]LogBlueprintUserMessages: [BP_LockDial_C_2] 2
+[2025.06.17-13.48.29:574][940]LogBlueprintUserMessages: [BP_LockDial_C_3] 6
+[2025.06.17-13.48.29:574][940]PIE: Server logged in
+[2025.06.17-13.48.29:575][940]PIE: Play in editor total start time 0.191 seconds.
+[2025.06.17-13.48.40:458][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.48.40:458][741]LogWorld: BeginTearingDown for /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.48.40:460][741]LogWorld: UWorld::CleanupWorld for Studio, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-13.48.40:460][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.48.40:460][741]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio
+[2025.06.17-13.48.40:464][741]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.17-13.48.40:469][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.48.40:486][741]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.17-13.48.40:486][741]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.06.17-13.48.40:486][741]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.06.17-13.48.40:489][741]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.06.17-13.48.40:492][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.48.40:497][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.06.17-13.48.40:535][742]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.06.17-13.49.55:284][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.06.17-13.49.55:289][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.49.55:324][509]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Actors/HideActors/BP_HideActorLocker] ([2] browsable assets)...
+[2025.06.17-13.49.55:363][509]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/HideActors/BP_HideActorLocker.BP_HideActorLocker]
+[2025.06.17-13.49.55:363][509]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/HideActors/BP_HideActorLocker]
+[2025.06.17-13.49.55:373][509]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/HideActors/BP_HideActorLocker
+[2025.06.17-13.49.55:373][509]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_HideActorLocker5BE77B43474E4AA453FF0F911D76F635.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActorLocker.uasset'
+[2025.06.17-13.49.55:382][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.070 ms (total: 2.20 sec)
+[2025.06.17-13.49.55:416][509]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.49.55:416][509]LogContentValidation: Enabled validators:
+[2025.06.17-13.49.55:416][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.49.55:416][509]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.49.55:416][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.49.55:416][509]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.49.55:416][509]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.49.55:416][509]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.49.55:416][509]AssetCheck: /Game/Blueprints/Actors/HideActors/BP_HideActorLocker Validating asset
+[2025.06.17-13.50.00:638][101]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.06.17-13.50.54:186][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.06.17-13.50.54:193][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.50.54:193][799]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.06.17-13.50.54:193][799]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Actors/HideActors/BP_HideActorLocker] ([2] browsable assets)...
+[2025.06.17-13.50.54:235][799]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/HideActors/BP_HideActorLocker.BP_HideActorLocker]
+[2025.06.17-13.50.54:235][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/HideActors/BP_HideActorLocker]
+[2025.06.17-13.50.54:244][799]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/HideActors/BP_HideActorLocker
+[2025.06.17-13.50.54:244][799]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_HideActorLocker92910BE34669A1BF70B5138AD80C6910.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActorLocker.uasset'
+[2025.06.17-13.50.54:245][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 51.998 ms (total: 2.25 sec)
+[2025.06.17-13.50.54:251][799]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.06.17-13.50.54:251][799]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.50.54:251][799]LogContentValidation: Enabled validators:
+[2025.06.17-13.50.54:251][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.50.54:251][799]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.50.54:251][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.50.54:251][799]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.50.54:251][799]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.50.54:251][799]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.50.54:251][799]AssetCheck: /Game/Blueprints/Actors/HideActors/BP_HideActorLocker Validating asset
+[2025.06.17-13.50.58:606][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.06.17-13.50.58:610][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.50.58:641][ 83]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/HideActors/BP_HideActorLocker] ([2] browsable assets)...
+[2025.06.17-13.50.58:641][ 83]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/HideActors/BP_HideActorLocker]
+[2025.06.17-13.50.58:649][ 83]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/HideActors/BP_HideActorLocker
+[2025.06.17-13.50.58:649][ 83]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_HideActorLocker91EAC0D346561B8C0C02E3AB23C56C80.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActorLocker.uasset'
+[2025.06.17-13.50.58:658][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.545 ms (total: 2.30 sec)
+[2025.06.17-13.50.58:687][ 83]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.50.58:687][ 83]LogContentValidation: Enabled validators:
+[2025.06.17-13.50.58:688][ 83]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.50.58:688][ 83]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.50.58:688][ 83]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.50.58:688][ 83]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.50.58:688][ 83]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.50.58:688][ 83]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.50.58:688][ 83]AssetCheck: /Game/Blueprints/Actors/HideActors/BP_HideActorLocker Validating asset
+[2025.06.17-13.51.01:324][396]LogShaderCompilers: Display: ================================================
+[2025.06.17-13.51.01:324][396]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.17-13.51.01:324][396]LogShaderCompilers: Display: Total job queries 242, among them cache hits 41 (16.94%), DDC hits 188 (77.69%), Duplicates 5 (2.07%)
+[2025.06.17-13.51.01:324][396]LogShaderCompilers: Display: Tracking 196 distinct input hashes that result in 140 distinct outputs (71.43%)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: RAM used: 108.28 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Shaders Compiled: 8
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Jobs assigned 8, completed 8 (100%)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.13 s
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Job execution time: average 2.02 s, max 2.22 s
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Job life time (pending + execution): average 2.10 s, max 2.24
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Shader code size: average 6.41 KiB, min 4.125 KiB, max 7.676 KiB
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.25 s
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Average processing rate: 3.56 jobs/sec
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Total thread time: 2.44 s
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Total thread preprocess time: 2.731 s
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Percentage time preprocessing: 111.90%
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Effective parallelization: 1.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.27 sec, max 0.27 sec, min 0.26 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.72% of total time (compiled    2 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:                                                 FLumenCardPS - 24.31% of total time (compiled    2 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.78% of total time (compiled    2 times, average 0.27 sec, max 0.27 sec, min 0.26 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:                                                 FLumenCardVS - 21.19% of total time (compiled    2 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: === Material stats ===
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Materials Translated:    155
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Material Translation Only: 0.03 s (49%)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: Material Cache Hits: 27 (17%)
+[2025.06.17-13.51.01:325][396]LogShaderCompilers: Display: ================================================
+[2025.06.17-13.51.25:606][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.06.17-13.51.25:611][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.51.25:641][416]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/AIC_Classic] ([2] browsable assets)...
+[2025.06.17-13.51.25:641][416]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/AIC_Classic]
+[2025.06.17-13.51.25:641][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/AIC_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset" SILENT=true
+[2025.06.17-13.51.25:649][416]LogSavePackage: Moving output files for package: /Game/AI/Classic/AIC_Classic
+[2025.06.17-13.51.25:649][416]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/AIC_Classic628D2F47465942C1FFABA38459929BDF.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset'
+[2025.06.17-13.51.25:658][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.582 ms (total: 2.34 sec)
+[2025.06.17-13.51.25:687][416]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.51.25:687][416]LogContentValidation: Enabled validators:
+[2025.06.17-13.51.25:687][416]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.51.25:687][416]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.51.25:687][416]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.51.25:687][416]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.51.25:687][416]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.51.25:687][416]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.51.25:687][416]AssetCheck: /Game/AI/Classic/AIC_Classic Validating asset
+[2025.06.17-13.51.47:464][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.06.17-13.51.47:470][985]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.51.47:498][985]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/AIC_Classic] ([2] browsable assets)...
+[2025.06.17-13.51.47:499][985]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/AIC_Classic]
+[2025.06.17-13.51.47:499][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/AIC_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset" SILENT=true
+[2025.06.17-13.51.47:507][985]LogSavePackage: Moving output files for package: /Game/AI/Classic/AIC_Classic
+[2025.06.17-13.51.47:507][985]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/AIC_Classic741B4F144917A64359EA1B8999D975CC.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset'
+[2025.06.17-13.51.47:516][985]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.442 ms (total: 2.39 sec)
+[2025.06.17-13.51.47:545][985]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.51.47:545][985]LogContentValidation: Enabled validators:
+[2025.06.17-13.51.47:545][985]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.51.47:545][985]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.51.47:545][985]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.51.47:545][985]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.51.47:545][985]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.51.47:545][985]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.51.47:545][985]AssetCheck: /Game/AI/Classic/AIC_Classic Validating asset
+[2025.06.17-13.52.27:416][ 10]LogSlate: Window 'Save Asset As' being destroyed
+[2025.06.17-13.52.27:441][ 10]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/Classic/Tasks/BT_PullOutOfHiding.BT_PullOutOfHiding
+[2025.06.17-13.52.27:441][ 10]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.06.17-13.52.27:518][ 10]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/Classic/Tasks/BT_PullOutOfHiding.
+[2025.06.17-13.52.31:703][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.06.17-13.52.31:709][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.52.31:738][487]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/BT_Classic] ([1] browsable assets)...
+[2025.06.17-13.52.31:738][487]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/BT_Classic]
+[2025.06.17-13.52.31:738][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/BT_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset" SILENT=true
+[2025.06.17-13.52.31:745][487]LogSavePackage: Moving output files for package: /Game/AI/Classic/BT_Classic
+[2025.06.17-13.52.31:745][487]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BT_Classic0FFC91204F696CED79C2078FE9D9A456.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset'
+[2025.06.17-13.52.31:747][487]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/Tasks/BT_PullOutOfHiding] ([2] browsable assets)...
+[2025.06.17-13.52.31:747][487]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/Tasks/BT_PullOutOfHiding]
+[2025.06.17-13.52.31:747][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/Tasks/BT_PullOutOfHiding" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/Tasks/BT_PullOutOfHiding.uasset" SILENT=true
+[2025.06.17-13.52.31:748][487]LogSavePackage: Moving output files for package: /Game/AI/Classic/Tasks/BT_PullOutOfHiding
+[2025.06.17-13.52.31:748][487]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BT_PullOutOfHidingB8A732B14D4DA0B9682E3A8228C78025.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/Tasks/BT_PullOutOfHiding.uasset'
+[2025.06.17-13.52.31:748][487]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Classic/Tasks/BT_PullOutOfHiding.
+[2025.06.17-13.52.31:758][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.801 ms (total: 2.44 sec)
+[2025.06.17-13.52.31:784][487]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.17-13.52.31:784][487]LogContentValidation: Enabled validators:
+[2025.06.17-13.52.31:784][487]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.52.31:784][487]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.52.31:784][487]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.52.31:784][487]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.52.31:784][487]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.52.31:784][487]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.52.31:784][487]AssetCheck: /Game/AI/Classic/BT_Classic Validating asset
+[2025.06.17-13.52.31:784][487]AssetCheck: /Game/AI/Classic/Tasks/BT_PullOutOfHiding Validating asset
+[2025.06.17-13.52.50:103][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.06.17-13.52.50:108][595]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.52.50:139][595]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/Tasks/BT_PullOutOfHiding] ([2] browsable assets)...
+[2025.06.17-13.52.50:139][595]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/Tasks/BT_PullOutOfHiding]
+[2025.06.17-13.52.50:139][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/Tasks/BT_PullOutOfHiding" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/Tasks/BT_PullOutOfHiding.uasset" SILENT=true
+[2025.06.17-13.52.50:141][595]LogSavePackage: Moving output files for package: /Game/AI/Classic/Tasks/BT_PullOutOfHiding
+[2025.06.17-13.52.50:142][595]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BT_PullOutOfHiding4D88FAF948CA3BC524D003B7B7BB535F.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/Tasks/BT_PullOutOfHiding.uasset'
+[2025.06.17-13.52.50:150][595]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.854 ms (total: 2.48 sec)
+[2025.06.17-13.52.50:178][595]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.52.50:178][595]LogContentValidation: Enabled validators:
+[2025.06.17-13.52.50:178][595]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.52.50:178][595]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.52.50:178][595]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.52.50:178][595]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.52.50:178][595]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.52.50:178][595]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.52.50:179][595]AssetCheck: /Game/AI/Classic/Tasks/BT_PullOutOfHiding Validating asset
+[2025.06.17-13.53.17:016][291]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.06.17-13.53.17:022][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.53.17:056][291]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/Tasks/BT_PullOutOfHiding] ([2] browsable assets)...
+[2025.06.17-13.53.17:056][291]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/Tasks/BT_PullOutOfHiding]
+[2025.06.17-13.53.17:056][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/Tasks/BT_PullOutOfHiding" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/Tasks/BT_PullOutOfHiding.uasset" SILENT=true
+[2025.06.17-13.53.17:059][291]LogSavePackage: Moving output files for package: /Game/AI/Classic/Tasks/BT_PullOutOfHiding
+[2025.06.17-13.53.17:060][291]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BT_PullOutOfHidingA6A51BAD42B32C605E5AE2A2AA178051.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/Tasks/BT_PullOutOfHiding.uasset'
+[2025.06.17-13.53.17:070][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.875 ms (total: 2.53 sec)
+[2025.06.17-13.53.17:109][291]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.53.17:109][291]LogContentValidation: Enabled validators:
+[2025.06.17-13.53.17:109][291]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.53.17:109][291]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.53.17:109][291]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.53.17:109][291]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.53.17:109][291]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.53.17:109][291]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.53.17:109][291]AssetCheck: /Game/AI/Classic/Tasks/BT_PullOutOfHiding Validating asset
+[2025.06.17-13.53.21:184][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.06.17-13.53.21:189][386]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.53.21:213][386]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/Tasks/BT_PullOutOfHiding] ([2] browsable assets)...
+[2025.06.17-13.53.21:213][386]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/Tasks/BT_PullOutOfHiding]
+[2025.06.17-13.53.21:213][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/Tasks/BT_PullOutOfHiding" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/Tasks/BT_PullOutOfHiding.uasset" SILENT=true
+[2025.06.17-13.53.21:216][386]LogSavePackage: Moving output files for package: /Game/AI/Classic/Tasks/BT_PullOutOfHiding
+[2025.06.17-13.53.21:217][386]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BT_PullOutOfHidingE0642205418FFB08A858F0BBB98C7F87.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/Tasks/BT_PullOutOfHiding.uasset'
+[2025.06.17-13.53.21:224][386]LogFileHelpers: InternalPromptForCheckoutAndSave took 35.682 ms (total: 2.56 sec)
+[2025.06.17-13.53.21:248][386]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.53.21:248][386]LogContentValidation: Enabled validators:
+[2025.06.17-13.53.21:248][386]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.53.21:248][386]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.53.21:248][386]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.53.21:248][386]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.53.21:248][386]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.53.21:248][386]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.53.21:248][386]AssetCheck: /Game/AI/Classic/Tasks/BT_PullOutOfHiding Validating asset
+[2025.06.17-13.53.21:692][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.06.17-13.53.31:932][647]LogStreaming: Display: FlushAsyncLoading(1485): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.17-13.53.34:755][980]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9705.788086
+[2025.06.17-13.53.35:015][ 11]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.17-13.53.35:015][ 11]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9706.036133, Update Interval: 318.483215
+[2025.06.17-13.53.53:771][260]LogUObjectGlobals: Warning: StaticFindFirstObject: Ambiguous object name BehaviorTreeGraphNode_Task_14 while ResolveName, will return /Engine/Transient.EdGraph_181:BehaviorTreeGraphNode_Task_14 but could also be: /Game/AI/Classic/BT_Classic.BT_Classic:Behavior Tree.BehaviorTreeGraphNode_Task_14
+[2025.06.17-13.53.53:771][260]LogProperty: Warning: ObjectProperty /Script/AIModule.BTCompositeChild:ChildTask: unresolved reference to '"/Script/AIModule.BTTask_Wait'BehaviorTreeGraphNode_Task_14.BTTask_Wait_2'")'
+[2025.06.17-13.53.53:771][260]LogProperty: Warning: ObjectProperty /Script/AIModule.BTNode:ParentNode: unresolved reference to '"/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_8.BTComposite_Sequence_7'"'
+[2025.06.17-13.54.01:822][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.06.17-13.54.01:827][199]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.54.01:859][199]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/BT_Classic] ([1] browsable assets)...
+[2025.06.17-13.54.01:859][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/BT_Classic]
+[2025.06.17-13.54.01:859][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/BT_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset" SILENT=true
+[2025.06.17-13.54.01:865][199]LogSavePackage: Moving output files for package: /Game/AI/Classic/BT_Classic
+[2025.06.17-13.54.01:865][199]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BT_Classic187BF4BD43818694D6FFEE8ACAA4E69A.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset'
+[2025.06.17-13.54.01:875][199]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.431 ms (total: 2.61 sec)
+[2025.06.17-13.54.01:906][199]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.54.01:906][199]LogContentValidation: Enabled validators:
+[2025.06.17-13.54.01:906][199]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.54.01:906][199]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.54.01:906][199]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.54.01:906][199]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.54.01:906][199]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.54.01:906][199]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.54.01:906][199]AssetCheck: /Game/AI/Classic/BT_Classic Validating asset
+[2025.06.17-13.54.03:034][290]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.17-13.54.03:044][290]LogContentBundle: [Studio(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.17-13.54.03:044][290]LogWorldPartition: Display: GenerateStreaming for 'Studio' started...
+[2025.06.17-13.54.03:046][290]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.JumpScare_TriggerBox 
+[2025.06.17-13.54.03:046][290]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.BP_Doorwayscare 
+[2025.06.17-13.54.03:049][290]LogWorldPartition: Display: GenerateStreaming for 'Studio' took 5.039 ms (total: 71.065 ms)
+[2025.06.17-13.54.03:055][290]LogPlayLevel: [PlayLevel] Compiling BP_HideActorLocker before play...
+[2025.06.17-13.54.03:122][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.06.17-13.54.03:127][290]LogPlayLevel: PlayLevel: Blueprint regeneration took 73 ms (1 blueprints)
+[2025.06.17-13.54.03:127][290]LogPlayLevel: Display: Creating online subsystem for client :Context_35
+[2025.06.17-13.54.03:130][290]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2025.06.17-13.54.03:151][291]LogPlayLevel: Creating play world package: /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.54.03:154][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002488s)
+[2025.06.17-13.54.03:154][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameBP/Studio/Studio.Studio to /Game/GameBP/Studio/UEDPIE_0_Studio.Studio (0.002526s)
+[2025.06.17-13.54.03:170][291]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.06.17-13.54.03:173][291]LogChaosDD: Creating Chaos Debug Draw Scene for world Studio
+[2025.06.17-13.54.03:175][291]LogWorldPartition: ULevel::OnLevelLoaded(Studio)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.17-13.54.03:175][291]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.17-13.54.03:175][291]LogWorldPartition: UWorldPartition::Initialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.17-13.54.03:175][291]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.17-13.54.03:176][291]LogWorldPartition: Display: WorldPartition initialize took 1.196 ms (total: 658.010 ms)
+[2025.06.17-13.54.03:176][291]LogPlayLevel: PIE: World Init took: (0.002698s)
+[2025.06.17-13.54.03:177][291]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.06.17-13.54.03:177][291]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.17-13.54.03:177][291]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.17-13.54.03:177][291]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.17-13.54.03:177][291]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.17-13.54.03:177][291]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.17-13.54.03:177][291]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.17-13.54.03:177][291]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.17-13.54.03:177][291]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.17-13.54.03:177][291]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.17-13.54.03:177][291]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.17-13.54.03:177][291]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.17-13.54.03:178][291]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.17-13.54.03:261][291]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.06.17-13.54.03:262][291]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.17-13.54.03:262][291]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.17-13.54.03:262][291]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.17-13.54.03:262][291]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.06.17-13.54.03:262][291]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=21
+[2025.06.17-13.54.03:265][291]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.06.17-13.54.03:265][291]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.06.17-13.54.03:265][291]LogInit: FAudioDevice initialized with ID 21.
+[2025.06.17-13.54.03:265][291]LogAudio: Display: Audio Device (ID: 21) registered with world 'Studio'.
+[2025.06.17-13.54.03:265][291]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.06.17-13.54.03:268][291]LogLoad: Game class is 'L1_GameMode_C'
+[2025.06.17-13.54.03:268][291]LogWorld: Bringing World /Game/GameBP/Studio/UEDPIE_0_Studio.Studio up for play (max tick rate 0) at 2025.06.17-22.54.03
+[2025.06.17-13.54.03:269][291]LogWorld: Bringing up level for play took: 0.001104
+[2025.06.17-13.54.03:271][291]LogStreaming: Display: FlushAsyncLoading(1537,1538,1539,1540,1541,1542,1543,1544,1545,1546,1527,1528,1529,1530,1531,1532,1533,1534,1535,1536,1486,1487,1488,1489,1490,1491,1492,1493,1494,1495,1496,1497,1498,1499,1500,1501,1502,1503,1504,1505,1506,1507,1508,1509,1510,1511,1512,1513,1514,1515,1516,1517,1518,1519,1520,1521,1522,1523,1524,1525,1526): 61 QueuedPackages, 0 AsyncPackages
+[2025.06.17-13.54.03:304][291]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.06.17-13.54.03:305][291]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.54.03:305][291]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.54.03:305][291]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.54.03:305][291]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.54.03:305][291]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.54.03:305][291]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.54.03:305][291]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.54.03:305][291]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.54.03:306][291]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.54.03:306][291]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.54.03:306][291]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.54.03:306][291]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.54.03:306][291]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.54.03:306][291]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.54.03:306][291]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.54.03:306][291]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.54.03:308][291]LogScript: Warning: Script Msg: BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980 Closer SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.06.17-13.54.03:308][291]LogScript: Warning: Script Msg called by: BP_DoorRE7_C /Memory/UEDPIE_0_71I0K3J07KEBO65OIYJV1GWYI.Studio:PersistentLevel.BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980
+[2025.06.17-13.54.03:310][291]LogBlueprintUserMessages: [BP_LockDial_C_0] 5
+[2025.06.17-13.54.03:310][291]LogBlueprintUserMessages: [BP_LockDial_C_1] 6
+[2025.06.17-13.54.03:310][291]LogBlueprintUserMessages: [BP_LockDial_C_2] 2
+[2025.06.17-13.54.03:310][291]LogBlueprintUserMessages: [BP_LockDial_C_3] 3
+[2025.06.17-13.54.03:311][291]PIE: Server logged in
+[2025.06.17-13.54.03:312][291]PIE: Play in editor total start time 0.268 seconds.
+[2025.06.17-13.54.21:213][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.54.21:213][568]LogWorld: BeginTearingDown for /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.54.21:215][568]LogWorld: UWorld::CleanupWorld for Studio, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-13.54.21:216][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.54.21:216][568]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio
+[2025.06.17-13.54.21:219][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.17-13.54.21:225][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.54.21:244][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.54.21:245][568]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.06.17-13.54.21:245][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.06.17-13.54.21:246][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.06.17-13.54.21:256][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.06.17-13.54.21:298][569]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2025.06.17-13.54.25:876][883]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2025.06.17-13.54.26:217][920]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2025.06.17-13.54.29:522][317]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2025.06.17-13.54.56:706][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.06.17-13.54.56:713][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.54.56:746][640]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/BT_Classic] ([1] browsable assets)...
+[2025.06.17-13.54.56:746][640]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/BT_Classic]
+[2025.06.17-13.54.56:746][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/BT_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset" SILENT=true
+[2025.06.17-13.54.56:751][640]LogSavePackage: Moving output files for package: /Game/AI/Classic/BT_Classic
+[2025.06.17-13.54.56:752][640]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BT_Classic318D0B86426AA341CD25B9846C59BB1C.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/BT_Classic.uasset'
+[2025.06.17-13.54.56:759][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.456 ms (total: 2.65 sec)
+[2025.06.17-13.54.56:792][640]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.54.56:792][640]LogContentValidation: Enabled validators:
+[2025.06.17-13.54.56:792][640]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.54.56:792][640]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.54.56:792][640]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.54.56:792][640]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.54.56:792][640]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.54.56:792][640]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.54.56:792][640]AssetCheck: /Game/AI/Classic/BT_Classic Validating asset
+[2025.06.17-13.55.00:526][ 55]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.17-13.55.00:535][ 55]LogContentBundle: [Studio(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.17-13.55.00:535][ 55]LogWorldPartition: Display: GenerateStreaming for 'Studio' started...
+[2025.06.17-13.55.00:537][ 55]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.JumpScare_TriggerBox 
+[2025.06.17-13.55.00:537][ 55]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.BP_Doorwayscare 
+[2025.06.17-13.55.00:539][ 55]LogWorldPartition: Display: GenerateStreaming for 'Studio' took 3.389 ms (total: 74.455 ms)
+[2025.06.17-13.55.00:543][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.17-13.55.00:543][ 55]LogPlayLevel: Display: Creating online subsystem for client :Context_36
+[2025.06.17-13.55.00:545][ 55]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.06.17-13.55.00:572][ 56]LogPlayLevel: Creating play world package: /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.55.00:574][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002340s)
+[2025.06.17-13.55.00:574][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameBP/Studio/Studio.Studio to /Game/GameBP/Studio/UEDPIE_0_Studio.Studio (0.002377s)
+[2025.06.17-13.55.00:591][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.06.17-13.55.00:594][ 56]LogChaosDD: Creating Chaos Debug Draw Scene for world Studio
+[2025.06.17-13.55.00:596][ 56]LogWorldPartition: ULevel::OnLevelLoaded(Studio)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.17-13.55.00:596][ 56]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.17-13.55.00:596][ 56]LogWorldPartition: UWorldPartition::Initialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.17-13.55.00:596][ 56]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.17-13.55.00:598][ 56]LogWorldPartition: Display: WorldPartition initialize took 1.187 ms (total: 659.198 ms)
+[2025.06.17-13.55.00:598][ 56]LogPlayLevel: PIE: World Init took: (0.002708s)
+[2025.06.17-13.55.00:598][ 56]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.06.17-13.55.00:598][ 56]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.17-13.55.00:598][ 56]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.17-13.55.00:598][ 56]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.17-13.55.00:598][ 56]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.17-13.55.00:598][ 56]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.17-13.55.00:598][ 56]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.17-13.55.00:598][ 56]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.17-13.55.00:598][ 56]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.17-13.55.00:598][ 56]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.17-13.55.00:598][ 56]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.17-13.55.00:598][ 56]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.17-13.55.00:600][ 56]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.17-13.55.00:677][ 56]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.06.17-13.55.00:677][ 56]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.17-13.55.00:677][ 56]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.17-13.55.00:677][ 56]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.17-13.55.00:678][ 56]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.06.17-13.55.00:678][ 56]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=22
+[2025.06.17-13.55.00:680][ 56]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.06.17-13.55.00:680][ 56]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.06.17-13.55.00:680][ 56]LogInit: FAudioDevice initialized with ID 22.
+[2025.06.17-13.55.00:680][ 56]LogAudio: Display: Audio Device (ID: 22) registered with world 'Studio'.
+[2025.06.17-13.55.00:680][ 56]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.06.17-13.55.00:683][ 56]LogLoad: Game class is 'L1_GameMode_C'
+[2025.06.17-13.55.00:684][ 56]LogWorld: Bringing World /Game/GameBP/Studio/UEDPIE_0_Studio.Studio up for play (max tick rate 0) at 2025.06.17-22.55.00
+[2025.06.17-13.55.00:684][ 56]LogWorld: Bringing up level for play took: 0.001017
+[2025.06.17-13.55.00:686][ 56]LogStreaming: Display: FlushAsyncLoading(1598,1599,1600,1601,1602,1603,1604,1605,1606,1607,1588,1589,1590,1591,1592,1593,1594,1595,1596,1597,1547,1548,1549,1550,1551,1552,1553,1554,1555,1556,1557,1558,1559,1560,1561,1562,1563,1564,1565,1566,1567,1568,1569,1570,1571,1572,1573,1574,1575,1576,1577,1578,1579,1580,1581,1582,1583,1584,1585,1586,1587): 61 QueuedPackages, 0 AsyncPackages
+[2025.06.17-13.55.00:717][ 56]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.55.00:719][ 56]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.55.00:721][ 56]LogScript: Warning: Script Msg: BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980 Closer SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.06.17-13.55.00:721][ 56]LogScript: Warning: Script Msg called by: BP_DoorRE7_C /Memory/UEDPIE_0_71I0K3J07KEBO65OIYJV1GWYI.Studio:PersistentLevel.BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980
+[2025.06.17-13.55.00:723][ 56]LogBlueprintUserMessages: [BP_LockDial_C_0] 4
+[2025.06.17-13.55.00:723][ 56]LogBlueprintUserMessages: [BP_LockDial_C_1] 2
+[2025.06.17-13.55.00:723][ 56]LogBlueprintUserMessages: [BP_LockDial_C_2] 0
+[2025.06.17-13.55.00:723][ 56]LogBlueprintUserMessages: [BP_LockDial_C_3] 5
+[2025.06.17-13.55.00:724][ 56]PIE: Server logged in
+[2025.06.17-13.55.00:725][ 56]PIE: Play in editor total start time 0.19 seconds.
+[2025.06.17-13.55.08:914][672]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.17-13.55.08:915][672]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.17-13.55.10:753][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.55.10:753][807]LogWorld: BeginTearingDown for /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.55.10:755][807]LogWorld: UWorld::CleanupWorld for Studio, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-13.55.10:755][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.55.10:755][807]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio
+[2025.06.17-13.55.10:757][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.17-13.55.10:763][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.55.10:781][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.55.10:781][807]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.06.17-13.55.10:782][807]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.06.17-13.55.10:783][807]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.06.17-13.55.10:791][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.06.17-13.55.10:824][808]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.06.17-13.55.19:043][ 43]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2025.06.17-13.56.09:870][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.06.17-13.56.10:767][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.06.17-13.56.10:775][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.56.10:806][ 13]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Interfaces/BPI_PlayerHiding] ([2] browsable assets)...
+[2025.06.17-13.56.10:806][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Interfaces/BPI_PlayerHiding]
+[2025.06.17-13.56.10:806][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interfaces/BPI_PlayerHiding" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Interfaces/BPI_PlayerHiding.uasset" SILENT=true
+[2025.06.17-13.56.10:808][ 13]LogSavePackage: Moving output files for package: /Game/Blueprints/Interfaces/BPI_PlayerHiding
+[2025.06.17-13.56.10:808][ 13]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BPI_PlayerHidingD326D434440C140375D27095C77F3192.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Interfaces/BPI_PlayerHiding.uasset'
+[2025.06.17-13.56.10:816][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 40.947 ms (total: 2.70 sec)
+[2025.06.17-13.56.10:843][ 13]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.56.10:843][ 13]LogContentValidation: Enabled validators:
+[2025.06.17-13.56.10:843][ 13]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.56.10:843][ 13]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.56.10:843][ 13]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.56.10:843][ 13]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.56.10:843][ 13]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.56.10:843][ 13]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.56.10:843][ 13]AssetCheck: /Game/Blueprints/Interfaces/BPI_PlayerHiding Validating asset
+[2025.06.17-13.57.51:837][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.06.17-13.57.51:844][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-13.57.51:870][ 58]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actors/HideActors/BP_HideActor] ([2] browsable assets)...
+[2025.06.17-13.57.51:870][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/HideActors/BP_HideActor]
+[2025.06.17-13.57.51:870][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/HideActors/BP_HideActor" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActor.uasset" SILENT=true
+[2025.06.17-13.57.51:883][ 58]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/HideActors/BP_HideActor
+[2025.06.17-13.57.51:883][ 58]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/BP_HideActorDD683BD94B0D64D7FCF7BC9179C80B95.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/Blueprints/Actors/HideActors/BP_HideActor.uasset'
+[2025.06.17-13.57.51:892][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.927 ms (total: 2.74 sec)
+[2025.06.17-13.57.51:915][ 58]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-13.57.51:915][ 58]LogContentValidation: Enabled validators:
+[2025.06.17-13.57.51:915][ 58]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-13.57.51:915][ 58]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-13.57.51:915][ 58]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-13.57.51:915][ 58]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-13.57.51:915][ 58]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-13.57.51:915][ 58]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-13.57.51:915][ 58]AssetCheck: /Game/Blueprints/Actors/HideActors/BP_HideActor Validating asset
+[2025.06.17-13.57.52:370][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.06.17-13.58.40:784][713]LogEditorTransaction: Undo Paste clipboard contents
+[2025.06.17-13.59.07:798][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.06.17-13.59.21:096][592]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.17-13.59.21:104][592]LogContentBundle: [Studio(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.17-13.59.21:104][592]LogWorldPartition: Display: GenerateStreaming for 'Studio' started...
+[2025.06.17-13.59.21:104][592]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.JumpScare_TriggerBox 
+[2025.06.17-13.59.21:104][592]MapCheck: Error: World references spatially loaded actor /Game/GameBP/Studio/Studio.BP_Doorwayscare 
+[2025.06.17-13.59.21:106][592]LogWorldPartition: Display: GenerateStreaming for 'Studio' took 2.693 ms (total: 77.149 ms)
+[2025.06.17-13.59.21:111][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.17-13.59.21:111][592]LogPlayLevel: Display: Creating online subsystem for client :Context_37
+[2025.06.17-13.59.21:113][592]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.06.17-13.59.21:119][593]LogPlayLevel: Creating play world package: /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.59.21:122][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002718s)
+[2025.06.17-13.59.21:122][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameBP/Studio/Studio.Studio to /Game/GameBP/Studio/UEDPIE_0_Studio.Studio (0.002756s)
+[2025.06.17-13.59.21:138][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.06.17-13.59.21:148][593]LogChaosDD: Creating Chaos Debug Draw Scene for world Studio
+[2025.06.17-13.59.21:150][593]LogWorldPartition: ULevel::OnLevelLoaded(Studio)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.17-13.59.21:150][593]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.17-13.59.21:150][593]LogWorldPartition: UWorldPartition::Initialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.17-13.59.21:150][593]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.17-13.59.21:151][593]LogWorldPartition: Display: WorldPartition initialize took 1.174 ms (total: 660.373 ms)
+[2025.06.17-13.59.21:151][593]LogPlayLevel: PIE: World Init took: (0.002827s)
+[2025.06.17-13.59.21:151][593]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.06.17-13.59.21:151][593]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.17-13.59.21:151][593]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.17-13.59.21:151][593]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.17-13.59.21:151][593]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.17-13.59.21:151][593]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.17-13.59.21:151][593]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.17-13.59.21:151][593]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.17-13.59.21:151][593]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.17-13.59.21:151][593]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.17-13.59.21:151][593]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.17-13.59.21:151][593]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.17-13.59.21:154][593]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.17-13.59.21:237][593]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Headset)
+[2025.06.17-13.59.21:237][593]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.17-13.59.21:237][593]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.17-13.59.21:237][593]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.17-13.59.21:237][593]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.06.17-13.59.21:237][593]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=23
+[2025.06.17-13.59.21:240][593]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.06.17-13.59.21:240][593]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.06.17-13.59.21:240][593]LogInit: FAudioDevice initialized with ID 23.
+[2025.06.17-13.59.21:240][593]LogAudio: Display: Audio Device (ID: 23) registered with world 'Studio'.
+[2025.06.17-13.59.21:240][593]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.06.17-13.59.21:265][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.59.21:265][593]LogLoad: Game class is 'L1_GameMode_C'
+[2025.06.17-13.59.21:266][593]LogWorld: Bringing World /Game/GameBP/Studio/UEDPIE_0_Studio.Studio up for play (max tick rate 0) at 2025.06.17-22.59.21
+[2025.06.17-13.59.21:267][593]LogWorld: Bringing up level for play took: 0.001315
+[2025.06.17-13.59.21:270][593]LogStreaming: Display: FlushAsyncLoading(1659,1660,1661,1662,1663,1664,1665,1666,1667,1668,1649,1650,1651,1652,1653,1654,1655,1656,1657,1658,1608,1609,1610,1611,1612,1613,1614,1615,1616,1617,1618,1619,1620,1621,1622,1623,1624,1625,1626,1627,1628,1629,1630,1631,1632,1633,1634,1635,1636,1637,1638,1639,1640,1641,1642,1643,1644,1645,1646,1647,1648): 61 QueuedPackages, 0 AsyncPackages
+[2025.06.17-13.59.21:302][593]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Blueprint_Components/BPC_Inventory.BPC_Inventory_C'!
+[2025.06.17-13.59.21:303][593]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/GameBP/Studio/UEDPIE_0_Studio.Studio:PersistentLevel.L1_Character_C_0.BPC_Inventory
+[2025.06.17-13.59.21:305][593]LogScript: Warning: Script Msg: BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980 Closer SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.06.17-13.59.21:305][593]LogScript: Warning: Script Msg called by: BP_DoorRE7_C /Memory/UEDPIE_0_71I0K3J07KEBO65OIYJV1GWYI.Studio:PersistentLevel.BP_DoorRE7_C_UAID_10FFE02870CF916A02_1104876980
+[2025.06.17-13.59.21:307][593]LogBlueprintUserMessages: [BP_LockDial_C_0] 0
+[2025.06.17-13.59.21:307][593]LogBlueprintUserMessages: [BP_LockDial_C_1] 8
+[2025.06.17-13.59.21:307][593]LogBlueprintUserMessages: [BP_LockDial_C_2] 7
+[2025.06.17-13.59.21:308][593]LogBlueprintUserMessages: [BP_LockDial_C_3] 7
+[2025.06.17-13.59.21:311][593]PIE: Server logged in
+[2025.06.17-13.59.21:312][593]PIE: Play in editor total start time 0.209 seconds.
+[2025.06.17-13.59.37:076][644]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.17-13.59.37:076][644]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.17-13.59.38:250][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.17-13.59.38:250][720]LogWorld: BeginTearingDown for /Game/GameBP/Studio/UEDPIE_0_Studio
+[2025.06.17-13.59.38:250][720]LogSlate: Window 'UE5_MyGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.17-13.59.38:261][720]LogWorld: UWorld::CleanupWorld for Studio, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-13.59.38:261][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.59.38:261][720]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/GameBP/Studio/UEDPIE_0_Studio.Studio
+[2025.06.17-13.59.38:264][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.17-13.59.38:270][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-13.59.38:288][720]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.17-13.59.38:288][720]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.06.17-13.59.38:288][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2025.06.17-13.59.38:291][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2025.06.17-13.59.38:301][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.06.17-13.59.38:324][721]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.06.17-13.59.38:889][788]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10069.830078
+[2025.06.17-13.59.39:136][818]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.17-13.59.39:136][818]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10070.067383, Update Interval: 337.744690
+[2025.06.17-14.01.11:219][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.06.17-14.01.12:526][895]LogSlate: Window 'Save Content' being destroyed
+[2025.06.17-14.01.12:535][895]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-14.01.12:560][895]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Classic/AIC_Classic] ([2] browsable assets)...
+[2025.06.17-14.01.12:560][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Classic/AIC_Classic]
+[2025.06.17-14.01.12:560][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Classic/AIC_Classic" FILE="E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset" SILENT=true
+[2025.06.17-14.01.12:569][895]LogSavePackage: Moving output files for package: /Game/AI/Classic/AIC_Classic
+[2025.06.17-14.01.12:570][895]LogSavePackage: Moving 'E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/AIC_ClassicB19C4DE54F450DC572F141BF19F6FF89.tmp' to 'E:/Github/GameEngine_TermProject/UE5_MyGame/Content/AI/Classic/AIC_Classic.uasset'
+[2025.06.17-14.01.12:579][895]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.152 ms (total: 2.79 sec)
+[2025.06.17-14.01.12:646][895]LogStall: Shutdown...
+[2025.06.17-14.01.12:646][895]LogStall: Shutdown complete.
+[2025.06.17-14.01.12:692][895]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.12:692][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.12:788][895]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.12:788][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.12:885][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.06.17-14.01.12:885][895]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.12:885][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:008][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.06.17-14.01.13:008][895]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:008][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:096][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.06.17-14.01.13:096][895]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:096][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:161][895]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:161][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:209][895]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:209][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:269][895]LogSlate: Window 'UE5_MyGame - Unreal Editor' being destroyed
+[2025.06.17-14.01.13:271][895]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.06.17-14.01.13:499][895]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-14.01.13:499][895]LogContentValidation: Enabled validators:
+[2025.06.17-14.01.13:500][895]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-14.01.13:500][895]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-14.01.13:500][895]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-14.01.13:500][895]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-14.01.13:500][895]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-14.01.13:500][895]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-14.01.13:500][895]AssetCheck: /Game/AI/Classic/AIC_Classic Validating asset
+[2025.06.17-14.01.13:527][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.06.17-14.01.13:574][895]Cmd: QUIT_EDITOR
+[2025.06.17-14.01.13:574][896]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.06.17-14.01.13:583][896]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.06.17-14.01.13:584][896]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.06.17-14.01.13:584][896]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.06.17-14.01.13:587][896]LogWorld: UWorld::CleanupWorld for Studio, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:587][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:587][896]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/GameBP/Studio/Studio.Studio
+[2025.06.17-14.01.13:606][896]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.06.17-14.01.13:610][896]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.06.17-14.01.13:617][896]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:617][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:619][896]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:620][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:622][896]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:622][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:623][896]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:624][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:625][896]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:626][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:627][896]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:627][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:630][896]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-14.01.13:630][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-14.01.13:636][896]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.06.17-14.01.13:638][896]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.06.17-14.01.13:639][896]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.06.17-14.01.13:639][896]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.06.17-14.01.14:012][896]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.06.17-14.01.14:012][896]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.06.17-14.01.14:012][896]LogAudio: Display: Audio Device unregistered from world 'Studio'.
+[2025.06.17-14.01.14:012][896]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.06.17-14.01.14:012][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.06.17-14.01.14:014][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.06.17-14.01.14:021][896]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.06.17-14.01.14:021][896]LogAudio: Display: Audio Device Manager Shutdown
+[2025.06.17-14.01.14:024][896]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.06.17-14.01.14:024][896]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2025.06.17-14.01.14:027][896]LogExit: Preparing to exit.
+[2025.06.17-14.01.14:063][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.06.17-14.01.14:067][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:067][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:068][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:069][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:069][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:069][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:069][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:069][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:069][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:069][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:069][896]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.14:069][896]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.17-14.01.15:045][896]LogEditorDataStorage: Deinitializing
+[2025.06.17-14.01.15:307][896]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.06.17-14.01.15:342][896]LogExit: Editor shut down
+[2025.06.17-14.01.15:347][896]LogExit: Transaction tracking system shut down
+[2025.06.17-14.01.15:740][896]LogExit: Object subsystem successfully closed.
+[2025.06.17-14.01.15:769][896]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.06.17-14.01.16:415][896]LogMemoryProfiler: Shutdown
+[2025.06.17-14.01.16:416][896]LogNetworkingProfiler: Shutdown
+[2025.06.17-14.01.16:416][896]LoadingProfiler: Shutdown
+[2025.06.17-14.01.16:417][896]LogTimingProfiler: Shutdown
+[2025.06.17-14.01.16:857][896]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.06.17-14.01.16:863][896]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.06.17-14.01.16:863][896]LogNFORDenoise: NFORDenoise function shutting down
+[2025.06.17-14.01.16:875][896]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.06.17-14.01.16:875][896]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B623E6414-465B-DE31-8EEF-5384633C7539%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=7f29145c4844e8d16b9c048d4c79961b%7C85bc612123aa4f4dae9f93f969b09450%7Cd01c44bb-62a9-4deb-8fb6-87056b4c44a3&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.06.17-14.01.17:919][896]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.06.17-14.01.17:920][896]RenderDocPlugin: plugin has been unloaded.
+[2025.06.17-14.01.17:930][896]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.06.17-14.01.17:930][896]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.06.17-14.01.17:930][896]LogPakFile: Destroying PakPlatformFile
+[2025.06.17-14.01.18:363][896]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.06.17-14.01.18:400][896]LogExit: Exiting.
+[2025.06.17-14.01.18:431][896]Log file closed, 06/17/25 23:01:18
