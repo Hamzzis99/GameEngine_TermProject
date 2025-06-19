@@ -1,3 +1,2 @@
-2025/06/19-03:56:36.618 8a20 Reusing MANIFEST E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2025/06/19-03:56:36.619 8a20 Recovering log #3
-2025/06/19-03:56:36.619 8a20 Reusing old log E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/webcache_4430\Local Storage\leveldb/000003.log 
+2025/06/19-08:12:06.202 3228 Creating DB E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/webcache_4430\Local Storage\leveldb since it was missing.
+2025/06/19-08:12:06.211 3228 Reusing MANIFEST E:/Github/GameEngine_TermProject/UE5_MyGame/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
